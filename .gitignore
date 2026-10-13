@@ -1,0 +1,27 @@
+# Environments & Secrets
+.env
+*.env
+__pycache__/
+*.py[cod]
+*$py.class
+*.sqlite3
+*.db
+
+# Virtual Environment
+venv/
+.venv/
+env/
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.swp
+
+# Testing & Coverage
+.coverage
+htmlcov/
+.pytest_cache/
+
+# OS Specific
+.DS_Store
+Thumbs.db

@@ -1,0 +1,87 @@
+{
+  "type": "FeatureCollection",
+  "name": "Nagpur_Municipal_Corporation_Wards",
+  "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": { "ward_id": "WARD-01", "ward_name": "Laxmi Nagar", "zone": 1, "officer_email": "officer.laxminagar@nmc.gov.in" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[79.050, 21.100], [79.080, 21.100], [79.085, 21.125], [79.055, 21.125], [79.050, 21.100]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "ward_id": "WARD-02", "ward_name": "Dharampeth", "zone": 2, "officer_email": "officer.dharampeth@nmc.gov.in" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[79.040, 21.130], [79.075, 21.130], [79.075, 21.160], [79.038, 21.155], [79.040, 21.130]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "ward_id": "WARD-03", "ward_name": "Hanuman Nagar", "zone": 3, "officer_email": "officer.hanumannagar@nmc.gov.in" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[79.080, 21.100], [79.115, 21.100], [79.120, 21.130], [79.085, 21.130], [79.080, 21.100]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "ward_id": "WARD-04", "ward_name": "Dhantoli", "zone": 4, "officer_email": "officer.dhantoli@nmc.gov.in" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[79.075, 21.130], [79.100, 21.130], [79.100, 21.155], [79.075, 21.155], [79.075, 21.130]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "ward_id": "WARD-05", "ward_name": "Nehru Nagar", "zone": 5, "officer_email": "officer.nehrunagar@nmc.gov.in" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[79.115, 21.100], [79.150, 21.100], [79.155, 21.135], [79.120, 21.135], [79.115, 21.100]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "ward_id": "WARD-06", "ward_name": "Gandhibagh", "zone": 6, "officer_email": "officer.gandhibagh@nmc.gov.in" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[79.095, 21.145], [79.125, 21.145], [79.125, 21.170], [79.095, 21.170], [79.095, 21.145]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "ward_id": "WARD-07", "ward_name": "Satranjipura", "zone": 7, "officer_email": "officer.satranjipura@nmc.gov.in" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[79.115, 21.160], [79.150, 21.160], [79.150, 21.185], [79.115, 21.185], [79.115, 21.160]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "ward_id": "WARD-08", "ward_name": "Lakadganj", "zone": 8, "officer_email": "officer.lakadganj@nmc.gov.in" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[79.125, 21.135], [79.165, 21.135], [79.165, 21.165], [79.125, 21.165], [79.125, 21.135]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "ward_id": "WARD-09", "ward_name": "Ashi Nagar", "zone": 9, "officer_email": "officer.ashinagar@nmc.gov.in" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[79.090, 21.170], [79.135, 21.170], [79.135, 21.205], [79.090, 21.205], [79.090, 21.170]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "ward_id": "WARD-10", "ward_name": "Mangalwari", "zone": 10, "officer_email": "officer.mangalwari@nmc.gov.in" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[79.045, 21.160], [79.090, 21.160], [79.090, 21.205], [79.045, 21.200], [79.045, 21.160]]]
+      }
+    }
+  ]
+}
