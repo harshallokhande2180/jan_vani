@@ -1,0 +1,250 @@
+{
+  "heroTitle": {
+    "value": "જન-વાણી",
+    "_status": "reviewed"
+  },
+  "heroSub": {
+    "value": "પોતાની ભાષામાં બોલો, નાગરિક સમસ્યાઓનો ઉકેલ મેળવો",
+    "_status": "reviewed"
+  },
+  "micPrompt": {
+    "value": "અહીં સ્પર્શ કરો અને તમારી સમસ્યા બોલો",
+    "_status": "reviewed"
+  },
+  "micRecording": {
+    "value": "અમે સાંભળી રહ્યા છીએ... બોલવાનું પૂરું થાય ત્યારે ફરી દબાવો",
+    "_status": "reviewed"
+  },
+  "audioPromptText": {
+    "value": "નમસ્તે! ફક્ત માઇક બટન દબાવો અને તમારી ભાષામાં ફરિયાદ જણાવો.",
+    "_status": "reviewed"
+  },
+  "instantAck": {
+    "value": "ફરિયાદ મળી ગઈ છે! ચકાસણી ચાલુ છે...",
+    "_status": "reviewed"
+  },
+  "consentText": {
+    "value": "હું મારો અવાજ અને સ્થળ મહાનગરપાલિકાને મોકલવા સંમતિ આપું છું (DPDP એક્ટ ૨૦૨૩).",
+    "_status": "reviewed"
+  },
+  "waterLeak": {
+    "value": "પાણી પુરવઠો (ગુજરાતી)",
+    "_status": "reviewed"
+  },
+  "pothole": {
+    "value": "રસ્તા પર ખાડો (ગુજરાતી)",
+    "_status": "reviewed"
+  },
+  "drainage": {
+    "value": "ગટર બ્લોકેજ (ગુજરાતી)",
+    "_status": "reviewed"
+  },
+  "powerCut": {
+    "value": "વીજળી ગુલ (ગુજરાતી)",
+    "_status": "reviewed"
+  },
+  "garbage": {
+    "value": "કચરાનો ઢગલો (ગુજરાતી)",
+    "_status": "reviewed"
+  },
+  "listenStatus": {
+    "value": "અવાજ સાંભળો",
+    "_status": "reviewed"
+  },
+  "confRegistered": {
+    "value": "ફરિયાદ નોંધાઈ ગઈ છે!",
+    "_status": "reviewed"
+  },
+  "confAssignedWard": {
+    "value": "ફાળવેલ વોર્ડ",
+    "_status": "reviewed"
+  },
+  "confCategory": {
+    "value": "શ્રેણી",
+    "_status": "reviewed"
+  },
+  "confUrgency": {
+    "value": "તીવ્રતા",
+    "_status": "reviewed"
+  },
+  "confSummary": {
+    "value": "એઆઈ અંગ્રેજી સારાંશ",
+    "_status": "reviewed"
+  },
+  "confSpokenNotice": {
+    "value": "ઑડિયો સંદેશ",
+    "_status": "reviewed"
+  },
+  "confReplay": {
+    "value": "ફરીથી સાંભળો",
+    "_status": "reviewed"
+  },
+  "confMergeNotice": {
+    "value": "સ્વચાલિત મર્જ: આસપાસના નાગરિકોએ આ જ ફરિયાદ કરી છે. પ્રાથમિકતા વધારી દેવામાં આવી છે!",
+    "_status": "reviewed"
+  },
+  "brandTitle": {
+    "value": "જન-વાણી",
+    "_status": "reviewed"
+  },
+  "brandSubtitle": {
+    "value": "નાગપુર મહાનગરપાલિકા | સ્થાનિક નાગરિક ફરિયાદ નિવારણ",
+    "_status": "reviewed"
+  },
+  "navTabVoice": {
+    "value": "🎤 નાગરિક અવાજ (Citizen Voice)",
+    "_status": "reviewed"
+  },
+  "navTabTrack": {
+    "value": "📋 ફરિયાદ સ્થિતિ (Track)",
+    "_status": "reviewed"
+  },
+  "navTabOfficer": {
+    "value": "🏛️ અધિકારી કક્ષ (Officer Console)",
+    "_status": "reviewed"
+  },
+  "navTabImpact": {
+    "value": "📊 પરીક્ષણ અહેવાલ (Benchmarks)",
+    "_status": "reviewed"
+  },
+  "voiceBadgeBanner": {
+    "value": "🔊 ફક્ત એક બટનથી ફરિયાદ કરો | ટાઇપ કરવાની જરૂર નથી",
+    "_status": "reviewed"
+  },
+  "listenInstructions": {
+    "value": "🔊 અવાજ સૂચના સાંભળો (Listen Instructions)",
+    "_status": "reviewed"
+  },
+  "gpsNotice": {
+    "value": "📍 નાગપુર જીપીએસ સ્થાન આપમેળે જોડવામાં આવશે",
+    "_status": "reviewed"
+  },
+  "presetsTitle": {
+    "value": "⚡ ત્વરિત પરીક્ષણ ઉદાહરણો (One-Click Vernacular Voice Demos)",
+    "_status": "reviewed"
+  },
+  "presetsSubtitle": {
+    "value": "પરીક્ષકો માટે ઝડપી પરીક્ષણ",
+    "_status": "reviewed"
+  },
+  "trackHeading": {
+    "value": "📋 નોંધાયેલી ફરિયાદોની સ્થિતિ (My Grievances)",
+    "_status": "reviewed"
+  },
+  "trackSub": {
+    "value": "નાગરિકો કંઈ પણ વાંચ્યા વિના 'અવાજ સાંભળો' બટન દબાવીને સીધી માહિતી સાંભળી શકે છે.",
+    "_status": "reviewed"
+  },
+  "officerHonestBanner": {
+    "value": "ℹ️ પ્રમાણિક ડેટા નોંધ (Honesty Rule): દર્શાવેલ આંકડા લાઇવ પાઇપલાઇનમાંથી છે. માપેલ ચોકસાઈ 'પરીક્ષણ અહેવાલ'માં છે.",
+    "_status": "reviewed"
+  },
+  "officerHeading": {
+    "value": "🏛️ વોર્ડ નિયંત્રણ અને ફરિયાદ નિવારણ કક્ષ",
+    "_status": "reviewed"
+  },
+  "officerRoleLabel": {
+    "value": "હોદ્દો / Role:",
+    "_status": "reviewed"
+  },
+  "roleCommissioner": {
+    "value": "મ્યુનિસિપલ કમિશનર (All Wards)",
+    "_status": "reviewed"
+  },
+  "roleWard2": {
+    "value": "વોર્ડ અધિકારી: ધરમપેઠ (Ward 2 Officer)",
+    "_status": "reviewed"
+  },
+  "roleWard4": {
+    "value": "વોર્ડ અધિકારી: ધંતોલી (Ward 4 Officer)",
+    "_status": "reviewed"
+  },
+  "kpiTotalTitle": {
+    "value": "કુલ ફરિયાદો (Total)",
+    "_status": "reviewed"
+  },
+  "kpiTotalSub": {
+    "value": "નોંધાયેલા કેસો",
+    "_status": "reviewed"
+  },
+  "kpiOpenTitle": {
+    "value": "બાકી (Open)",
+    "_status": "reviewed"
+  },
+  "kpiOpenSub": {
+    "value": "તાકીદે જોવું જરૂરી",
+    "_status": "reviewed"
+  },
+  "kpiInProgressTitle": {
+    "value": "ચાલુ (In Progress)",
+    "_status": "reviewed"
+  },
+  "kpiInProgressSub": {
+    "value": "રિપેર ટીમ સ્થળ પર",
+    "_status": "reviewed"
+  },
+  "kpiResolvedTitle": {
+    "value": "ઉકેલાયેલ (Resolved)",
+    "_status": "reviewed"
+  },
+  "kpiResolvedSub": {
+    "value": "કામ પૂર્ણ",
+    "_status": "reviewed"
+  },
+  "kpiMergedTitle": {
+    "value": "મર્જ કરેલા ડુપ્લિકેટ્સ (Merged)",
+    "_status": "reviewed"
+  },
+  "kpiMergedSub": {
+    "value": "૫૦ મીટર / ૪૮ કલાકમાં જોડાયેલ",
+    "_status": "reviewed"
+  },
+  "mapTitle": {
+    "value": "🗺️ નાગપુર વોર્ડ નકશો (Ward Heatmap & Complaint Clusters)",
+    "_status": "reviewed"
+  },
+  "mapSub": {
+    "value": "વોર્ડ સીમાઓ અને ૫૦ મીટરની અંદર એકત્રિત ફરિયાદો દર્શાવતો નકશો",
+    "_status": "reviewed"
+  },
+  "searchPlaceholder": {
+    "value": "🔍 શોધો (ID, વોર્ડ, વિષય)...",
+    "_status": "reviewed"
+  },
+  "csvExport": {
+    "value": "📥 CSV એક્સપોર્ટ",
+    "_status": "reviewed"
+  },
+  "thTicketId": {
+    "value": "ટિકિટ આઈડી (ID)",
+    "_status": "reviewed"
+  },
+  "thWard": {
+    "value": "વોર્ડ (Ward)",
+    "_status": "reviewed"
+  },
+  "thCategory": {
+    "value": "શ્રેણી (Category)",
+    "_status": "reviewed"
+  },
+  "thUrgency": {
+    "value": "તીવ્રતા (Urgency)",
+    "_status": "reviewed"
+  },
+  "thStatus": {
+    "value": "સ્થિતિ (Status)",
+    "_status": "reviewed"
+  },
+  "thVoice": {
+    "value": "ઑડિયો (Voice)",
+    "_status": "reviewed"
+  },
+  "thAction": {
+    "value": "કાર્યવાહી (Action)",
+    "_status": "reviewed"
+  },
+  "footerText": {
+    "value": "જન-વાણી (Jan-Vani) | સેન્ટ વિન્સેન્ટ પલોટી કૉલેજ ઑફ એન્જિનિયરિંગ એન્ડ ટેક્નોલૉજી, નાગપુર | AI for Social Impact",
+    "_status": "reviewed"
+  }
+}

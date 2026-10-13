@@ -1,0 +1,114 @@
+{
+  "languages": [
+    {
+      "code": "mr",
+      "name_native": "मराठी",
+      "name_english": "Marathi",
+      "script": "Devanagari",
+      "asr_code": "mr",
+      "tts_voice": "mr_female_clear",
+      "font_family": "Noto Sans Devanagari",
+      "enabled": true,
+      "tested": true
+    },
+    {
+      "code": "hi",
+      "name_native": "हिंदी",
+      "name_english": "Hindi",
+      "script": "Devanagari",
+      "asr_code": "hi",
+      "tts_voice": "hi_female_clear",
+      "font_family": "Noto Sans Devanagari",
+      "enabled": true,
+      "tested": true
+    },
+    {
+      "code": "en",
+      "name_native": "English",
+      "name_english": "English",
+      "script": "Latin",
+      "asr_code": "en",
+      "tts_voice": "en_female_clear",
+      "font_family": "Outfit",
+      "enabled": true,
+      "tested": true
+    },
+    {
+      "code": "bn",
+      "name_native": "বাংলা",
+      "name_english": "Bengali",
+      "script": "Bengali",
+      "asr_code": "bn",
+      "tts_voice": "bn_female_clear",
+      "font_family": "Noto Sans Bengali",
+      "enabled": true,
+      "tested": true
+    },
+    {
+      "code": "gu",
+      "name_native": "ગુજરાતી",
+      "name_english": "Gujarati",
+      "script": "Gujarati",
+      "asr_code": "gu",
+      "tts_voice": "gu_female_clear",
+      "font_family": "Noto Sans Gujarati",
+      "enabled": true,
+      "tested": true
+    },
+    {
+      "code": "kn",
+      "name_native": "ಕನ್ನಡ",
+      "name_english": "Kannada",
+      "script": "Kannada",
+      "asr_code": "kn",
+      "tts_voice": "kn_female_clear",
+      "font_family": "Noto Sans Kannada",
+      "enabled": true,
+      "tested": true
+    },
+    {
+      "code": "ml",
+      "name_native": "മലയാളം",
+      "name_english": "Malayalam",
+      "script": "Malayalam",
+      "asr_code": "ml",
+      "tts_voice": "ml_female_clear",
+      "font_family": "Noto Sans Malayalam",
+      "enabled": true,
+      "tested": true
+    },
+    {
+      "code": "pa",
+      "name_native": "ਪੰਜਾਬੀ",
+      "name_english": "Punjabi",
+      "script": "Gurmukhi",
+      "asr_code": "pa",
+      "tts_voice": "pa_female_clear",
+      "font_family": "Noto Sans Gurmukhi",
+      "enabled": true,
+      "tested": true
+    },
+    {
+      "code": "ta",
+      "name_native": "தமிழ்",
+      "name_english": "Tamil",
+      "script": "Tamil",
+      "asr_code": "ta",
+      "tts_voice": "ta_female_clear",
+      "font_family": "Noto Sans Tamil",
+      "enabled": true,
+      "tested": true
+    },
+    {
+      "code": "te",
+      "name_native": "తెలుగు",
+      "name_english": "Telugu",
+      "script": "Telugu",
+      "asr_code": "te",
+      "tts_voice": "te_female_clear",
+      "font_family": "Noto Sans Telugu",
+      "enabled": true,
+      "tested": true
+    }
+  ]
+}

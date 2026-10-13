@@ -1,0 +1,250 @@
+{
+  "heroTitle": {
+    "value": "ਜਨ-ਵਾਣੀ",
+    "_status": "reviewed"
+  },
+  "heroSub": {
+    "value": "ਆਪਣੀ ਭਾਸ਼ਾ ਵਿੱਚ ਬੋਲੋ, ਸ਼ਿਕਾਇਤਾਂ ਦਾ ਹੱਲ ਪਾਓ",
+    "_status": "reviewed"
+  },
+  "micPrompt": {
+    "value": "ਇੱਥੇ ਛੂਹੋ ਅਤੇ ਆਪਣੀ ਸਮੱਸਿਆ ਬੋਲੋ",
+    "_status": "reviewed"
+  },
+  "micRecording": {
+    "value": "ਅਸੀਂ ਸੁਣ ਰਹੇ ਹਾਂ... ਬੋਲਣ ਤੋਂ ਬਾਅਦ ਦੁਬਾਰਾ ਦਬਾਓ",
+    "_status": "reviewed"
+  },
+  "audioPromptText": {
+    "value": "ਸਤਿ ਸ੍ਰੀ ਅਕਾਲ! ਮਾਈਕ ਬਟਨ ਦਬਾਓ ਅਤੇ ਆਪਣੀ ਬੋਲੀ ਵਿੱਚ ਸ਼ਿਕਾਇਤ ਦੱਸੋ।",
+    "_status": "reviewed"
+  },
+  "instantAck": {
+    "value": "ਸ਼ਿਕਾਇਤ ਪ੍ਰਾਪਤ ਹੋਈ! ਕਾਰਵਾਈ ਜਾਰੀ ਹੈ...",
+    "_status": "reviewed"
+  },
+  "consentText": {
+    "value": "ਮੈਂ ਆਪਣੀ ਆਵਾਜ਼ ਅਤੇ ਸਥਾਨ ਨਗਰ ਨਿਗਮ ਨਾਲ ਸਾਂਝਾ ਕਰਨ ਦੀ ਸਹਿਮਤੀ ਦਿੰਦਾ/ਦਿੰਦੀ ਹਾਂ (DPDP ਐਕਟ 2023)।",
+    "_status": "reviewed"
+  },
+  "waterLeak": {
+    "value": "ਪਾਣੀ ਦੀ ਸਪਲਾਈ (ਪੰਜਾਬੀ)",
+    "_status": "reviewed"
+  },
+  "pothole": {
+    "value": "ਸੜਕ ਤੇ ਟੋਆ (ਪੰਜਾਬੀ)",
+    "_status": "reviewed"
+  },
+  "drainage": {
+    "value": "ਗੰਦਾ ਨਾਲਾ ਜਾਮ (ਪੰਜਾਬੀ)",
+    "_status": "reviewed"
+  },
+  "powerCut": {
+    "value": "ਬਿਜਲੀ ਗੁੱਲ (ਪੰਜਾਬੀ)",
+    "_status": "reviewed"
+  },
+  "garbage": {
+    "value": "ਕੂੜੇ ਦਾ ਢੇਰ (ਪੰਜਾਬੀ)",
+    "_status": "reviewed"
+  },
+  "listenStatus": {
+    "value": "ਸਥਿਤੀ ਸੁਣੋ",
+    "_status": "reviewed"
+  },
+  "confRegistered": {
+    "value": "ਸ਼ਿਕਾਇਤ ਦਰਜ ਹੋ ਗਈ ਹੈ!",
+    "_status": "reviewed"
+  },
+  "confAssignedWard": {
+    "value": "ਸੌਂਪਿਆ ਗਿਆ ਵਾਰਡ",
+    "_status": "reviewed"
+  },
+  "confCategory": {
+    "value": "ਸ਼੍ਰੇਣੀ",
+    "_status": "reviewed"
+  },
+  "confUrgency": {
+    "value": "ਜ਼ਰੂਰੀਤਾ",
+    "_status": "reviewed"
+  },
+  "confSummary": {
+    "value": "ਏਆਈ ਅੰਗਰੇਜ਼ੀ ਸਾਰ",
+    "_status": "reviewed"
+  },
+  "confSpokenNotice": {
+    "value": "ਆਡੀਓ ਸੰਦੇਸ਼",
+    "_status": "reviewed"
+  },
+  "confReplay": {
+    "value": "ਦੁਬਾਰਾ ਸੁਣੋ",
+    "_status": "reviewed"
+  },
+  "confMergeNotice": {
+    "value": "ਸਵੈਚਲਿਤ ਮਿਲਾਪ: ਨੇੜਲੇ ਕਈ ਨਾਗਰਿਕਾਂ ਨੇ ਇਹ ਸ਼ਿਕਾਇਤ ਦਰਜ ਕਰਵਾਈ ਹੈ। ਤਰਜੀਹ ਵਧਾਈ ਗਈ ਹੈ!",
+    "_status": "reviewed"
+  },
+  "brandTitle": {
+    "value": "ਜਨ-ਵਾਣੀ",
+    "_status": "reviewed"
+  },
+  "brandSubtitle": {
+    "value": "ਨਾਗਪੁਰ ਨਗਰ ਨਿਗਮ | ਸਥਾਨਕ ਨਾਗਰਿਕ ਸ਼ਿਕਾਇਤ ਨਿਵਾਰਨ",
+    "_status": "reviewed"
+  },
+  "navTabVoice": {
+    "value": "🎤 ਨਾਗਰਿਕ ਆਵਾਜ਼ (Citizen Voice)",
+    "_status": "reviewed"
+  },
+  "navTabTrack": {
+    "value": "📋 ਸ਼ਿਕਾਇਤ ਸਥਿਤੀ (Track)",
+    "_status": "reviewed"
+  },
+  "navTabOfficer": {
+    "value": "🏛️ ਅਧਿਕਾਰੀ ਕਮਰਾ (Officer Console)",
+    "_status": "reviewed"
+  },
+  "navTabImpact": {
+    "value": "📊 ਟੈਸਟ ਰਿਪੋਰਟ (Benchmarks)",
+    "_status": "reviewed"
+  },
+  "voiceBadgeBanner": {
+    "value": "🔊 ਸਿਰਫ਼ ਇੱਕ ਬਟਨ ਨਾਲ ਸ਼ਿਕਾਇਤ ਕਰੋ | ਟਾਈਪ ਕਰਨ ਦੀ ਲੋੜ ਨਹੀਂ",
+    "_status": "reviewed"
+  },
+  "listenInstructions": {
+    "value": "🔊 ਆਵਾਜ਼ ਹਦਾਇਤਾਂ ਸੁਣੋ (Listen Instructions)",
+    "_status": "reviewed"
+  },
+  "gpsNotice": {
+    "value": "📍 ਨਾਗਪੁਰ ਜੀਪੀਐਸ ਟਿਕਾਣਾ ਆਪਣੇ ਆਪ ਜੁੜ ਜਾਵੇਗਾ",
+    "_status": "reviewed"
+  },
+  "presetsTitle": {
+    "value": "⚡ ਤੁਰੰਤ ਟੈਸਟ ਉਦਾਹਰਣਾਂ (One-Click Vernacular Voice Demos)",
+    "_status": "reviewed"
+  },
+  "presetsSubtitle": {
+    "value": "ਪਰੀਖਿਅਕਾਂ ਲਈ ਤੁਰੰਤ ਟੈਸਟ",
+    "_status": "reviewed"
+  },
+  "trackHeading": {
+    "value": "📋 ਦਰਜ ਸ਼ਿਕਾਇਤਾਂ ਦੀ ਸਥਿਤੀ (My Grievances)",
+    "_status": "reviewed"
+  },
+  "trackSub": {
+    "value": "ਨਾਗਰਿਕ ਬਿਨਾਂ ਪੜ੍ਹੇ 'ਆਵਾਜ਼ ਸੁਣੋ' ਬਟਨ ਦਬਾ ਕੇ ਸਿੱਧੀ ਜਾਣਕਾਰੀ ਸੁਣ ਸਕਦੇ ਹਨ।",
+    "_status": "reviewed"
+  },
+  "officerHonestBanner": {
+    "value": "ℹ️ ਇਮਾਨਦਾਰ ਡੇਟਾ ਨਿਯਮ (Honesty Rule): ਪ੍ਰਦਰਸ਼ਿਤ ਅੰਕੜੇ ਲਾਈਵ ਪਾਈਪਲਾਈਨ ਤੋਂ ਹਨ। ਅਸਲ ਸ਼ੁੱਧਤਾ ਟੈਸਟ ਰਿਪੋਰਟ ਵਿੱਚ ਹੈ।",
+    "_status": "reviewed"
+  },
+  "officerHeading": {
+    "value": "🏛️ ਵਾਰਡ ਕੰਟਰੋਲ ਅਤੇ ਸ਼ਿਕਾਇਤ ਨਿਵਾਰਨ ਸੈੱਲ",
+    "_status": "reviewed"
+  },
+  "officerRoleLabel": {
+    "value": "ਅਹੁਦਾ / Role:",
+    "_status": "reviewed"
+  },
+  "roleCommissioner": {
+    "value": "ਮਿਊਂਸੀਪਲ ਕਮਿਸ਼ਨਰ (All Wards)",
+    "_status": "reviewed"
+  },
+  "roleWard2": {
+    "value": "ਵਾਰਡ ਅਧਿਕਾਰੀ: ਧਰਮਪੇਠ (Ward 2 Officer)",
+    "_status": "reviewed"
+  },
+  "roleWard4": {
+    "value": "ਵਾਰਡ ਅਧਿਕਾਰੀ: ਧੰਤੋਲੀ (Ward 4 Officer)",
+    "_status": "reviewed"
+  },
+  "kpiTotalTitle": {
+    "value": "ਕੁੱਲ ਸ਼ਿਕਾਇਤਾਂ (Total)",
+    "_status": "reviewed"
+  },
+  "kpiTotalSub": {
+    "value": "ਦਰਜ ਕੇਸ",
+    "_status": "reviewed"
+  },
+  "kpiOpenTitle": {
+    "value": "ਬਕਾਇਆ (Open)",
+    "_status": "reviewed"
+  },
+  "kpiOpenSub": {
+    "value": "ਤੁਰੰਤ ਕਾਰਵਾਈ ਲੋੜੀਂਦੀ",
+    "_status": "reviewed"
+  },
+  "kpiInProgressTitle": {
+    "value": "ਜਾਰੀ ਹੈ (In Progress)",
+    "_status": "reviewed"
+  },
+  "kpiInProgressSub": {
+    "value": "ਮੁਰੰਮਤ ਟੀਮ ਮੌਕੇ 'ਤੇ",
+    "_status": "reviewed"
+  },
+  "kpiResolvedTitle": {
+    "value": "ਹੱਲ ਹੋ ਗਿਆ (Resolved)",
+    "_status": "reviewed"
+  },
+  "kpiResolvedSub": {
+    "value": "ਕੰਮ ਪੂਰਾ",
+    "_status": "reviewed"
+  },
+  "kpiMergedTitle": {
+    "value": "ਮਿਲਾਏ ਗਏ ਡੁਪਲੀਕੇਟ (Merged)",
+    "_status": "reviewed"
+  },
+  "kpiMergedSub": {
+    "value": "50 ਮੀਟਰ / 48 ਘੰਟਿਆਂ ਵਿੱਚ ਜੋੜਿਆ ਗਿਆ",
+    "_status": "reviewed"
+  },
+  "mapTitle": {
+    "value": "🗺️ ਨਾਗਪੁਰ ਵਾਰਡ ਨਕਸ਼ਾ (Ward Heatmap & Complaint Clusters)",
+    "_status": "reviewed"
+  },
+  "mapSub": {
+    "value": "ਵਾਰਡ ਸੀਮਾਵਾਂ ਅਤੇ 50 ਮੀਟਰ ਦੇ ਅੰਦਰ ਇਕੱਠੀਆਂ ਕੀਤੀਆਂ ਸ਼ਿਕਾਇਤਾਂ ਦਾ ਨਕਸ਼ਾ",
+    "_status": "reviewed"
+  },
+  "searchPlaceholder": {
+    "value": "🔍 ਖੋਜੋ (ID, ਵਾਰਡ, ਵਿਸ਼ਾ)...",
+    "_status": "reviewed"
+  },
+  "csvExport": {
+    "value": "📥 CSV ਐਕਸਪੋਰਟ",
+    "_status": "reviewed"
+  },
+  "thTicketId": {
+    "value": "ਟਿਕਟ ਆਈਡੀ (ID)",
+    "_status": "reviewed"
+  },
+  "thWard": {
+    "value": "ਵਾਰਡ (Ward)",
+    "_status": "reviewed"
+  },
+  "thCategory": {
+    "value": "ਸ਼੍ਰੇਣੀ (Category)",
+    "_status": "reviewed"
+  },
+  "thUrgency": {
+    "value": "ਜ਼ਰੂਰੀਤਾ (Urgency)",
+    "_status": "reviewed"
+  },
+  "thStatus": {
+    "value": "ਸਥਿਤੀ (Status)",
+    "_status": "reviewed"
+  },
+  "thVoice": {
+    "value": "ਆਵਾਜ਼ (Voice)",
+    "_status": "reviewed"
+  },
+  "thAction": {
+    "value": "ਕਾਰਵਾਈ (Action)",
+    "_status": "reviewed"
+  },
+  "footerText": {
+    "value": "ਜਨ-ਵਾਣੀ (Jan-Vani) | ਸੇਂਟ ਵਿਨਸੇਂਟ ਪਲੋਟੀ ਕਾਲਜ ਆਫ਼ ਇੰਜੀਨੀਅਰਿੰਗ ਐਂਡ ਟੈਕਨਾਲੋਜੀ, ਨਾਗਪੁਰ | AI for Social Impact",
+    "_status": "reviewed"
+  }
+}

@@ -1,0 +1,250 @@
+{
+  "heroTitle": {
+    "value": "ಜನ-ವಾಣಿ",
+    "_status": "reviewed"
+  },
+  "heroSub": {
+    "value": "ನಿಮ್ಮ ಭಾಷೆಯಲ್ಲಿ ಮಾತನಾಡಿ, ನಾಗರಿಕ ಸಮಸ್ಯೆಗಳನ್ನು ಪರಿಹರಿಸಿ",
+    "_status": "reviewed"
+  },
+  "micPrompt": {
+    "value": "ಇಲ್ಲಿ ಒತ್ತಿ ನಿಮ್ಮ ಸಮಸ್ಯೆಯನ್ನು ಮಾತನಾಡಿ",
+    "_status": "reviewed"
+  },
+  "micRecording": {
+    "value": "ನಾವು ಕೇಳುತ್ತಿದ್ದೇವೆ... ಮಾತನಾಡಿ ಮುಗಿದ ನಂತರ ಮತ್ತೆ ಒತ್ತಿ",
+    "_status": "reviewed"
+  },
+  "audioPromptText": {
+    "value": "ನಮಸ್ಕಾರ! ಮೈಕ್ ಬಟನ್ ಒತ್ತಿ ನಿಮ್ಮ ಸ್ವಂತ ಭಾಷೆಯಲ್ಲಿ ದೂರು ತಿಳಿಸಿ.",
+    "_status": "reviewed"
+  },
+  "instantAck": {
+    "value": "ದೂರು ಸ್ವೀಕರಿಸಲಾಗಿದೆ! ಪರಿಶೀಲನೆ ಪ್ರಗತಿಯಲ್ಲಿದೆ...",
+    "_status": "reviewed"
+  },
+  "consentText": {
+    "value": "ನನ್ನ ಧ್ವನಿ ಮತ್ತು ಜಿಪಿಎಸ್ ಸ್ಥಳವನ್ನು ಮಹಾನಗರ ಪಾಲಿಕೆಗೆ ಕಳುಹಿಸಲು ಸಮ್ಮತಿಸುತ್ತೇನೆ (DPDP ಕಾಯ್ದೆ ೨೦೨೩).",
+    "_status": "reviewed"
+  },
+  "waterLeak": {
+    "value": "ನೀರು ಸರಬರಾಜು ಸಮಸ್ಯೆ (ಕನ್ನಡ)",
+    "_status": "reviewed"
+  },
+  "pothole": {
+    "value": "ರಸ್ತೆಯ ಗುಂಡಿ (ಕನ್ನಡ)",
+    "_status": "reviewed"
+  },
+  "drainage": {
+    "value": "ಚರಂಡಿ ಬ್ಲಾಕ್ (ಕನ್ನಡ)",
+    "_status": "reviewed"
+  },
+  "powerCut": {
+    "value": "ವಿದ್ಯುತ್ ವ್ಯತ್ಯಯ (ಕನ್ನಡ)",
+    "_status": "reviewed"
+  },
+  "garbage": {
+    "value": "ಕಸ ಸಂಗ್ರಹ (ಕನ್ನಡ)",
+    "_status": "reviewed"
+  },
+  "listenStatus": {
+    "value": "ಧ್ವನಿ ಆಲಿಸಿ",
+    "_status": "reviewed"
+  },
+  "confRegistered": {
+    "value": "ದೂರು ದಾಖಲಾಗಿದೆ!",
+    "_status": "reviewed"
+  },
+  "confAssignedWard": {
+    "value": "ನಿಯೋಜಿತ ವಾರ್ಡ್",
+    "_status": "reviewed"
+  },
+  "confCategory": {
+    "value": "ವರ್ಗ",
+    "_status": "reviewed"
+  },
+  "confUrgency": {
+    "value": "ತುರ್ತುಸ್ಥಿತಿ",
+    "_status": "reviewed"
+  },
+  "confSummary": {
+    "value": "ಎಐ ಇಂಗ್ಲಿಷ್ ಸಾರಾಂಶ",
+    "_status": "reviewed"
+  },
+  "confSpokenNotice": {
+    "value": "ಆಡಿಯೋ ಸಂದೇಶ",
+    "_status": "reviewed"
+  },
+  "confReplay": {
+    "value": "ಮತ್ತೆ ಆಲಿಸಿ",
+    "_status": "reviewed"
+  },
+  "confMergeNotice": {
+    "value": "ಸ್ವಯಂಚಾಲಿತ ವಿಲೀನ: ಹತ್ತಿರದ ಹಲವು ನಾಗರಿಕರು ಈ ದೂರು ದಾಖಲಿಸಿದ್ದಾರೆ. ಆದ್ಯತೆಯನ್ನು ಹೆಚ್ಚಿಸಲಾಗಿದೆ!",
+    "_status": "reviewed"
+  },
+  "brandTitle": {
+    "value": "ಜನ-ವಾಣಿ",
+    "_status": "reviewed"
+  },
+  "brandSubtitle": {
+    "value": "ನಾಗಪುರ ಮಹಾನಗರ ಪಾಲಿಕೆ | ಸ್ಥಳೀಯ ನಾಗರಿಕ ಕುಂದುಕೊರತೆ ನಿವಾರಣೆ",
+    "_status": "reviewed"
+  },
+  "navTabVoice": {
+    "value": "🎤 ನಾಗರಿಕ ಧ್ವನಿ (Citizen Voice)",
+    "_status": "reviewed"
+  },
+  "navTabTrack": {
+    "value": "📋 ದೂರು ಸ್ಥಿತಿ (Track)",
+    "_status": "reviewed"
+  },
+  "navTabOfficer": {
+    "value": "🏛️ ಅಧಿಕಾರಿ ಕೊಠಡಿ (Officer Console)",
+    "_status": "reviewed"
+  },
+  "navTabImpact": {
+    "value": "📊 ಪರೀಕ್ಷಾ ವರದಿ (Benchmarks)",
+    "_status": "reviewed"
+  },
+  "voiceBadgeBanner": {
+    "value": "🔊 ಒಂದೇ ಗುಂಡಿಯನ್ನು ಒತ್ತಿ ದೂರು ನೀಡಿ | ಟೈಪಿಂಗ್ ಅಗತ್ಯವಿಲ್ಲ",
+    "_status": "reviewed"
+  },
+  "listenInstructions": {
+    "value": "🔊 ಧ್ವನಿ ಸೂಚನೆಗಳನ್ನು ಆಲಿಸಿ (Listen Instructions)",
+    "_status": "reviewed"
+  },
+  "gpsNotice": {
+    "value": "📍 ನಾಗಪುರ ಜಿಪಿಎಸ್ ಸ್ಥಳ ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಲಗತ್ತಿಸಲಾಗುತ್ತದೆ",
+    "_status": "reviewed"
+  },
+  "presetsTitle": {
+    "value": "⚡ ತ್ವರಿತ ಪರೀಕ್ಷಾ ಉದಾಹರಣೆಗಳು (One-Click Vernacular Voice Demos)",
+    "_status": "reviewed"
+  },
+  "presetsSubtitle": {
+    "value": "ಪರೀಕ್ಷಕರಿಗೆ ತ್ವರಿತ ಪರೀಕ್ಷೆ",
+    "_status": "reviewed"
+  },
+  "trackHeading": {
+    "value": "📋 ದಾಖಲಾದ ದೂರುಗಳ ಸ್ಥಿತಿ (My Grievances)",
+    "_status": "reviewed"
+  },
+  "trackSub": {
+    "value": "ನಾಗರಿಕರು ಯಾವುದೇ ಪಠ್ಯ ಓದದೆ 'ಧ್ವನಿ ಆಲಿಸಿ' ಗುಂಡಿ ಒತ್ತಿ ನೇರವಾಗಿ ಮಾಹಿತಿ ಪಡೆಯಬಹುದು.",
+    "_status": "reviewed"
+  },
+  "officerHonestBanner": {
+    "value": "ℹ️ ಪ್ರಾಮಾಣಿಕ ಡೇಟಾ ನಿಯಮ (Honesty Rule): ಪ್ರದರ್ಶಿತ ಅಂಕಿಅಂಶಗಳು ಲೈವ್ ಪೈಪ್‌ಲೈನ್‌ನಿಂದ ಬಂದಿವೆ. ನಿಖರತೆ 'ಪರೀಕ್ಷಾ ವರದಿ'ಯಲ್ಲಿದೆ.",
+    "_status": "reviewed"
+  },
+  "officerHeading": {
+    "value": "🏛️ ವಾರ್ಡ್ ನಿಯಂತ್ರಣ ಮತ್ತು ಕುಂದುಕೊರತೆ ನಿವಾರಣಾ ಕೊಠಡಿ",
+    "_status": "reviewed"
+  },
+  "officerRoleLabel": {
+    "value": "ಹುದ್ದೆ / Role:",
+    "_status": "reviewed"
+  },
+  "roleCommissioner": {
+    "value": "ಮಹಾನಗರ ಪಾಲಿಕೆ ಆಯುಕ್ತರು (All Wards)",
+    "_status": "reviewed"
+  },
+  "roleWard2": {
+    "value": "ವಾರ್ಡ್ ಅಧಿಕಾರಿ: ಧರಂಪೇಠ್ (Ward 2 Officer)",
+    "_status": "reviewed"
+  },
+  "roleWard4": {
+    "value": "ವಾರ್ಡ್ ಅಧಿಕಾರಿ: ಧಂತೋಲಿ (Ward 4 Officer)",
+    "_status": "reviewed"
+  },
+  "kpiTotalTitle": {
+    "value": "ಒಟ್ಟು ದೂರುಗಳು (Total)",
+    "_status": "reviewed"
+  },
+  "kpiTotalSub": {
+    "value": "ದಾಖಲಾದ ಪ್ರಕರಣಗಳು",
+    "_status": "reviewed"
+  },
+  "kpiOpenTitle": {
+    "value": "ಬಾಕಿ ಉಳಿದಿದೆ (Open)",
+    "_status": "reviewed"
+  },
+  "kpiOpenSub": {
+    "value": "ತಕ್ಷಣ ಪರಿಶೀಲಿಸಬೇಕು",
+    "_status": "reviewed"
+  },
+  "kpiInProgressTitle": {
+    "value": "ಪ್ರಗತಿಯಲ್ಲಿದೆ (In Progress)",
+    "_status": "reviewed"
+  },
+  "kpiInProgressSub": {
+    "value": "ದುರಸ್ತಿ ತಂಡ ಸ್ಥಳದಲ್ಲಿದೆ",
+    "_status": "reviewed"
+  },
+  "kpiResolvedTitle": {
+    "value": "ಪರಿಹರಿಸಲಾಗಿದೆ (Resolved)",
+    "_status": "reviewed"
+  },
+  "kpiResolvedSub": {
+    "value": "ಕಾರ್ಯ ಪೂರ್ಣಗೊಂಡಿದೆ",
+    "_status": "reviewed"
+  },
+  "kpiMergedTitle": {
+    "value": "ವಿಲೀನಗೊಳಿಸಿದ ನಕಲುಗಳು (Merged)",
+    "_status": "reviewed"
+  },
+  "kpiMergedSub": {
+    "value": "೫೦ ಮೀ / ೪೮ ಗಂಟೆಗಳಲ್ಲಿ ಲಿಂಕ್ ಮಾಡಲಾಗಿದೆ",
+    "_status": "reviewed"
+  },
+  "mapTitle": {
+    "value": "🗺️ ನಾಗಪುರ ವಾರ್ಡ್ ನಕ್ಷೆ (Ward Heatmap & Complaint Clusters)",
+    "_status": "reviewed"
+  },
+  "mapSub": {
+    "value": "ವಾರ್ಡ್ ಗಡಿಗಳು ಮತ್ತು ೫೦ ಮೀಟರ್ ಒಳಗೆ ಕ್ಲಸ್ಟರ್ ಮಾಡಿದ ದೂರುಗಳ ನಕ್ಷೆ",
+    "_status": "reviewed"
+  },
+  "searchPlaceholder": {
+    "value": "🔍 ಹುಡುಕಿ (ID, ವಾರ್ಡ್, ವಿಷಯ)...",
+    "_status": "reviewed"
+  },
+  "csvExport": {
+    "value": "📥 CSV ರಫ್ತು",
+    "_status": "reviewed"
+  },
+  "thTicketId": {
+    "value": "ಟಿಕೆಟ್ ಐಡಿ (ID)",
+    "_status": "reviewed"
+  },
+  "thWard": {
+    "value": "ವಾರ್ಡ್ (Ward)",
+    "_status": "reviewed"
+  },
+  "thCategory": {
+    "value": "ವರ್ಗ (Category)",
+    "_status": "reviewed"
+  },
+  "thUrgency": {
+    "value": "ತುರ್ತು (Urgency)",
+    "_status": "reviewed"
+  },
+  "thStatus": {
+    "value": "ಸ್ಥಿತಿ (Status)",
+    "_status": "reviewed"
+  },
+  "thVoice": {
+    "value": "ಧ್ವನಿ (Voice)",
+    "_status": "reviewed"
+  },
+  "thAction": {
+    "value": "ಕ್ರಮ (Action)",
+    "_status": "reviewed"
+  },
+  "footerText": {
+    "value": "ಜನ-ವಾಣಿ (Jan-Vani) | ಸೇಂಟ್ ವಿನ್ಸೆಂಟ್ ಪಲೋಟ್ಟಿ ಎಂಜಿನಿಯರಿಂಗ್ ಮತ್ತು ತಂತ್ರಜ್ಞಾನ ಕಾಲೇಜು, ನಾಗಪುರ | AI for Social Impact",
+    "_status": "reviewed"
+  }
+}

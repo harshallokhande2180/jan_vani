@@ -7,6 +7,7 @@ import os
 import json
 import uuid
 import time
+import logging
 from datetime import datetime
 from pathlib import Path
 from typing import Optional, List, Dict, Any
@@ -29,6 +30,9 @@ from perception.tts import tts_engine
 from intelligence.intent_extractor import parse_complaint
 from action.ward_routing import ward_router, GEOJSON_PATH
 from action.deduplication import should_merge_tickets, escalate_urgency
+from config.validator import validate_enabled_languages
+
+logger = logging.getLogger(__name__)
 
 app = FastAPI(
     title="Jan-Vani Civic Grievance API",
@@ -45,10 +49,11 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# Initialize Database tables and sample seed on startup
+# Initialize Database tables and verify language configs on startup
 @app.on_event("startup")
 def on_startup():
     init_db()
+    validate_enabled_languages()
 
 # Mount client static directory
 CLIENT_DIR = Path(__file__).parent.parent / "client"
@@ -371,6 +376,52 @@ def get_wards():
 def get_preset_samples():
     """Returns available audio samples for instant demonstration testing"""
     return SAMPLE_SPEECH_MAP
+
+@app.get("/api/health")
+def health_check():
+    """Lightweight liveness probe for client connectivity indicators."""
+    return {
+        "status": "ok",
+        "service": "jan-vani",
+        "timestamp": datetime.utcnow().isoformat() + "Z",
+    }
+
+
+@app.get("/api/benchmark-report")
+def get_benchmark_report():
+    """Returns the latest measured test-suite report for the Benchmarks tab."""
+    report_path = Path(__file__).parent.parent / "tests" / "results" / "benchmark_report.json"
+    if not report_path.exists():
+        raise HTTPException(status_code=404, detail="Benchmark report not found. Run tests/run_all_tests.py")
+    with open(report_path, "r", encoding="utf-8") as f:
+        return json.load(f)
+
+
+@app.get("/api/languages")
+def get_supported_languages():
+    """Returns verified vernacular languages configuration"""
+    config_path = Path(__file__).parent.parent / "config" / "languages.json"
+    if config_path.exists():
+        with open(config_path, "r", encoding="utf-8") as f:
+            return json.load(f)
+    return {"languages": []}
+
+@app.get("/api/i18n")
+def get_all_i18n_strings():
+    """Returns complete UI localization dictionary across all supported languages"""
+    i18n_dir = Path(__file__).parent.parent / "i18n"
+    bundle = {}
+    if i18n_dir.exists():
+        for json_file in i18n_dir.glob("*.json"):
+            lang = json_file.stem
+            try:
+                with open(json_file, "r", encoding="utf-8") as f:
+                    raw = json.load(f)
+                bundle[lang] = {k: v.get("value", "") if isinstance(v, dict) else str(v) for k, v in raw.items()}
+            except Exception as e:
+                logger.error(f"Failed to read i18n file {json_file}: {e}")
+    return bundle
+
 
 # -------------------------------------------------------------
 # 7. OFFICER AUTHENTICATION & LOGIN (Bcrypt)

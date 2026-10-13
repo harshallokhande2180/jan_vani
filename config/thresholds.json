@@ -1,0 +1,7 @@
+{
+  "_comment": "Evaluation thresholds for Jan-Vani language benchmarking. Must be set by team before running tests to prevent post-hoc bias.",
+  "max_wer_percentage": 15.0,
+  "min_category_accuracy_percentage": 85.0,
+  "min_schema_validity_percentage": 95.0,
+  "require_spoken_reply_match": true
+}

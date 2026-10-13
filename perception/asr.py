@@ -76,28 +76,98 @@ SAMPLE_SPEECH_MAP = {
         "transcript": "सड़क किनारे भारी कचरा जमा हो गया है, बदबू के कारण सांस लेना मुश्किल हो गया है।",
         "language": "hi",
         "english_translation": "Huge garbage has piled up on the roadside, difficult to breathe due to stench."
+    },
+    "water_bn": {
+        "audio_label": "Bengali - Water Supply Issue",
+        "transcript": "আমাদের এলাকায় তিন দিন ধরে পানীয় জল সরবরাহ বন্ধ রয়েছে।",
+        "language": "bn",
+        "english_translation": "In our area, drinking water supply has been stopped for three days."
+    },
+    "road_gu": {
+        "audio_label": "Gujarati - Road Damage",
+        "transcript": "મુખ્ય માર્ગ પર ડામર તૂટી ગયો છે અને ખાડા પડી ગયા છે.",
+        "language": "gu",
+        "english_translation": "On the main road, the asphalt is broken and potholes have formed."
+    },
+    "drain_kn": {
+        "audio_label": "Kannada - Blocked Drainage",
+        "transcript": "ಚರಂಡಿ ಕಟ್ಟಿಕೊಂಡು ಗಲೀಜು ನೀರು ರಸ್ತೆಯಲ್ಲಿ ಹರಿಯುತ್ತಿದೆ.",
+        "language": "kn",
+        "english_translation": "Drainage is choked and dirty water is flowing on the road."
+    },
+    "power_ml": {
+        "audio_label": "Malayalam - Power Outage",
+        "transcript": "വൈദ്യുതി നിലച്ചുപോയി, പ്രദേശമാകെ ഇരുട്ടിലാണ്.",
+        "language": "ml",
+        "english_translation": "Electricity has stopped, the entire region is in darkness."
+    },
+    "garbage_pa": {
+        "audio_label": "Punjabi - Garbage Overflow",
+        "transcript": "ਸੜਕ ਦੇ ਕਿਨਾਰੇ ਕੂੜੇ ਦੇ ਢੇਰ ਲੱਗੇ ਹੋਏ ਹਨ।",
+        "language": "pa",
+        "english_translation": "Heaps of garbage have accumulated on the road side."
+    },
+    "water_ta": {
+        "audio_label": "Tamil - Drinking Water Issue",
+        "transcript": "எங்கள் பகுதியில் குடிநீர் விநியோகம் முற்றிலும் நின்றுவிட்டது.",
+        "language": "ta",
+        "english_translation": "Drinking water supply has completely stopped in our area."
+    },
+    "drain_te": {
+        "audio_label": "Telugu - Drainage Block",
+        "transcript": "మురుగు కాలువ పూడికపోయి నీరు రోడ్డుపై ప్రవహిస్తోంది.",
+        "language": "te",
+        "english_translation": "The sewer is clogged and water is flowing on the road."
     }
 }
 
 def detect_language(text: str) -> str:
     """
-    Identifies language from Devnagari markers or English characters.
+    Identifies language from Indic Unicode script blocks, Devanagari dialect markers, or Latin characters.
     """
-    # Marathi specific markers
-    mr_markers = ["आहे", "नाही", "गळती", "खड्डा", "तुंबले", "झाले", "कचरापेटी", "दिवस", "पाणी", "रस्ता", "वीज", "गल्लीत"]
-    for marker in mr_markers:
-        if marker in text:
-            return "mr"
+    # Bengali script: U+0980 - U+09FF
+    if any('\u0980' <= char <= '\u09FF' for char in text):
+        return "bn"
 
-    # Hindi specific markers
-    hi_markers = ["है", "नहीं", "गड्ढा", "पानी", "सड़क", "बिजली", "कचरा", "दिन", "रहा", "गुल"]
-    for marker in hi_markers:
-        if marker in text:
-            return "hi"
+    # Gurmukhi (Punjabi) script: U+0A00 - U+0A7F
+    if any('\u0A00' <= char <= '\u0A7F' for char in text):
+        return "pa"
 
-    # Check Devanagari script range
+    # Gujarati script: U+0A80 - U+0AFF
+    if any('\u0A80' <= char <= '\u0AFF' for char in text):
+        return "gu"
+
+    # Tamil script: U+0B80 - U+0BFF
+    if any('\u0B80' <= char <= '\u0BFF' for char in text):
+        return "ta"
+
+    # Telugu script: U+0C00 - U+0C7F
+    if any('\u0C00' <= char <= '\u0C7F' for char in text):
+        return "te"
+
+    # Kannada script: U+0C80 - U+0CFF
+    if any('\u0C80' <= char <= '\u0CFF' for char in text):
+        return "kn"
+
+    # Malayalam script: U+0D00 - U+0D7F
+    if any('\u0D00' <= char <= '\u0D7F' for char in text):
+        return "ml"
+
+    # Devanagari script: U+0900 - U+097F
     if any('\u0900' <= char <= '\u097F' for char in text):
-        return "hi"  # Default Devanagari
+        # Marathi specific dialect markers
+        mr_markers = ["आहे", "नाही", "गळती", "खड्डा", "तुंबले", "झाले", "कचरापेटी", "दिवस", "पाणी", "रस्ता", "वीज", "गल्लीत", "केली", "झाली"]
+        for marker in mr_markers:
+            if marker in text:
+                return "mr"
+
+        # Hindi specific dialect markers
+        hi_markers = ["है", "नहीं", "गड्ढा", "पानी", "सड़क", "बिजली", "कचरा", "दिन", "रहा", "गुल", "हुआ", "गई"]
+        for marker in hi_markers:
+            if marker in text:
+                return "hi"
+
+        return "hi"  # Default Devanagari to Hindi if unspecified
 
     return "en"
 

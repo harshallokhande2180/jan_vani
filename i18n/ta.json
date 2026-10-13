@@ -1,0 +1,250 @@
+{
+  "heroTitle": {
+    "value": "ஜன்-வாணி",
+    "_status": "reviewed"
+  },
+  "heroSub": {
+    "value": "உங்கள் தாய்மொழியில் பேசுங்கள், குறைதீர்க்கும் தீர்வு பெறுங்கள்",
+    "_status": "reviewed"
+  },
+  "micPrompt": {
+    "value": "இங்கே தொட்டு உங்கள் புகாரைப் பேசுங்கள்",
+    "_status": "reviewed"
+  },
+  "micRecording": {
+    "value": "நாங்கள் கேட்கிறோம்... பேசி முடித்ததும் மீண்டும் அழுத்தவும்",
+    "_status": "reviewed"
+  },
+  "audioPromptText": {
+    "value": "வணக்கம்! மைக் பொத்தானை அழுத்தி உங்கள் சொந்த மொழியில் புகாரைக் கூறுங்கள்.",
+    "_status": "reviewed"
+  },
+  "instantAck": {
+    "value": "புகார் பெறப்பட்டது! பகுப்பாய்வு நடக்கிறது...",
+    "_status": "reviewed"
+  },
+  "consentText": {
+    "value": "எனது குரல் மற்றும் இருப்பிடத்தை மாநகராட்சிக்கு அனுப்ப ஒப்புக்கொள்கிறேன் (DPDP சட்டம் 2023).",
+    "_status": "reviewed"
+  },
+  "waterLeak": {
+    "value": "குடிநீர் விநியோகம் (தமிழ்)",
+    "_status": "reviewed"
+  },
+  "pothole": {
+    "value": "சாலைப் பள்ளம் (தமிழ்)",
+    "_status": "reviewed"
+  },
+  "drainage": {
+    "value": "சாக்கடை அடைப்பு (தமிழ்)",
+    "_status": "reviewed"
+  },
+  "powerCut": {
+    "value": "மின்வெட்டு (தமிழ்)",
+    "_status": "reviewed"
+  },
+  "garbage": {
+    "value": "குப்பை குவியல் (தமிழ்)",
+    "_status": "reviewed"
+  },
+  "listenStatus": {
+    "value": "குரல் கேட்கவும்",
+    "_status": "reviewed"
+  },
+  "confRegistered": {
+    "value": "புகார் பதிவு செய்யப்பட்டது!",
+    "_status": "reviewed"
+  },
+  "confAssignedWard": {
+    "value": "ஒதுக்கப்பட்ட வார்டு",
+    "_status": "reviewed"
+  },
+  "confCategory": {
+    "value": "பிரிவு",
+    "_status": "reviewed"
+  },
+  "confUrgency": {
+    "value": "அவசரம்",
+    "_status": "reviewed"
+  },
+  "confSummary": {
+    "value": "AI ஆங்கிலச் சுருக்கம்",
+    "_status": "reviewed"
+  },
+  "confSpokenNotice": {
+    "value": "ஆடியோ செய்தி",
+    "_status": "reviewed"
+  },
+  "confReplay": {
+    "value": "மீண்டும் கேட்கவும்",
+    "_status": "reviewed"
+  },
+  "confMergeNotice": {
+    "value": "தானியங்கி இணைப்பு: அருகில் உள்ள பல குடிமக்கள் இதே புகாரைப் பதிவு செய்துள்ளனர். முன்னுரிமை உயர்த்தப்பட்டது!",
+    "_status": "reviewed"
+  },
+  "brandTitle": {
+    "value": "ஜன்-வாணி",
+    "_status": "reviewed"
+  },
+  "brandSubtitle": {
+    "value": "நாக்பூர் மாநகராட்சி | வட்டாரக் குடிமக்கள் குறைதீர்ப்பு",
+    "_status": "reviewed"
+  },
+  "navTabVoice": {
+    "value": "🎤 குடிமக்கள் குரல் (Citizen Voice)",
+    "_status": "reviewed"
+  },
+  "navTabTrack": {
+    "value": "📋 புகார் நிலை (Track)",
+    "_status": "reviewed"
+  },
+  "navTabOfficer": {
+    "value": "🏛️ அதிகாரி அறை (Officer Console)",
+    "_status": "reviewed"
+  },
+  "navTabImpact": {
+    "value": "📊 சோதனை அறிக்கை (Benchmarks)",
+    "_status": "reviewed"
+  },
+  "voiceBadgeBanner": {
+    "value": "🔊 ஒரே பொத்தானில் புகார் அளியுங்கள் | தட்டச்சு தேவையில்லை",
+    "_status": "reviewed"
+  },
+  "listenInstructions": {
+    "value": "🔊 குரல் வழிமுறைகளைக் கேட்கவும் (Listen Instructions)",
+    "_status": "reviewed"
+  },
+  "gpsNotice": {
+    "value": "📍 நாக்பூர் ஜிபிஎஸ் இடம் தானாக இணைக்கப்படும்",
+    "_status": "reviewed"
+  },
+  "presetsTitle": {
+    "value": "⚡ நேரடி சோதனை மாதிரிகள் (One-Click Vernacular Voice Demos)",
+    "_status": "reviewed"
+  },
+  "presetsSubtitle": {
+    "value": "மதிப்பீட்டாளர்களுக்கான விரைவு சோதனை",
+    "_status": "reviewed"
+  },
+  "trackHeading": {
+    "value": "📋 பதிவு செய்யப்பட்ட புகார்களின் நிலை (My Grievances)",
+    "_status": "reviewed"
+  },
+  "trackSub": {
+    "value": "குடிமக்கள் எந்த எழுத்தையும் படிக்காமல் 'குரல் கேட்கவும்' பொத்தானை அழுத்தித் தகவல் பெறலாம்.",
+    "_status": "reviewed"
+  },
+  "officerHonestBanner": {
+    "value": "ℹ️ வெளிப்படைத்தன்மை விதி (Honesty Rule): காட்டப்படும் தரவு நேரடி அமைப்பிலிருந்து பெறப்பட்டது. துல்லியம் பெஞ்ச்மார்க்கில் உள்ளது.",
+    "_status": "reviewed"
+  },
+  "officerHeading": {
+    "value": "🏛️ வார்டு கட்டுப்பாடு மற்றும் குறைதீர்ப்பு மையம்",
+    "_status": "reviewed"
+  },
+  "officerRoleLabel": {
+    "value": "பதவி / Role:",
+    "_status": "reviewed"
+  },
+  "roleCommissioner": {
+    "value": "மாநகராட்சி ஆணையர் (All Wards)",
+    "_status": "reviewed"
+  },
+  "roleWard2": {
+    "value": "வார்டு அதிகாரி: தரம்பேத் (Ward 2 Officer)",
+    "_status": "reviewed"
+  },
+  "roleWard4": {
+    "value": "வார்டு அதிகாரி: தந்தோலி (Ward 4 Officer)",
+    "_status": "reviewed"
+  },
+  "kpiTotalTitle": {
+    "value": "மொத்த புகார்கள் (Total)",
+    "_status": "reviewed"
+  },
+  "kpiTotalSub": {
+    "value": "பதிவு செய்யப்பட்டவை",
+    "_status": "reviewed"
+  },
+  "kpiOpenTitle": {
+    "value": "நிலுவையில் (Open)",
+    "_status": "reviewed"
+  },
+  "kpiOpenSub": {
+    "value": "உடனடி நடவடிக்கை தேவை",
+    "_status": "reviewed"
+  },
+  "kpiInProgressTitle": {
+    "value": "நடைபெறுகிறது (In Progress)",
+    "_status": "reviewed"
+  },
+  "kpiInProgressSub": {
+    "value": "பழுதுபார்ப்பு குழு களத்தில்",
+    "_status": "reviewed"
+  },
+  "kpiResolvedTitle": {
+    "value": "தீர்க்கப்பட்டது (Resolved)",
+    "_status": "reviewed"
+  },
+  "kpiResolvedSub": {
+    "value": "பணி முடிந்தது",
+    "_status": "reviewed"
+  },
+  "kpiMergedTitle": {
+    "value": "இணைக்கப்பட்ட நகல்கள் (Merged)",
+    "_status": "reviewed"
+  },
+  "kpiMergedSub": {
+    "value": "50 மீ / 48 மணிநேரத்தில் இணைக்கப்பட்டது",
+    "_status": "reviewed"
+  },
+  "mapTitle": {
+    "value": "🗺️ நாக்பூர் வார்டு வரைபடம் (Ward Heatmap & Complaint Clusters)",
+    "_status": "reviewed"
+  },
+  "mapSub": {
+    "value": "வார்டு எல்லைகள் மற்றும் 50 மீட்டருக்குள் தொகுக்கப்பட்ட புகார்களின் வரைபடம்",
+    "_status": "reviewed"
+  },
+  "searchPlaceholder": {
+    "value": "🔍 தேடுக (ID, வார்டு, பொருள்)...",
+    "_status": "reviewed"
+  },
+  "csvExport": {
+    "value": "📥 CSV ஏற்றுமதி",
+    "_status": "reviewed"
+  },
+  "thTicketId": {
+    "value": "டிக்கெட் ஐடி (ID)",
+    "_status": "reviewed"
+  },
+  "thWard": {
+    "value": "வார்டு (Ward)",
+    "_status": "reviewed"
+  },
+  "thCategory": {
+    "value": "பிரிவு (Category)",
+    "_status": "reviewed"
+  },
+  "thUrgency": {
+    "value": "அவசரம் (Urgency)",
+    "_status": "reviewed"
+  },
+  "thStatus": {
+    "value": "நிலை (Status)",
+    "_status": "reviewed"
+  },
+  "thVoice": {
+    "value": "குரல் (Voice)",
+    "_status": "reviewed"
+  },
+  "thAction": {
+    "value": "நடவடிக்கை (Action)",
+    "_status": "reviewed"
+  },
+  "footerText": {
+    "value": "ஜன்-வாணி (Jan-Vani) | செயிண்ட் வின்சென்ட் பலோட்டி பொறியியல் கல்லூரி, நாக்பூர் | AI for Social Impact",
+    "_status": "reviewed"
+  }
+}

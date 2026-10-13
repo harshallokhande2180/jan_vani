@@ -1,0 +1,250 @@
+{
+  "heroTitle": {
+    "value": "Jan-Vani",
+    "_status": "reviewed"
+  },
+  "heroSub": {
+    "value": "Speak in your dialect, get civic issues resolved",
+    "_status": "reviewed"
+  },
+  "micPrompt": {
+    "value": "Tap here and speak your problem",
+    "_status": "reviewed"
+  },
+  "micRecording": {
+    "value": "Listening... Tap again when finished",
+    "_status": "reviewed"
+  },
+  "audioPromptText": {
+    "value": "Welcome! Simply tap the microphone button and report your problem.",
+    "_status": "reviewed"
+  },
+  "instantAck": {
+    "value": "Complaint Received! Processing...",
+    "_status": "reviewed"
+  },
+  "consentText": {
+    "value": "I consent to share voice and GPS location with Municipal Corporation (DPDP Act 2023).",
+    "_status": "reviewed"
+  },
+  "waterLeak": {
+    "value": "Water Leakage",
+    "_status": "reviewed"
+  },
+  "pothole": {
+    "value": "Road Pothole",
+    "_status": "reviewed"
+  },
+  "drainage": {
+    "value": "Drain Blockage",
+    "_status": "reviewed"
+  },
+  "powerCut": {
+    "value": "Power Outage",
+    "_status": "reviewed"
+  },
+  "garbage": {
+    "value": "Garbage Dump",
+    "_status": "reviewed"
+  },
+  "listenStatus": {
+    "value": "Listen Voice",
+    "_status": "reviewed"
+  },
+  "confRegistered": {
+    "value": "Grievance Registered",
+    "_status": "reviewed"
+  },
+  "confAssignedWard": {
+    "value": "Assigned Ward",
+    "_status": "reviewed"
+  },
+  "confCategory": {
+    "value": "Category",
+    "_status": "reviewed"
+  },
+  "confUrgency": {
+    "value": "Urgency",
+    "_status": "reviewed"
+  },
+  "confSummary": {
+    "value": "AI English Summary",
+    "_status": "reviewed"
+  },
+  "confSpokenNotice": {
+    "value": "Spoken Audio Confirmation",
+    "_status": "reviewed"
+  },
+  "confReplay": {
+    "value": "Play Voice Again",
+    "_status": "reviewed"
+  },
+  "confMergeNotice": {
+    "value": "Deduplication Merge: Multiple nearby citizens reported this issue. Urgency escalated!",
+    "_status": "reviewed"
+  },
+  "brandTitle": {
+    "value": "Jan-Vani",
+    "_status": "reviewed"
+  },
+  "brandSubtitle": {
+    "value": "Nagpur Municipal Corporation | Vernacular Civic Voice Redressal",
+    "_status": "reviewed"
+  },
+  "navTabVoice": {
+    "value": "🎤 Citizen Voice",
+    "_status": "reviewed"
+  },
+  "navTabTrack": {
+    "value": "📋 Track Status",
+    "_status": "reviewed"
+  },
+  "navTabOfficer": {
+    "value": "🏛️ Officer Console",
+    "_status": "reviewed"
+  },
+  "navTabImpact": {
+    "value": "📊 Benchmarks & Impact",
+    "_status": "reviewed"
+  },
+  "voiceBadgeBanner": {
+    "value": "🔊 Voice Redressal with 1 Tap | No Typing Needed",
+    "_status": "reviewed"
+  },
+  "listenInstructions": {
+    "value": "🔊 Listen Voice Instructions",
+    "_status": "reviewed"
+  },
+  "gpsNotice": {
+    "value": "📍 Nagpur GPS location will be auto-attached",
+    "_status": "reviewed"
+  },
+  "presetsTitle": {
+    "value": "⚡ One-Click Vernacular Voice Demos",
+    "_status": "reviewed"
+  },
+  "presetsSubtitle": {
+    "value": "Quick testing for evaluators",
+    "_status": "reviewed"
+  },
+  "trackHeading": {
+    "value": "📋 Grievance Tracking Status",
+    "_status": "reviewed"
+  },
+  "trackSub": {
+    "value": "Citizens can listen to live updates directly by clicking the voice button without reading.",
+    "_status": "reviewed"
+  },
+  "officerHonestBanner": {
+    "value": "ℹ️ Honesty Rule: Displayed analytics reflect live pipeline submissions and verified runs. Empirical metrics are reported in Benchmarks.",
+    "_status": "reviewed"
+  },
+  "officerHeading": {
+    "value": "🏛️ Ward Operations & Grievance Redressal Center",
+    "_status": "reviewed"
+  },
+  "officerRoleLabel": {
+    "value": "Designation / Role:",
+    "_status": "reviewed"
+  },
+  "roleCommissioner": {
+    "value": "Municipal Commissioner (All Wards)",
+    "_status": "reviewed"
+  },
+  "roleWard2": {
+    "value": "Ward Officer: Dharampeth (Ward 2)",
+    "_status": "reviewed"
+  },
+  "roleWard4": {
+    "value": "Ward Officer: Dhantoli (Ward 4)",
+    "_status": "reviewed"
+  },
+  "kpiTotalTitle": {
+    "value": "Total Grievances",
+    "_status": "reviewed"
+  },
+  "kpiTotalSub": {
+    "value": "Logged cases",
+    "_status": "reviewed"
+  },
+  "kpiOpenTitle": {
+    "value": "Open (Pending)",
+    "_status": "reviewed"
+  },
+  "kpiOpenSub": {
+    "value": "Requires immediate action",
+    "_status": "reviewed"
+  },
+  "kpiInProgressTitle": {
+    "value": "In Progress",
+    "_status": "reviewed"
+  },
+  "kpiInProgressSub": {
+    "value": "Response crew dispatched",
+    "_status": "reviewed"
+  },
+  "kpiResolvedTitle": {
+    "value": "Resolved",
+    "_status": "reviewed"
+  },
+  "kpiResolvedSub": {
+    "value": "Action completed",
+    "_status": "reviewed"
+  },
+  "kpiMergedTitle": {
+    "value": "Merged Duplicates",
+    "_status": "reviewed"
+  },
+  "kpiMergedSub": {
+    "value": "Within 50m / 48 hours",
+    "_status": "reviewed"
+  },
+  "mapTitle": {
+    "value": "🗺️ Nagpur Ward Heatmap & Complaint Clusters",
+    "_status": "reviewed"
+  },
+  "mapSub": {
+    "value": "Map visualizing ward boundaries and clustered grievances within 50 meters",
+    "_status": "reviewed"
+  },
+  "searchPlaceholder": {
+    "value": "🔍 Search (ID, Ward, Topic)...",
+    "_status": "reviewed"
+  },
+  "csvExport": {
+    "value": "📥 Export CSV",
+    "_status": "reviewed"
+  },
+  "thTicketId": {
+    "value": "Ticket ID",
+    "_status": "reviewed"
+  },
+  "thWard": {
+    "value": "Ward",
+    "_status": "reviewed"
+  },
+  "thCategory": {
+    "value": "Category",
+    "_status": "reviewed"
+  },
+  "thUrgency": {
+    "value": "Urgency",
+    "_status": "reviewed"
+  },
+  "thStatus": {
+    "value": "Status",
+    "_status": "reviewed"
+  },
+  "thVoice": {
+    "value": "Audio Voice",
+    "_status": "reviewed"
+  },
+  "thAction": {
+    "value": "Action",
+    "_status": "reviewed"
+  },
+  "footerText": {
+    "value": "Jan-Vani | St. Vincent Pallotti College of Engineering and Technology, Nagpur | AI for Social Impact",
+    "_status": "reviewed"
+  }
+}

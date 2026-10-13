@@ -1,0 +1,302 @@
+{
+  "mr": [
+    {
+      "id": "water_mr",
+      "title": "💧 पाणी पुरवठा गळती",
+      "tag": "मराठी (Marathi)",
+      "quote": "आमच्या गल्लीत पिण्याच्या पाण्याची मुख्य पाइपलाइन फुटली आहे, तीन दिवसांपासून रस्ता भरून पाणी वाहत आहे.",
+      "desc": "Drinking water pipeline burst for 3 days."
+    },
+    {
+      "id": "road_mr",
+      "title": "🚧 रस्त्यावरील मोठा खड्डा",
+      "tag": "मराठी (Marathi)",
+      "quote": "धरमपेठ मुख्य रस्त्यावर मोठा खड्डा पडला आहे, काल रात्री दोन दुचाकींचा अपघात झाला.",
+      "desc": "Hazardous pothole causing vehicle accidents."
+    },
+    {
+      "id": "drain_mr",
+      "title": "🌊 ड्रेनेज तुंबले आहे",
+      "tag": "मराठी (Marathi)",
+      "quote": "घरासमोरचे गटार तुंबले आहे आणि घाण पाणी रस्त्यावर आणि दारात येत आहे, दुर्गंधी सुटली आहे.",
+      "desc": "Clogged drain overflowing sewage with foul smell."
+    },
+    {
+      "id": "power_mr",
+      "title": "⚡ वीज पुरवठा खंडित",
+      "tag": "मराठी (Marathi)",
+      "quote": "ट्रान्सफॉर्मरमध्ये बिघाड झाल्याने पूर्ण प्रभागात काल रात्रीपासून वीज नाही.",
+      "desc": "Transformer failure blackout across entire ward."
+    }
+  ],
+  "hi": [
+    {
+      "id": "water_hi",
+      "title": "💧 पेयजल पाइपलाइन लीकेज",
+      "tag": "हिंदी (Hindi)",
+      "quote": "हमारी गली में पानी की मुख्य पाइपलाइन टूट गई है, पीने का पानी सड़कों पर बहकर बर्बाद हो रहा है।",
+      "desc": "Drinking water pipeline ruptured on main street."
+    },
+    {
+      "id": "road_hi",
+      "title": "🚧 सड़क पर जानलेवा गड्ढा",
+      "tag": "हिंदी (Hindi)",
+      "quote": "मुख्य सड़क पर बहुत गहरा गड्ढा हो गया है, कल रात दो बाइक सवार गिरकर घायल हो गए।",
+      "desc": "Dangerous deep pothole causing road accidents."
+    },
+    {
+      "id": "drain_hi",
+      "title": "🌊 नाली जाम और बदबू",
+      "tag": "हिंदी (Hindi)",
+      "quote": "सामने की नाली पूरी तरह जाम है, गंदा पानी घरों के आगे भर गया है और बदबू फैल रही है।",
+      "desc": "Choked drain causing sewage water accumulation."
+    },
+    {
+      "id": "power_hi",
+      "title": "⚡ ट्रांसफार्मर में खराबी / अंधेरा",
+      "tag": "हिंदी (Hindi)",
+      "quote": "ट्रांसफार्मर में आग लगने के बाद से पूरे इलाके की बिजली गुल है, भयंकर अंधेरा है।",
+      "desc": "Transformer fire blackout in whole locality."
+    }
+  ],
+  "en": [
+    {
+      "id": "water_en",
+      "title": "💧 Potable Water Pipeline Leak",
+      "tag": "English",
+      "quote": "The main drinking water supply pipe has burst in our street, clean water is flowing on the road for 2 days.",
+      "desc": "Drinking water supply pipe burst causing massive wastage."
+    },
+    {
+      "id": "road_en",
+      "title": "🚧 Deep Road Pothole Hazard",
+      "tag": "English",
+      "quote": "There is a huge pothole on Dharampeth main road causing repeated bike accidents every night.",
+      "desc": "Major pothole endangering motorists and pedestrians."
+    },
+    {
+      "id": "drain_en",
+      "title": "🌊 Sewage Overflow & Blockage",
+      "tag": "English",
+      "quote": "The storm drain is completely blocked with plastic waste and dirty sewage is overflowing into houses.",
+      "desc": "Blocked stormwater drain causing sanitation crisis."
+    },
+    {
+      "id": "power_en",
+      "title": "⚡ Electricity Transformer Failure",
+      "tag": "English",
+      "quote": "Our neighborhood transformer sparked and broke down, total blackout for over 8 hours.",
+      "desc": "Transformer explosion leaving the neighborhood in dark."
+    }
+  ],
+  "bn": [
+    {
+      "id": "water_bn",
+      "title": "💧 পানীয় জলের পাইপলাইন ফেটে গেছে",
+      "tag": "বাংলা (Bengali)",
+      "quote": "আমাদের গলিতে পানীয় জলের মূল পাইপলাইন ফেটে গিয়ে রাস্তায় জল জমেছে।",
+      "desc": "Drinking water pipeline ruptured in locality."
+    },
+    {
+      "id": "road_bn",
+      "title": "🚧 রাস্তায় বিপজ্জনক গর্ত",
+      "tag": "বাংলা (Bengali)",
+      "quote": "প্রধান রাস্তায় অনেক বড় গর্ত তৈরি হয়েছে, গতকাল রাতে দুর্ঘটনা ঘটেছে।",
+      "desc": "Deep hazardous pothole causing vehicle accidents."
+    },
+    {
+      "id": "drain_bn",
+      "title": "🌊 নর্দমা উপচে নোংরা জল",
+      "tag": "বাংলা (Bengali)",
+      "quote": "নর্দমা বন্ধ হয়ে নোংরা জল রাস্তায় ও ঘরের সামনে উপচে পড়ছে, দুর্গন্ধ ছড়াচ্ছে।",
+      "desc": "Blocked municipal drain overflowing onto streets."
+    },
+    {
+      "id": "power_bn",
+      "title": "⚡ ট্রান্সফর্মারে আগুন / বিদ্যুৎ বিভ্রাট",
+      "tag": "বাংলা (Bengali)",
+      "quote": "ট্রান্সফর্মারে ত্রুটির কারণে পুরো এলাকায় রাত থেকে বিদ্যুৎ সংযোগ বিচ্ছিন্ন।",
+      "desc": "Locality power outage due to transformer failure."
+    }
+  ],
+  "gu": [
+    {
+      "id": "water_gu",
+      "title": "💧 પીવાના પાણીની પાઇપલાઇન લીકેજ",
+      "tag": "ગુજરાતી (Gujarati)",
+      "quote": "અમારી શેરીમાં પીવાના પાણીની પાઈપલાઈન તૂટી ગઈ છે અને પાણી રસ્તા પર વહી રહ્યું છે.",
+      "desc": "Drinking water main pipeline burst."
+    },
+    {
+      "id": "road_gu",
+      "title": "🚧 રસ્તા પર મોટો ખાડો",
+      "tag": "ગુજરાતી (Gujarati)",
+      "quote": "મુખ્ય માર્ગ પર ખૂબ ઊંડો ખાડો છે, ગઈકાલે રાત્રે વાહન અકસ્માત સર્જાયો હતો.",
+      "desc": "Dangerous deep pothole on main road."
+    },
+    {
+      "id": "drain_gu",
+      "title": "🌊 ગટર ઉભરાઈ ગઈ છે",
+      "tag": "ગુજરાતી (Gujarati)",
+      "quote": "ગટર બ્લોક થઈ જવાથી ગંદુ પાણી રસ્તા પર આવી રહ્યું છે અને ભારે દુર્ગંધ ફેલાઈ છે.",
+      "desc": "Sewage line clogged and overflowing."
+    },
+    {
+      "id": "power_gu",
+      "title": "⚡ ટ્રાન્સફોર્મરમાં ખામી / વીજળી ગુલ",
+      "tag": "ગુજરાતી (Gujarati)",
+      "quote": "ટ્રાન્સફોર્મર બળી જતાં સમગ્ર વિસ્તારમાં કલાકોથી અંધારપટ છવાયો છે.",
+      "desc": "Area blackout caused by blown transformer."
+    }
+  ],
+  "kn": [
+    {
+      "id": "water_kn",
+      "title": "💧 ಕುಡಿಯುವ ನೀರಿನ ಪೈಪ್ ಒಡೆದಿದೆ",
+      "tag": "ಕನ್ನಡ (Kannada)",
+      "quote": "ನಮ್ಮ ರಸ್ತೆಯಲ್ಲಿ ಕುಡಿಯುವ ನೀರಿನ ಮುಖ್ಯ ಪೈಪ್‌ಲೈನ್ ಒಡೆದು ನೀರು ರಸ್ತೆಯಲ್ಲಿ ಹರಿಯುತ್ತಿದೆ.",
+      "desc": "Drinking water pipeline burst."
+    },
+    {
+      "id": "road_kn",
+      "title": "🚧 ರಸ್ತೆಯಲ್ಲಿ ಅಪಾಯಕಾರಿ ಗುಂಡಿ",
+      "tag": "ಕನ್ನಡ (Kannada)",
+      "quote": "ಮುಖ್ಯ ರಸ್ತೆಯಲ್ಲಿ ಆಳವಾದ ಗುಂಡಿ ಬಿದ್ದಿದ್ದು, ನಿನ್ನೆ ರಾತ್ರಿ ವಾಹನ ಅಪಘಾತ ಸಂಭವಿಸಿದೆ.",
+      "desc": "Dangerous road pothole causing vehicle accidents."
+    },
+    {
+      "id": "drain_kn",
+      "title": "🌊 ಚರಂಡಿ ಕಟ್ಟಿಕೊಂಡು ಗಲೀಜು ನೀರು",
+      "tag": "ಕನ್ನಡ (Kannada)",
+      "quote": "ಚರಂಡಿ ಬ್ಲಾಕ್ ಆಗಿ ಕೊಳಚೆ ನೀರು ಮನೆಗಳ ಮುಂದೆ ಹರಿಯುತ್ತಿದ್ದು, ದುರ್ವಾಸನೆ ಹರಡಿದೆ.",
+      "desc": "Blocked sewage drain causing overflow."
+    },
+    {
+      "id": "power_kn",
+      "title": "⚡ ಟ್ರಾನ್ಸ್‌ಫಾರ್ಮರ್ ವೈಫಲ್ಯ / ವಿದ್ಯುತ್ ಕಡಿತ",
+      "tag": "ಕನ್ನಡ (Kannada)",
+      "quote": "ಟ್ರಾನ್ಸ್‌ಫಾರ್ಮರ್ ಸುಟ್ಟುಹೋದ ಕಾರಣ ಇಡೀ ಬಡಾವಣೆಯಲ್ಲಿ ವಿದ್ಯುತ್ ಸಂಪರ್ಕ ಕಡಿತಗೊಂಡಿದೆ.",
+      "desc": "Transformer blast causing power outage."
+    }
+  ],
+  "ml": [
+    {
+      "id": "water_ml",
+      "title": "💧 കുടിവെള്ള പൈപ്പ് പൊട്ടി",
+      "tag": "മലയാളം (Malayalam)",
+      "quote": "ഞങ്ങളുടെ വഴിയിലെ കുടിവെള്ള പൈപ്പ് പൊട്ടി റോഡിലൂടെ വെള്ളം പാഴായി ഒഴുകുന്നു.",
+      "desc": "Drinking water pipeline fractured."
+    },
+    {
+      "id": "road_ml",
+      "title": "🚧 റോഡിൽ വലിയ കുഴി",
+      "tag": "മലയാളം (Malayalam)",
+      "quote": "പ്രധാന റോഡിൽ വലിയ കുഴിയുണ്ട്, ഇന്നലെ രാത്രി വാഹനങ്ങൾ അപകടത്തിൽപ്പെട്ടു.",
+      "desc": "Deep hazardous pothole on roadway."
+    },
+    {
+      "id": "drain_ml",
+      "title": "🌊 ഓവുചാൽ തടസ്സപ്പെട്ട് മലിനജലം",
+      "tag": "മലയാളം (Malayalam)",
+      "quote": "ഓവുചാൽ അടഞ്ഞ് മലിനജലം റോഡിലേക്ക് ഒഴുകുന്നു, കടുത്ത ദുർഗന്ധം വമിക്കുന്നു.",
+      "desc": "Drain blockage causing sewage runoff."
+    },
+    {
+      "id": "power_ml",
+      "title": "⚡ ട്രാൻസ്ഫോർമർ തകരാർ / വൈദ്യുതി മുടക്കം",
+      "tag": "മലയാളം (Malayalam)",
+      "quote": "ട്രാൻസ്ഫോർമർ തകരാറിലായതിനെ തുടർന്ന് പ്രദേശം മുഴുവൻ മണിക്കൂറുകളായി ഇരുട്ടിലാണ്.",
+      "desc": "Transformer breakdown causing outage."
+    }
+  ],
+  "pa": [
+    {
+      "id": "water_pa",
+      "title": "💧 ਪੀਣ ਵਾਲੇ ਪਾਣੀ ਦੀ ਪਾਈਪ ਟੁੱਟੀ",
+      "tag": "ਪੰਜਾਬੀ (Punjabi)",
+      "quote": "ਸਾਡੀ ਗਲੀ ਵਿੱਚ ਪੀਣ ਵਾਲੇ ਪਾਣੀ ਦੀ ਮੁੱਖ ਪਾਈਪਲਾਈਨ ਟੁੱਟ ਗਈ ਹੈ, ਪਾਣੀ ਸੜਕ ਤੇ ਵਹਿ ਰਿਹਾ ਹੈ।",
+      "desc": "Drinking water pipeline ruptured."
+    },
+    {
+      "id": "road_pa",
+      "title": "🚧 ਸੜਕ ਤੇ ਡੂੰਘਾ ਟੋਆ",
+      "tag": "ਪੰਜਾਬੀ (Punjabi)",
+      "quote": "ਮੁੱਖ ਸੜਕ ਤੇ ਬਹੁਤ ਵੱਡਾ ਟੋਆ ਪੈ ਗਿਆ ਹੈ, ਕੱਲ੍ਹ ਰਾਤ ਦੋ ਵਾਹਨ ਹਾਦਸੇ ਦਾ ਸ਼ਿਕਾਰ ਹੋਏ।",
+      "desc": "Hazardous pothole causing vehicle crashes."
+    },
+    {
+      "id": "drain_pa",
+      "title": "🌊 ਗੰਦਾ ਨਾਲਾ ਜਾਮ / ਬਦਬੂ",
+      "tag": "ਪੰਜਾਬੀ (Punjabi)",
+      "quote": "ਨਾਲਾ ਬੰਦ ਹੋਣ ਕਰਕੇ ਗੰਦਾ ਪਾਣੀ ਘਰਾਂ ਮੂਹਰੇ ਖੜ੍ਹਾ ਹੈ ਅਤੇ ਬਦਬੂ ਫੈਲ ਰਹੀ ਹੈ।",
+      "desc": "Sewage line blocked and overflowing."
+    },
+    {
+      "id": "power_pa",
+      "title": "⚡ ਟਰਾਂਸਫਾਰਮਰ ਖਰਾਬ / ਬਿਜਲੀ ਗੁੱਲ",
+      "tag": "ਪੰਜਾਬੀ (Punjabi)",
+      "quote": "ਟਰਾਂਸਫਾਰਮਰ ਸੜਨ ਕਾਰਨ ਸਾਰੇ ਇਲਾਕੇ ਦੀ ਬਿਜਲੀ ਬੰਦ ਹੈ, ਹਨੇਰਾ ਛਾਇਆ ਹੋਇਆ ਹੈ।",
+      "desc": "Transformer failure causing blackout."
+    }
+  ],
+  "ta": [
+    {
+      "id": "water_ta",
+      "title": "💧 குடிநீர் குழாய் உடைப்பு",
+      "tag": "தமிழ் (Tamil)",
+      "quote": "எங்கள் தெருவில் குடிநீர் முதன்மைக் குழாய் உடைந்து சாலை முழுவதும் தண்ணீர் வீணாகிறது.",
+      "desc": "Drinking water main pipeline ruptured."
+    },
+    {
+      "id": "road_ta",
+      "title": "🚧 சாலையில் ஆபத்தான பள்ளம்",
+      "tag": "தமிழ் (Tamil)",
+      "quote": "முக்கிய சாலையில் பெரிய பள்ளம் ஏற்பட்டுள்ளது, நேற்று இரவு இருசக்கர வாகன விபத்து நடந்தது.",
+      "desc": "Hazardous pothole causing accidents."
+    },
+    {
+      "id": "drain_ta",
+      "title": "🌊 சாக்கடை அடைப்பு / துர்நாற்றம்",
+      "tag": "தமிழ் (Tamil)",
+      "quote": "சாக்கடை கால்வாய் அடைத்து கழிவுநீர் சாலையில் வழிந்து துர்நாற்றம் வீசுகிறது.",
+      "desc": "Storm drain blocked with foul smell."
+    },
+    {
+      "id": "power_ta",
+      "title": "⚡ மின்மாற்றி பழுது / மின்வெட்டு",
+      "tag": "தமிழ் (Tamil)",
+      "quote": "மின்மாற்றியில் கோளாறு ஏற்பட்டு பகுதி முழுவதும் பல மணிநேரமாக மின்சாரம் இல்லை.",
+      "desc": "Transformer burst blackout across area."
+    }
+  ],
+  "te": [
+    {
+      "id": "water_te",
+      "title": "💧 తాగునీటి పైప్‌లైన్ లీకేజీ",
+      "tag": "తెలుగు (Telugu)",
+      "quote": "మా వీధిలో తాగునీటి మెయిన్ పైప్‌లైన్ పగిలి రోడ్డుపై నీరు వృథాగా ప్రవహిస్తోంది.",
+      "desc": "Drinking water main pipe burst."
+    },
+    {
+      "id": "road_te",
+      "title": "🚧 రోడ్డుపై ప్రమాదకర గుంత",
+      "tag": "తెలుగు (Telugu)",
+      "quote": "ప్రధాన రహదారిపై భారీ గుంత పడింది, నిన్న రాత్రి బైక్ ప్రమాదం జరిగింది.",
+      "desc": "Dangerous pothole causing road accidents."
+    },
+    {
+      "id": "drain_te",
+      "title": "🌊 మురుగు కాలువ బ్లాక్ / దుర్వాసన",
+      "tag": "తెలుగు (Telugu)",
+      "quote": "డ్రైనేజీ పూడిక పేరుకుపోయి మురుగునీరు రోడ్డుపైకి వస్తోంది, తీవ్ర దుర్వాసన వస్తోంది.",
+      "desc": "Drainage choked with sewage overflow."
+    },
+    {
+      "id": "power_te",
+      "title": "⚡ ట్రాన్స్‌ఫార్మర్ వైఫల్యం / కరెంట్ కోత",
+      "tag": "తెలుగు (Telugu)",
+      "quote": "ట్రాన్స్‌ఫార్మర్ కాలిపోవడంతో ప్రాంతం మొత్తం విద్యుత్ సరఫరా నిలిచిపోయింది.",
+      "desc": "Transformer fault blackout in locality."
+    }
+  ]
+}

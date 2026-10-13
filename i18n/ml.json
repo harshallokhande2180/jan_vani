@@ -1,0 +1,250 @@
+{
+  "heroTitle": {
+    "value": "ജന-വാണി",
+    "_status": "reviewed"
+  },
+  "heroSub": {
+    "value": "നിങ്ങളുടെ സ്വന്തം ഭാഷയിൽ സംസാരിക്കൂ, പരാതികൾ പരിഹരിക്കൂ",
+    "_status": "reviewed"
+  },
+  "micPrompt": {
+    "value": "ഇവിടെ അമർത്തി നിങ്ങളുടെ പ്രശ്നം സംസാരിക്കൂ",
+    "_status": "reviewed"
+  },
+  "micRecording": {
+    "value": "ഞങ്ങൾ കേൾക്കുന്നു... സംസാരിച്ചു കഴിഞ്ഞാൽ വീണ്ടും അമർത്തുക",
+    "_status": "reviewed"
+  },
+  "audioPromptText": {
+    "value": "നമസ്കാരം! മൈക്ക് ബട്ടൺ അമർത്തി നിങ്ങളുടെ ഭാഷയിൽ പരാതി പറയൂ.",
+    "_status": "reviewed"
+  },
+  "instantAck": {
+    "value": "പരാതി ലഭിച്ചു! പരിശോധന പുരോഗമിക്കുന്നു...",
+    "_status": "reviewed"
+  },
+  "consentText": {
+    "value": "എന്റെ ശബ്ദവും ലൊക്കേഷനും നഗരസഭയ്ക്ക് പങ്കിടാൻ സമ്മതിക്കുന്നു (DPDP ആക്റ്റ് 2023).",
+    "_status": "reviewed"
+  },
+  "waterLeak": {
+    "value": "കുടിവെള്ള വിതരണം (മലയാളം)",
+    "_status": "reviewed"
+  },
+  "pothole": {
+    "value": "റോഡിലെ കുഴി (മലയാളം)",
+    "_status": "reviewed"
+  },
+  "drainage": {
+    "value": "ഓവുചാൽ തടസ്സം (മലയാളം)",
+    "_status": "reviewed"
+  },
+  "powerCut": {
+    "value": "വൈദ്യുതി തടസ്സം (മലയാളം)",
+    "_status": "reviewed"
+  },
+  "garbage": {
+    "value": "മാലിന്യക്കൂമ്പാരം (മലയാളം)",
+    "_status": "reviewed"
+  },
+  "listenStatus": {
+    "value": "ശബ്ദം കേൾക്കൂ",
+    "_status": "reviewed"
+  },
+  "confRegistered": {
+    "value": "പരാതി രജിസ്റ്റർ ചെയ്തു!",
+    "_status": "reviewed"
+  },
+  "confAssignedWard": {
+    "value": "വാർഡ്",
+    "_status": "reviewed"
+  },
+  "confCategory": {
+    "value": "വിഭാഗം",
+    "_status": "reviewed"
+  },
+  "confUrgency": {
+    "value": "തീവ്രത",
+    "_status": "reviewed"
+  },
+  "confSummary": {
+    "value": "AI സംഗ്രഹം",
+    "_status": "reviewed"
+  },
+  "confSpokenNotice": {
+    "value": "ശബ്ദ സന്ദേശം",
+    "_status": "reviewed"
+  },
+  "confReplay": {
+    "value": "വീണ്ടും കേൾക്കുക",
+    "_status": "reviewed"
+  },
+  "confMergeNotice": {
+    "value": "ഓട്ടോമാറ്റിക് ലയനം: സമീപവാസികളായ ഒന്നിലധികം ആളുകൾ ഇതേ പരാതി നൽകി. മുൻഗണന വർദ്ധിപ്പിച്ചു!",
+    "_status": "reviewed"
+  },
+  "brandTitle": {
+    "value": "ജന-വാണി",
+    "_status": "reviewed"
+  },
+  "brandSubtitle": {
+    "value": "നാഗ്പൂർ മുനിസിപ്പൽ കോർപ്പറേഷൻ | പ്രാദേശിക പരാതി പരിഹാരം",
+    "_status": "reviewed"
+  },
+  "navTabVoice": {
+    "value": "🎤 പൗര ശബ്ദം (Citizen Voice)",
+    "_status": "reviewed"
+  },
+  "navTabTrack": {
+    "value": "📋 പരാതി നില (Track)",
+    "_status": "reviewed"
+  },
+  "navTabOfficer": {
+    "value": "🏛️ ഓഫീസർ കൺസോൾ (Officer Console)",
+    "_status": "reviewed"
+  },
+  "navTabImpact": {
+    "value": "📊 വിലയിരുത്തൽ റിപ്പോർട്ട് (Benchmarks)",
+    "_status": "reviewed"
+  },
+  "voiceBadgeBanner": {
+    "value": "🔊 ഒരൊറ്റ ബട്ടണിൽ പരാതി നൽകാം | ടൈപ്പിംഗ് ആവശ്യമില്ല",
+    "_status": "reviewed"
+  },
+  "listenInstructions": {
+    "value": "🔊 ശബ്ദ നിർദ്ദേശങ്ങൾ കേൾക്കൂ (Listen Instructions)",
+    "_status": "reviewed"
+  },
+  "gpsNotice": {
+    "value": "📍 നാഗ്പൂർ ജിപിഎസ് ലൊക്കേഷൻ സ്വയമേവ ചേർക്കപ്പെടും",
+    "_status": "reviewed"
+  },
+  "presetsTitle": {
+    "value": "⚡ തത്സമയ പരീക്ഷണ ഉദാഹരണങ്ങൾ (One-Click Vernacular Voice Demos)",
+    "_status": "reviewed"
+  },
+  "presetsSubtitle": {
+    "value": "പരിശോധകർക്കായി ദ്രുത പരിശോധന",
+    "_status": "reviewed"
+  },
+  "trackHeading": {
+    "value": "📋 രേഖപ്പെടുത്തിയ പരാതികളുടെ നില (My Grievances)",
+    "_status": "reviewed"
+  },
+  "trackSub": {
+    "value": "പൗരന്മാർക്ക് വിവരങ്ങൾ വായിക്കാതെ 'ശബ്ദം കേൾക്കൂ' ബട്ടൺ അമർത്തി നേരിട്ട് കേൾക്കാം.",
+    "_status": "reviewed"
+  },
+  "officerHonestBanner": {
+    "value": "ℹ️ സുതാര്യത നിയമം (Honesty Rule): നൽകിയിട്ടുള്ള വിവരങ്ങൾ ലൈവ് പൈപ്പ്‌ലൈനിൽ നിന്നുള്ളതാണ്. കൃത്യത ബെഞ്ച്മാർക്കിൽ ഉണ്ട്.",
+    "_status": "reviewed"
+  },
+  "officerHeading": {
+    "value": "🏛️ വാർഡ് കൺട്രോൾ & പരാതി പരിഹാര കേന്ദ്രം",
+    "_status": "reviewed"
+  },
+  "officerRoleLabel": {
+    "value": "സ്ഥാനം / Role:",
+    "_status": "reviewed"
+  },
+  "roleCommissioner": {
+    "value": "മുനിസിപ്പൽ കമ്മീഷണർ (All Wards)",
+    "_status": "reviewed"
+  },
+  "roleWard2": {
+    "value": "വാർഡ് ഓഫീസർ: ധരംപേട്ട് (Ward 2 Officer)",
+    "_status": "reviewed"
+  },
+  "roleWard4": {
+    "value": "വാർഡ് ഓഫീസർ: ധന്തോലി (Ward 4 Officer)",
+    "_status": "reviewed"
+  },
+  "kpiTotalTitle": {
+    "value": "ആകെ പരാതികൾ (Total)",
+    "_status": "reviewed"
+  },
+  "kpiTotalSub": {
+    "value": "രേഖപ്പെടുത്തിയ കേസുകൾ",
+    "_status": "reviewed"
+  },
+  "kpiOpenTitle": {
+    "value": "തീർപ്പാക്കാത്തവ (Open)",
+    "_status": "reviewed"
+  },
+  "kpiOpenSub": {
+    "value": "ഉടൻ നടപടി വേണം",
+    "_status": "reviewed"
+  },
+  "kpiInProgressTitle": {
+    "value": "നടപടി പുരോഗമിക്കുന്നു (In Progress)",
+    "_status": "reviewed"
+  },
+  "kpiInProgressSub": {
+    "value": "റിപ്പയർ ടീം സ്ഥലത്തുണ്ട്",
+    "_status": "reviewed"
+  },
+  "kpiResolvedTitle": {
+    "value": "പരിഹരിച്ചു (Resolved)",
+    "_status": "reviewed"
+  },
+  "kpiResolvedSub": {
+    "value": "പ്രവർത്തനം പൂർത്തിയായി",
+    "_status": "reviewed"
+  },
+  "kpiMergedTitle": {
+    "value": "ലയിപ്പിച്ചവ (Merged)",
+    "_status": "reviewed"
+  },
+  "kpiMergedSub": {
+    "value": "50 മീ / 48 മണിക്കൂറിൽ ബന്ധിപ്പിച്ചത്",
+    "_status": "reviewed"
+  },
+  "mapTitle": {
+    "value": "🗺️ നാഗ്പൂർ വാർഡ് മാപ്പ് (Ward Heatmap & Complaint Clusters)",
+    "_status": "reviewed"
+  },
+  "mapSub": {
+    "value": "വാർഡ് അതിർത്തികളും 50 മീറ്ററിനുള്ളിൽ ക്ലസ്റ്റർ ചെയ്ത പരാതികളും കാണിക്കുന്ന മാപ്പ്",
+    "_status": "reviewed"
+  },
+  "searchPlaceholder": {
+    "value": "🔍 തിരയുക (ID, വാർഡ്, വിഷയം)...",
+    "_status": "reviewed"
+  },
+  "csvExport": {
+    "value": "📥 CSV എക്സ്പോർട്ട്",
+    "_status": "reviewed"
+  },
+  "thTicketId": {
+    "value": "ടിക്കറ്റ് ഐഡി (ID)",
+    "_status": "reviewed"
+  },
+  "thWard": {
+    "value": "വാർഡ് (Ward)",
+    "_status": "reviewed"
+  },
+  "thCategory": {
+    "value": "വിഭാഗം (Category)",
+    "_status": "reviewed"
+  },
+  "thUrgency": {
+    "value": "തീവ്രത (Urgency)",
+    "_status": "reviewed"
+  },
+  "thStatus": {
+    "value": "നില (Status)",
+    "_status": "reviewed"
+  },
+  "thVoice": {
+    "value": "ശബ്ദം (Voice)",
+    "_status": "reviewed"
+  },
+  "thAction": {
+    "value": "നടപടി (Action)",
+    "_status": "reviewed"
+  },
+  "footerText": {
+    "value": "ജന-വാണി (Jan-Vani) | സെന്റ് വിൻസെന്റ് പല്ലൊട്ടി കോളേജ് ഓഫ് എഞ്ചിനീയറിംഗ്, നാഗ്പൂർ | AI for Social Impact",
+    "_status": "reviewed"
+  }
+}

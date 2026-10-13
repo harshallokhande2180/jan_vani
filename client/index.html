@@ -5,6 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>जन-वाणी | Jan-Vani Vernacular Voice Assistant</title>
   <meta name="description" content="Vernacular Voice Assistant for Civic Grievance Redressal - AI for Social Impact">
+  <meta name="theme-color" content="#009E73" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0b0f17" media="(prefers-color-scheme: dark)">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0%25' y1='0%25' x2='100%25' y2='100%25'%3E%3Cstop offset='0%25' stop-color='%23E69F00'/%3E%3Cstop offset='55%25' stop-color='%23009E73'/%3E%3Cstop offset='100%25' stop-color='%230072B2'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='32' height='32' rx='8' fill='url(%23g)'/%3E%3Cpath fill='white' d='M16 8a4 4 0 0 0-4 4v6a4 4 0 0 0 8 0v-6a4 4 0 0 0-4-4zm-7 10h2a5 5 0 0 0 10 0h2a7 7 0 0 1-14 0z'/%3E%3C/svg%3E" type="image/svg+xml">
 
   <!-- Google Fonts & Leaflet Map CSS -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -15,35 +18,60 @@
   <link rel="stylesheet" href="/client/styles.css">
 </head>
 <body>
+  <div class="ambient-bg" aria-hidden="true"></div>
 
   <!-- Top Header Navigation -->
   <header class="header">
     <div class="header-container">
       <div class="brand">
-        <div class="brand-logo" aria-hidden="true">🎙️</div>
+        <div class="brand-logo" aria-hidden="true">
+          <svg class="brand-logo-svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path d="M12 14a3 3 0 0 0 3-3V6a3 3 0 1 0-6 0v5a3 3 0 0 0 3 3z" fill="currentColor"/>
+            <path d="M19 11a1 1 0 1 0-2 0 5 5 0 0 1-10 0 1 1 0 1 0-2 0 7 7 0 0 0 6 6.92V21H9a1 1 0 1 0 0 2h6a1 1 0 1 0 0-2h-2v-3.08A7 7 0 0 0 19 11z" fill="currentColor"/>
+          </svg>
+        </div>
         <div>
-          <div class="brand-title">जन-वाणी <span style="font-size:0.9rem;font-weight:500;color:var(--color-orange);">(Jan-Vani)</span></div>
-          <div class="brand-subtitle">नागपूर महानगरपालिका | Vernacular Civic Voice Redressal</div>
+          <div class="brand-title">जन-वाणी <span class="brand-en">(Jan-Vani)</span></div>
+          <div class="brand-subtitle" id="brandSubtitle">नागपूर महानगरपालिका | Vernacular Civic Voice Redressal</div>
         </div>
       </div>
 
       <!-- Navigation Tabs -->
       <nav class="nav-tabs" role="tablist">
-        <button class="nav-tab-btn active" data-target="pane-voice" role="tab" aria-selected="true">
+        <button class="nav-tab-btn active" id="navTabVoice" data-target="pane-voice" role="tab" aria-selected="true">
           🎤 नागरिक आवाज (Citizen Voice)
         </button>
-        <button class="nav-tab-btn" data-target="pane-track" role="tab" aria-selected="false">
+        <button class="nav-tab-btn" id="navTabTrack" data-target="pane-track" role="tab" aria-selected="false">
           📋 तक्रारी स्थिती (Track)
         </button>
-        <button class="nav-tab-btn" data-target="pane-officer" role="tab" aria-selected="false">
+        <button class="nav-tab-btn" id="navTabOfficer" data-target="pane-officer" role="tab" aria-selected="false">
           🏛️ अधिकारी कक्ष (Officer Console)
         </button>
-        <button class="nav-tab-btn" data-target="pane-impact" role="tab" aria-selected="false">
+        <button class="nav-tab-btn" id="navTabImpact" data-target="pane-impact" role="tab" aria-selected="false">
           📊 चाचणी अहवाल (Benchmarks)
         </button>
       </nav>
 
       <div class="header-controls">
+        <div id="connectionStatus" class="connection-pill connection-pill--checking" role="status" aria-live="polite">
+          <span class="connection-dot" aria-hidden="true"></span>
+          <span id="connectionStatusText">Connecting…</span>
+        </div>
+        <div class="header-lang-wrapper" title="भाषा निवडा / Select Language">
+          <span class="header-lang-icon" aria-hidden="true">🌐</span>
+          <select id="topLangSelect" class="header-lang-select" aria-label="भाषा निवडा (Select Language)">
+            <option value="mr" selected>मराठी (Marathi)</option>
+            <option value="hi">हिंदी (Hindi)</option>
+            <option value="en">English</option>
+            <option value="bn">বাংলা (Bengali)</option>
+            <option value="gu">ગુજરાતી (Gujarati)</option>
+            <option value="kn">ಕನ್ನಡ (Kannada)</option>
+            <option value="ml">മലയാളം (Malayalam)</option>
+            <option value="pa">ਪੰਜਾਬੀ (Punjabi)</option>
+            <option value="ta">தமிழ் (Tamil)</option>
+            <option value="te">తెలుగు (Telugu)</option>
+          </select>
+        </div>
         <button id="themeToggleBtn" class="btn-icon" onclick="toggleTheme()" title="Toggle Theme" aria-label="Toggle Dark/Light Mode">
           🌙
         </button>
@@ -55,7 +83,7 @@
   <main class="main-container">
 
     <!-- Instant Acknowledgement Floating Banner -->
-    <div id="instantAckBanner" style="display:none;background:var(--color-bluishgreen);color:white;padding:12px 20px;border-radius:12px;margin-bottom:20px;align-items:center;justify-content:center;gap:10px;font-weight:700;box-shadow:var(--shadow-md);">
+    <div id="instantAckBanner" class="instant-ack-banner">
       <span>⚡</span>
       <span id="instantAckText">तक्रार प्राप्त झाली! आमची सिस्टीम विश्लेषण करत आहे... (Ticket Received)</span>
     </div>
@@ -67,23 +95,21 @@
       <div class="citizen-hero">
         <div class="voice-badge-banner">
           <span>🔊</span>
-          <span>फक्त एका बटनाने तक्रार करा | No Typing Needed</span>
+          <span id="voiceBadgeBannerText">फक्त एका बटनाने तक्रार करा | No Typing Needed</span>
         </div>
         <h1 id="heroTitle">जन-वाणी नागरिक सहाय्यक</h1>
         <p id="heroSub">तुमच्या मातृभाषेत (मराठी/हिंदी) बोला. आमची एआय सिस्टीम प्रभाग अधिकारी शोधून कारवाई करेल.</p>
+        <ol class="how-it-works" id="howItWorksList">
+          <li><span class="step-num">1</span><span id="step1Text">मायक्रोफोन दाबा आणि तुमच्या भाषेत बोला</span></li>
+          <li><span class="step-num">2</span><span id="step2Text">एआय प्रभाग, प्रकार आणि गंभीरता ओळखते</span></li>
+          <li><span class="step-num">3</span><span id="step3Text">ऑडिओ पुष्टीकरण आणि तिकीट क्रमांक मिळवा</span></li>
+        </ol>
       </div>
 
       <!-- Centerpiece: Large Microphone Stage -->
       <div class="mic-stage">
-        <!-- Language Switcher Bar -->
-        <div class="lang-selector-bar" role="radiogroup" aria-label="निवडा भाषा">
-          <button class="lang-btn active" data-lang="mr">मराठी</button>
-          <button class="lang-btn" data-lang="hi">हिंदी</button>
-          <button class="lang-btn" data-lang="en">English</button>
-        </div>
-
         <!-- Spoken Instructions Prompt Button -->
-        <button class="btn-play-voice" style="margin-bottom:14px;background:var(--bg-surface-elevated);color:var(--text-primary);border:1px solid var(--border-color);" onclick="playVoiceInstructions()">
+        <button class="btn-play-voice btn-play-voice--secondary" id="btnListenInstructions" onclick="playVoiceInstructions()">
           🔊 आवाज सूचना ऐका (Listen Instructions)
         </button>
 
@@ -91,7 +117,10 @@
         <div class="mic-button-wrapper" id="micWrapper">
           <div class="mic-pulse-ring" aria-hidden="true"></div>
           <button class="giant-mic-btn" id="giantMicBtn" aria-label="तक्रार सांगण्यासाठी येथे दाबा">
-            🎙️
+            <svg class="mic-icon-svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <path d="M12 14a3 3 0 0 0 3-3V6a3 3 0 1 0-6 0v5a3 3 0 0 0 3 3z" fill="currentColor"/>
+              <path d="M19 11a1 1 0 1 0-2 0 5 5 0 0 1-10 0 1 1 0 1 0-2 0 7 7 0 0 0 6 6.92V21H9a1 1 0 1 0 0 2h6a1 1 0 1 0 0-2h-2v-3.08A7 7 0 0 0 19 11z" fill="currentColor"/>
+            </svg>
           </button>
         </div>
 
@@ -106,7 +135,21 @@
 
         <div class="mic-prompt-text" id="micPromptText">येथे स्पर्श करा आणि तुमची समस्या सांगा</div>
         <div class="mic-subprompt" id="micSubprompt">
-          <span>📍 नागपूर जीपीएस स्थान स्वयंचलित जोडले जाईल</span>
+          <span id="micGpsNotice">📍 नागपूर जीपीएस स्थान स्वयंचलित जोडले जाईल</span>
+        </div>
+        <div class="location-chip" id="locationChip" title="GPS ward routing">
+          <span class="location-chip-icon" aria-hidden="true">📍</span>
+          <span id="locationChipText">स्थान शोधत आहे…</span>
+        </div>
+
+        <div class="severity-row">
+          <label for="severitySelector" id="severityLabel">तातडीची पातळी (Urgency hint):</label>
+          <select id="severitySelector" class="select-control select-control--compact" aria-describedby="severityHint">
+            <option value="Medium" selected id="optSevMedium">सामान्य (Medium — AI decides)</option>
+            <option value="High" id="optSevHigh">अत्यंत तातडी (High)</option>
+            <option value="Low" id="optSevLow">कमी (Low)</option>
+          </select>
+          <span class="severity-hint" id="severityHint">पर्यायी — एआय अंतिम गंभीरता ठरवते</span>
         </div>
 
         <!-- DPDP Act 2023 Consent Checkbox (Section 5.4) -->
@@ -124,7 +167,7 @@
           <div class="conf-title-row">
             <div class="conf-check-icon">✓</div>
             <div>
-              <div class="conf-title">तक्रार नोंदवली गेली! (Grievance Registered)</div>
+              <div class="conf-title" id="confTitleText">तक्रार नोंदवली गेली! (Grievance Registered)</div>
               <div class="conf-ticket-id" id="confTicketId">JV-2026-XXXX</div>
             </div>
           </div>
@@ -132,9 +175,9 @@
 
         <!-- Spoken Feedback Player (Voice First Principle) -->
         <div class="audio-feedback-player">
-          <div>
-            <div style="font-weight:700;font-size:0.95rem;">🗣️ ऑडिओ संदेश (Spoken Audio Confirmation)</div>
-            <div style="font-size:0.85rem;color:var(--text-secondary);">नागरिकांच्या भाषेतील ऑडिओ पुष्टीकरण</div>
+          <div class="conf-audio-copy">
+            <div class="conf-audio-title" id="confAudioTitle">🗣️ ऑडिओ संदेश (Spoken Audio Confirmation)</div>
+            <div class="conf-audio-sub" id="confAudioSub">नागरिकांच्या भाषेतील ऑडिओ पुष्टीकरण</div>
           </div>
           <button class="btn-play-voice" id="btnPlayConfirmationVoice">
             🔊 पुन्हा ऐका (Play Voice)
@@ -142,10 +185,10 @@
         </div>
 
         <!-- Duplicate Merge Alert Banner (Section 1.4 & 3.2) -->
-        <div id="confMergeAlert" class="merge-alert-banner" style="display:none;">
-          <span style="font-size:1.4rem;">👥</span>
+        <div id="confMergeAlert" class="merge-alert-banner" hidden>
+          <span class="merge-alert-icon" aria-hidden="true">👥</span>
           <div>
-            <strong>स्वयंचलित एकत्रीकरण (Deduplication Merge):</strong>
+            <strong id="confMergeNoticeHeader">स्वयंचलित एकत्रीकरण (Deduplication Merge):</strong>
             <div id="mergeCountText">जवळपासच्या नागरिकांनी हीच समस्या नोंदवली आहे. प्राधान्य वाढवले गेले!</div>
           </div>
         </div>
@@ -153,33 +196,37 @@
         <!-- Key Ticket Extracted Metadata -->
         <div class="conf-grid">
           <div class="conf-item">
-            <div class="conf-label">नियुक्त प्रभाग (Assigned Ward)</div>
+            <div class="conf-label" id="confWardLabel">नियुक्त प्रभाग (Assigned Ward)</div>
             <div class="conf-val" id="confWard">Dharampeth (WARD-02)</div>
           </div>
           <div class="conf-item">
-            <div class="conf-label">समस्या प्रकार (Category)</div>
+            <div class="conf-label" id="confCategoryLabel">समस्या प्रकार (Category)</div>
             <div class="conf-val" id="confCategory">Water Supply - Leakage</div>
           </div>
           <div class="conf-item">
-            <div class="conf-label">गंभीरता (Urgency)</div>
+            <div class="conf-label" id="confUrgencyLabel">गंभीरता (Urgency)</div>
             <div class="conf-val" id="confUrgency">High</div>
           </div>
         </div>
 
-        <div style="background:var(--bg-surface-elevated);padding:12px 16px;border-radius:8px;">
-          <div class="conf-label" style="margin-bottom:4px;">एआय सारांश (AI English Summary)</div>
-          <p id="confSummary" style="font-style:italic;color:var(--text-primary);"></p>
+        <div class="conf-summary-box">
+          <div class="conf-label" id="confSummaryLabel">एआय सारांश (AI English Summary)</div>
+          <p id="confSummary" class="conf-summary-text"></p>
+        </div>
+        <div class="pipeline-timing" id="confPipelineTimings" hidden>
+          <span class="conf-label" id="confPipelineLabel">⚡ पाइपलाइन वेळ (Pipeline timing)</span>
+          <div class="pipeline-timing-grid" id="confPipelineGrid"></div>
         </div>
       </div>
 
       <!-- One-Click Vernacular Demo Presets (Section 8 Demo script) -->
       <div class="presets-section">
         <div class="section-label">
-          <span>⚡ थेट चाचणी उदाहरणे (One-Click Vernacular Voice Demos)</span>
-          <span style="font-size:0.8rem;text-transform:none;color:var(--color-bluishgreen);font-weight:600;">परीक्षकांसाठी त्वरित चाचणी</span>
+          <span id="presetsTitleText">⚡ थेट चाचणी उदाहरणे (One-Click Vernacular Voice Demos)</span>
+          <span id="presetsSubtitleText" class="section-label-accent">परीक्षकांसाठी त्वरित चाचणी</span>
         </div>
 
-        <div class="preset-grid">
+        <div class="preset-grid" id="presetGrid">
           <div class="preset-card" data-sample-id="water_mr" data-lang="mr">
             <div class="preset-card-header">
               <span style="font-weight:700;">💧 पाणी पुरवठा गळती</span>
@@ -223,13 +270,23 @@
     <!-- TAB 2: CITIZEN TRACKING (Spoken updates)             -->
     <!-- ==================================================== -->
     <section id="pane-track" class="tab-pane" role="tabpanel">
-      <div style="margin-bottom:20px;">
-        <h2>📋 नोंदवलेल्या तक्रारींची स्थिती (My Grievances)</h2>
-        <p style="color:var(--text-muted);">नागरिक कोणताही मजकूर न वाचता 'आवाज ऐका' बटणावर दाबून थेट माहिती ऐकू शकतात.</p>
+      <div class="page-intro">
+        <h2 class="page-title" id="trackHeadingText">📋 नोंदवलेल्या तक्रारींची स्थिती (My Grievances)</h2>
+        <p class="page-lead" id="trackSubText">नागरिक कोणताही मजकूर न वाचता 'आवाज ऐका' बटणावर दाबून थेट माहिती ऐकू शकतात.</p>
       </div>
 
-      <div id="citizenTicketsList" style="display:flex;flex-direction:column;gap:14px;max-width:750px;">
+      <div class="track-lookup-bar">
+        <input type="search" id="ticketLookupInput" class="search-input track-lookup-input" placeholder="JV-2026-XXXX">
+        <button type="button" class="btn-play-voice btn-play-voice--compact" id="btnTicketLookup">🔍 शोधा</button>
+      </div>
+      <div id="trackLookupResult" class="track-lookup-result" hidden></div>
+      <div id="citizenTicketsList" class="track-list">
         <!-- Dynamically rendered ticket cards with speak buttons -->
+      </div>
+      <div id="trackEmptyState" class="empty-state" hidden>
+        <div class="empty-state-icon" aria-hidden="true">📭</div>
+        <p id="trackEmptyText">अद्याप कोणतीही तक्रार नोंदवलेली नाही. मायक्रोफोन वापरून पहिली तक्रार नोंदवा.</p>
+        <button type="button" class="btn-play-voice btn-play-voice--secondary" id="btnGoToVoice">🎤 नागरिक आवाजाकडे जा</button>
       </div>
     </section>
 
@@ -241,22 +298,22 @@
       <!-- Honest Sample Data Banner (Section 6.2) -->
       <div class="honest-banner">
         <span>ℹ️</span>
-        <span><strong>प्रामाणिक डेटा नोंद (Honesty Rule):</strong> प्रदर्शित आकडेवारी प्रात्यक्षिक आणि पाइपलाइन नोंदींमधून संकलित केलेली आहे. प्रत्यक्ष मोजलेली अचूकता 'चाचणी अहवाल' (Testing Benchmarks) विभागात दिली आहे.</span>
+        <span id="officerHonestBannerText"><strong>प्रामाणिक डेटा नोंद (Honesty Rule):</strong> प्रदर्शित आकडेवारी प्रात्यक्षिक आणि पाइपलाइन नोंदींमधून संकलित केलेली आहे. प्रत्यक्ष मोजलेली अचूकता 'चाचणी अहवाल' (Testing Benchmarks) विभागात दिली आहे.</span>
       </div>
 
       <!-- Officer Role & Ward Selection Topbar -->
       <div class="officer-topbar">
         <div>
-          <span style="font-weight:700;font-size:1.1rem;">🏛️ प्रभाग नियंत्रण व तक्रार निवारण कक्ष</span>
+          <span style="font-weight:700;font-size:1.1rem;" id="officerHeadingText">🏛️ प्रभाग नियंत्रण व तक्रार निवारण कक्ष</span>
           <div style="font-size:0.85rem;color:var(--text-muted);">Nagpur Municipal Corporation Grievance Redressal Portal</div>
         </div>
 
         <div style="display:flex;align-items:center;gap:12px;">
-          <label for="officerRoleSelect" style="font-weight:600;font-size:0.9rem;">अधिकारी पद / Role:</label>
-          <select id="officerRoleSelect" style="padding:8px 14px;min-height:44px;border-radius:var(--radius-md);border:1px solid var(--border-color);background:var(--bg-surface-elevated);color:var(--text-primary);font-weight:600;cursor:pointer;">
-            <option value="commissioner">महानगरपालिका आयुक्त (All Wards)</option>
-            <option value="ward_2">प्रभाग अधिकारी: धरमपेठ (Ward 2 Officer)</option>
-            <option value="ward_4">प्रभाग अधिकारी: धंतोली (Ward 4 Officer)</option>
+          <label for="officerRoleSelect" id="officerRoleLabel" style="font-weight:600;font-size:0.9rem;">अधिकारी पद / Role:</label>
+          <select id="officerRoleSelect" class="select-control">
+            <option value="commissioner" id="optCommissioner">महानगरपालिका आयुक्त (All Wards)</option>
+            <option value="ward_2" id="optWard2">प्रभाग अधिकारी: धरमपेठ (Ward 2 Officer)</option>
+            <option value="ward_4" id="optWard4">प्रभाग अधिकारी: धंतोली (Ward 4 Officer)</option>
           </select>
         </div>
       </div>
@@ -264,42 +321,42 @@
       <!-- 1. KPI Cards Row (Section 6.1 View 1) -->
       <div class="kpi-row">
         <div class="kpi-card">
-          <div class="kpi-title">एकूण तक्रारी (Total)</div>
+          <div class="kpi-title" id="kpiTotalTitle">एकूण तक्रारी (Total)</div>
           <div class="kpi-number" id="kpiTotal">0</div>
-          <div class="kpi-sub">नोंदवलेली प्रकरणे</div>
+          <div class="kpi-sub" id="kpiTotalSub">नोंदवलेली प्रकरणे</div>
         </div>
         <div class="kpi-card">
-          <div class="kpi-title" style="color:var(--color-vermilion);">प्रलंबित (Open)</div>
+          <div class="kpi-title" id="kpiOpenTitle" style="color:var(--color-vermilion);">प्रलंबित (Open)</div>
           <div class="kpi-number" id="kpiOpen" style="color:var(--color-vermilion);">0</div>
-          <div class="kpi-sub">तातडीने पाहणे आवश्यक</div>
+          <div class="kpi-sub" id="kpiOpenSub">तातडीने पाहणे आवश्यक</div>
         </div>
         <div class="kpi-card">
-          <div class="kpi-title" style="color:var(--color-orange);">कार्यरत (In Progress)</div>
+          <div class="kpi-title" id="kpiInProgressTitle" style="color:var(--color-orange);">कार्यरत (In Progress)</div>
           <div class="kpi-number" id="kpiInProgress" style="color:var(--color-orange);">0</div>
-          <div class="kpi-sub">दुरुस्ती पथक घटनास्थळी</div>
+          <div class="kpi-sub" id="kpiInProgressSub">दुरुस्ती पथक घटनास्थळी</div>
         </div>
         <div class="kpi-card">
-          <div class="kpi-title" style="color:var(--color-bluishgreen);">निवारण झाले (Resolved)</div>
+          <div class="kpi-title" id="kpiResolvedTitle" style="color:var(--color-bluishgreen);">निवारण झाले (Resolved)</div>
           <div class="kpi-number" id="kpiResolved" style="color:var(--color-bluishgreen);">0</div>
-          <div class="kpi-sub">काम पूर्ण</div>
+          <div class="kpi-sub" id="kpiResolvedSub">काम पूर्ण</div>
         </div>
         <div class="kpi-card">
-          <div class="kpi-title" style="color:var(--color-blue);">एकत्रित डुप्लिकेट्स (Merged)</div>
+          <div class="kpi-title" id="kpiMergedTitle" style="color:var(--color-blue);">एकत्रित डुप्लिकेट्स (Merged)</div>
           <div class="kpi-number" id="kpiMerged" style="color:var(--color-blue);">0</div>
-          <div class="kpi-sub">५० मी / ४८ तासांत जोडलेले</div>
+          <div class="kpi-sub" id="kpiMergedSub">५० मी / ४८ तासांत जोडलेले</div>
         </div>
       </div>
 
       <!-- 2. Interactive Nagpur Ward Map (Section 6.1 View 2) -->
-      <div style="background:var(--bg-surface);border:1px solid var(--border-color);border-radius:var(--radius-lg);padding:18px;margin-bottom:24px;box-shadow:var(--shadow-sm);">
-        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;">
+      <div class="panel-card map-panel">
+        <div class="panel-card-header">
           <div>
-            <h3 style="font-weight:700;">🗺️ नागपूर प्रभाग नकाशा (Ward Heatmap & Complaint Clusters)</h3>
-            <p style="font-size:0.85rem;color:var(--text-muted);">प्रभाग सीमा आणि ५० मीटरच्या आत एकत्रित केलेल्या तक्रारी दर्शवणारा नकाशा</p>
+            <h3 class="panel-title" id="mapTitleText">🗺️ नागपूर प्रभाग नकाशा (Ward Heatmap & Complaint Clusters)</h3>
+            <p class="panel-subtitle" id="mapSubText">प्रभाग सीमा आणि ५० मीटरच्या आत एकत्रित केलेल्या तक्रारी दर्शवणारा नकाशा</p>
           </div>
-          <span style="font-size:0.85rem;color:var(--color-blue);font-weight:600;">OpenStreetMap + Nagpur Wards</span>
+          <span class="map-badge">OpenStreetMap + Nagpur Wards</span>
         </div>
-        <div id="nagpurMapDiv" style="height:360px;border-radius:12px;border:1px solid var(--border-color);z-index:1;"></div>
+        <div id="nagpurMapDiv" class="map-canvas"></div>
       </div>
 
       <!-- 3. Ticket Table (Section 6.1 View 3) -->
@@ -307,7 +364,7 @@
         <div class="table-toolbar">
           <input type="text" id="ticketSearchInput" class="search-input" placeholder="🔍 शोधा (ID, प्रभाग, विषय)...">
           
-          <button class="btn-icon" style="width:auto;padding:0 16px;gap:8px;" onclick="exportTicketsCSV()">
+          <button class="btn-icon" id="btnExportCsv" style="width:auto;padding:0 16px;gap:8px;" onclick="exportTicketsCSV()">
             📥 CSV एक्सपोर्ट
           </button>
         </div>
@@ -316,13 +373,13 @@
           <table class="custom-table">
             <thead>
               <tr>
-                <th>तिकीट आयडी (ID)</th>
-                <th>प्रभाग (Ward)</th>
-                <th>प्रकार (Category)</th>
-                <th>गंभीरता (Urgency)</th>
-                <th>स्थिती (Status)</th>
-                <th>ऑडिओ (Voice)</th>
-                <th>कृती (Action)</th>
+                <th id="thTicketId">तिकीट आयडी (ID)</th>
+                <th id="thWard">प्रभाग (Ward)</th>
+                <th id="thCategory">प्रकार (Category)</th>
+                <th id="thUrgency">गंभीरता (Urgency)</th>
+                <th id="thStatus">स्थिती (Status)</th>
+                <th id="thVoice">ऑडिओ (Voice)</th>
+                <th id="thAction">कृती (Action)</th>
               </tr>
             </thead>
             <tbody id="ticketsTableBody">
@@ -339,15 +396,15 @@
     <section id="pane-impact" class="tab-pane" role="tabpanel">
       
       <!-- Problem Statement Alignment: Before / After (Section 5.1) -->
-      <div style="background:var(--bg-surface);border:1px solid var(--border-color);border-radius:var(--radius-lg);padding:24px;margin-bottom:24px;">
-        <h2 style="font-weight:800;margin-bottom:6px;">⚖️ समस्या निवारण तुलना (Old Portal vs Jan-Vani)</h2>
-        <p style="color:var(--text-muted);margin-bottom:20px;">कमी साक्षर किंवा प्रादेशिक भाषा बोलणाऱ्या नागरिकांसाठी क्रांतीकारी बदल</p>
+      <div class="panel-card impact-intro">
+        <h2 class="page-title">⚖️ समस्या निवारण तुलना (Old Portal vs Jan-Vani)</h2>
+        <p class="page-lead">कमी साक्षर किंवा प्रादेशिक भाषा बोलणाऱ्या नागरिकांसाठी क्रांतीकारी बदल</p>
 
-        <div style="display:grid;grid-template-columns:repeat(auto-fit, minmax(280px, 1fr));gap:20px;">
+        <div class="compare-grid">
           <!-- Old Portal -->
-          <div style="border:1px solid var(--color-vermilion);background:rgba(213,94,0,0.04);border-radius:12px;padding:18px;">
-            <h3 style="color:var(--color-vermilion);margin-bottom:12px;">❌ पारंपारिक सरकारी पोर्टल (Old Portal)</h3>
-            <ul style="list-style:none;display:flex;flex-direction:column;gap:10px;font-size:0.95rem;">
+          <div class="compare-card compare-card--legacy">
+            <h3 class="compare-card-title">❌ पारंपारिक सरकारी पोर्टल (Old Portal)</h3>
+            <ul class="compare-list">
               <li>1️⃣ इंग्रजी किंवा किचकट हिंदीमध्ये फॉर्म भरावा लागतो.</li>
               <li>2️⃣ ड्रॉपडाउन मेनू आणि प्रभाग क्रमांक स्वतः शोधावा लागतो.</li>
               <li>3️⃣ फक्त तिकीट क्रमांक मिळतो, पुढील अपडेट समजत नाही.</li>
@@ -357,9 +414,9 @@
           </div>
 
           <!-- Jan-Vani -->
-          <div style="border:1px solid var(--color-bluishgreen);background:rgba(0,158,115,0.06);border-radius:12px;padding:18px;">
-            <h3 style="color:var(--color-bluishgreen);margin-bottom:12px;">✅ जन-वाणी (Jan-Vani Vernacular AI)</h3>
-            <ul style="list-style:none;display:flex;flex-direction:column;gap:10px;font-size:0.95rem;">
+          <div class="compare-card compare-card--janvani">
+            <h3 class="compare-card-title">✅ जन-वाणी (Jan-Vani Vernacular AI)</h3>
+            <ul class="compare-list">
               <li>1️⃣ <strong>फक्त १ मायक्रोफोन बटण:</strong> आपल्या बोलीभाषेत (मराठी/हिंदी) बोला.</li>
               <li>2️⃣ <strong>जीपीएस स्वयंचलित मॅपिंग:</strong> अचूक प्रभाग स्वतः निवडला जातो.</li>
               <li>3️⃣ <strong>५० मी व ४८ तास एकत्रीकरण:</strong> डुप्लिकेट्स एकत्र करून तातडीचे प्राधान्य दिले जाते.</li>
@@ -371,11 +428,12 @@
       </div>
 
       <!-- Real Measured Results Table (Section 5.3 & 12) -->
-      <div style="background:var(--bg-surface);border:1px solid var(--border-color);border-radius:var(--radius-lg);padding:24px;box-shadow:var(--shadow-sm);">
-        <h2 style="font-weight:800;margin-bottom:6px;">📈 वास्तविक चाचणी निकाल (Measured Test Suite Results)</h2>
-        <p style="color:var(--text-muted);margin-bottom:18px;">परीक्षकांसाठी प्रामाणिक मापन अहवाल (Real test dataset runs with zero false claims)</p>
+      <div class="panel-card benchmark-panel">
+        <h2 class="page-title">📈 वास्तविक चाचणी निकाल (Measured Test Suite Results)</h2>
+        <p class="page-lead">परीक्षकांसाठी प्रामाणिक मापन अहवाल (Real test dataset runs with zero false claims)</p>
+        <p class="benchmark-meta" id="benchmarkRunMeta">अहवाल लोड होत आहे…</p>
 
-        <div style="overflow-x:auto;">
+        <div class="table-scroll">
           <table class="custom-table">
             <thead>
               <tr>
@@ -386,42 +444,8 @@
                 <th>स्थिती (Status)</th>
               </tr>
             </thead>
-            <tbody>
-              <tr>
-                <td><strong>Deduplication Engine</strong></td>
-                <td>५० मीटर व ४८ तासांच्या आत एकत्रीकरण (No false merges)</td>
-                <td>३० प्रत्यक्ष चाचणी जोड्या (Near, Far, Old, New)</td>
-                <td><strong>०% False Merges, १००% अचूक एकत्रीकरण</strong></td>
-                <td><span class="badge badge-resolved">✓ PASSED</span></td>
-              </tr>
-              <tr>
-                <td><strong>Ward GPS Routing</strong></td>
-                <td>नागपूर प्रभाग नकाशात बिंदू अचूक बसणे</td>
-                <td>२० ज्ञात जीपीएस बिंदू</td>
-                <td><strong>१९ / २० अचूक (९५.०% अचूकता)</strong></td>
-                <td><span class="badge badge-resolved">✓ PASSED</span></td>
-              </tr>
-              <tr>
-                <td><strong>LLM Schema Validation</strong></td>
-                <td>Pydantic स्ट्रिक्ट स्कीमा व वैध जेसन</td>
-                <td>४० मराठी व हिंदी तक्रारी</td>
-                <td><strong>४० / ४० वैध स्कीमा (१००% Rate)</strong></td>
-                <td><span class="badge badge-resolved">✓ PASSED</span></td>
-              </tr>
-              <tr>
-                <td><strong>ASR Quality (WER)</strong></td>
-                <td>प्रादेशिक मराठी व हिंदी उच्चार अचूकता</td>
-                <td>२० ऑडिओ रेकॉर्डिंग्ज</td>
-                <td><strong>WER: १२.४% (Bhashini Benchmark)</strong></td>
-                <td><span class="badge badge-resolved">✓ PASSED</span></td>
-              </tr>
-              <tr>
-                <td><strong>End-to-End Latency</strong></td>
-                <td>माइक ते तिकीट व ऑडिओ प्रतिसाद वेळ</td>
-                <td>१० सलग तक्रारी</td>
-                <td><strong>Median: ३४०ms, 90th percentile: ५१०ms</strong></td>
-                <td><span class="badge badge-resolved">✓ OPTIMIZED</span></td>
-              </tr>
+            <tbody id="benchmarkTableBody">
+              <tr><td colspan="5" class="table-loading">Loading live benchmark data…</td></tr>
             </tbody>
           </table>
         </div>
@@ -430,9 +454,16 @@
 
   </main>
 
-  <footer style="text-align:center;padding:20px;border-top:1px solid var(--border-color);font-size:0.85rem;color:var(--text-muted);background:var(--bg-surface);">
+  <footer id="mainFooterText" class="site-footer">
     जन-वाणी (Jan-Vani) | St. Vincent Pallotti College of Engineering and Technology, Nagpur | AI for Social Impact
   </footer>
+
+  <div id="processingOverlay" class="processing-overlay" hidden aria-live="polite" aria-busy="true">
+    <div class="processing-card">
+      <div class="processing-spinner" aria-hidden="true"></div>
+      <p id="processingOverlayText">तक्रार विश्लेषण सुरू आहे…</p>
+    </div>
+  </div>
 
   <!-- Scripts -->
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>

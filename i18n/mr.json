@@ -1,0 +1,250 @@
+{
+  "heroTitle": {
+    "value": "जन-वाणी",
+    "_status": "reviewed"
+  },
+  "heroSub": {
+    "value": "स्थानिक भाषेत बोला, नागरिक समस्या सोडवा",
+    "_status": "reviewed"
+  },
+  "micPrompt": {
+    "value": "येथे स्पर्श करा आणि तुमची समस्या सांगा",
+    "_status": "reviewed"
+  },
+  "micRecording": {
+    "value": "आम्ही ऐकत आहोत... बोलणे संपल्यावर पुन्हा स्पर्श करा",
+    "_status": "reviewed"
+  },
+  "audioPromptText": {
+    "value": "नमस्कार! फक्त मायक्रोफोन बटण दाबा आणि तुमच्या भाषेत तक्रार सांगा.",
+    "_status": "reviewed"
+  },
+  "instantAck": {
+    "value": "तक्रार प्राप्त झाली! विश्लेषण सुरू आहे...",
+    "_status": "reviewed"
+  },
+  "consentText": {
+    "value": "मी माझा आवाज आणि स्थान महापालिकेस पाठवण्यास संमती देतो/देते (DPDP कायदा २०२३).",
+    "_status": "reviewed"
+  },
+  "waterLeak": {
+    "value": "पाणी गळती (मराठी)",
+    "_status": "reviewed"
+  },
+  "pothole": {
+    "value": "रस्त्यावरील खड्डा (मराठी)",
+    "_status": "reviewed"
+  },
+  "drainage": {
+    "value": "ड्रेनेज तुंबले (मराठी)",
+    "_status": "reviewed"
+  },
+  "powerCut": {
+    "value": "वीज पुरवठा खंडित (मराठी)",
+    "_status": "reviewed"
+  },
+  "garbage": {
+    "value": "कचरा साचला (मराठी)",
+    "_status": "reviewed"
+  },
+  "listenStatus": {
+    "value": "आवाज ऐका",
+    "_status": "reviewed"
+  },
+  "confRegistered": {
+    "value": "तक्रार नोंदवली गेली!",
+    "_status": "reviewed"
+  },
+  "confAssignedWard": {
+    "value": "नियुक्त प्रभाग",
+    "_status": "reviewed"
+  },
+  "confCategory": {
+    "value": "समस्या प्रकार",
+    "_status": "reviewed"
+  },
+  "confUrgency": {
+    "value": "गंभीरता",
+    "_status": "reviewed"
+  },
+  "confSummary": {
+    "value": "एआय इंग्रजी सारांश",
+    "_status": "reviewed"
+  },
+  "confSpokenNotice": {
+    "value": "ऑडिओ संदेश",
+    "_status": "reviewed"
+  },
+  "confReplay": {
+    "value": "पुन्हा ऐका",
+    "_status": "reviewed"
+  },
+  "confMergeNotice": {
+    "value": "स्वयंचलित एकत्रीकरण: जवळपासच्या नागरिकांनी हीच समस्या नोंदवली आहे. प्राधान्य वाढवले!",
+    "_status": "reviewed"
+  },
+  "brandTitle": {
+    "value": "जन-वाणी",
+    "_status": "reviewed"
+  },
+  "brandSubtitle": {
+    "value": "नागपूर महानगरपालिका | स्थानिक नागरी तक्रार निवारण",
+    "_status": "reviewed"
+  },
+  "navTabVoice": {
+    "value": "🎤 नागरिक आवाज (Citizen Voice)",
+    "_status": "reviewed"
+  },
+  "navTabTrack": {
+    "value": "📋 तक्रारी स्थिती (Track)",
+    "_status": "reviewed"
+  },
+  "navTabOfficer": {
+    "value": "🏛️ अधिकारी कक्ष (Officer Console)",
+    "_status": "reviewed"
+  },
+  "navTabImpact": {
+    "value": "📊 चाचणी अहवाल (Benchmarks)",
+    "_status": "reviewed"
+  },
+  "voiceBadgeBanner": {
+    "value": "🔊 फक्त एका बटनाने तक्रार करा | टायपिंगची गरज नाही",
+    "_status": "reviewed"
+  },
+  "listenInstructions": {
+    "value": "🔊 आवाज सूचना ऐका (Listen Instructions)",
+    "_status": "reviewed"
+  },
+  "gpsNotice": {
+    "value": "📍 नागपूर जीपीएस स्थान स्वयंचलित जोडले जाईल",
+    "_status": "reviewed"
+  },
+  "presetsTitle": {
+    "value": "⚡ थेट चाचणी उदाहरणे (One-Click Vernacular Voice Demos)",
+    "_status": "reviewed"
+  },
+  "presetsSubtitle": {
+    "value": "परीक्षकांसाठी त्वरित चाचणी",
+    "_status": "reviewed"
+  },
+  "trackHeading": {
+    "value": "📋 नोंदवलेल्या तक्रारींची स्थिती (My Grievances)",
+    "_status": "reviewed"
+  },
+  "trackSub": {
+    "value": "नागरिक कोणताही मजकूर न वाचता 'आवाज ऐका' बटणावर दाबून थेट माहिती ऐकू शकतात.",
+    "_status": "reviewed"
+  },
+  "officerHonestBanner": {
+    "value": "ℹ️ प्रामाणिक डेटा नोंद (Honesty Rule): प्रदर्शित आकडेवारी प्रात्यक्षिक आणि पाइपलाइन नोंदींमधून संकलित केलेली आहे. प्रत्यक्ष मोजलेली अचूकता 'चाचणी अहवाल' विभागात दिली आहे.",
+    "_status": "reviewed"
+  },
+  "officerHeading": {
+    "value": "🏛️ प्रभाग नियंत्रण व तक्रार निवारण कक्ष",
+    "_status": "reviewed"
+  },
+  "officerRoleLabel": {
+    "value": "अधिकारी पद / Role:",
+    "_status": "reviewed"
+  },
+  "roleCommissioner": {
+    "value": "महानगरपालिका आयुक्त (All Wards)",
+    "_status": "reviewed"
+  },
+  "roleWard2": {
+    "value": "प्रभाग अधिकारी: धरमपेठ (Ward 2 Officer)",
+    "_status": "reviewed"
+  },
+  "roleWard4": {
+    "value": "प्रभाग अधिकारी: धंतोली (Ward 4 Officer)",
+    "_status": "reviewed"
+  },
+  "kpiTotalTitle": {
+    "value": "एकूण तक्रारी (Total)",
+    "_status": "reviewed"
+  },
+  "kpiTotalSub": {
+    "value": "नोंदवलेली प्रकरणे",
+    "_status": "reviewed"
+  },
+  "kpiOpenTitle": {
+    "value": "प्रलंबित (Open)",
+    "_status": "reviewed"
+  },
+  "kpiOpenSub": {
+    "value": "तातडीने पाहणे आवश्यक",
+    "_status": "reviewed"
+  },
+  "kpiInProgressTitle": {
+    "value": "कार्यरत (In Progress)",
+    "_status": "reviewed"
+  },
+  "kpiInProgressSub": {
+    "value": "दुरुस्ती पथक घटनास्थळी",
+    "_status": "reviewed"
+  },
+  "kpiResolvedTitle": {
+    "value": "निवारण झाले (Resolved)",
+    "_status": "reviewed"
+  },
+  "kpiResolvedSub": {
+    "value": "काम पूर्ण",
+    "_status": "reviewed"
+  },
+  "kpiMergedTitle": {
+    "value": "एकत्रित डुप्लिकेट्स (Merged)",
+    "_status": "reviewed"
+  },
+  "kpiMergedSub": {
+    "value": "५० मी / ४८ तासांत जोडलेले",
+    "_status": "reviewed"
+  },
+  "mapTitle": {
+    "value": "🗺️ नागपूर प्रभाग नकाशा (Ward Heatmap & Complaint Clusters)",
+    "_status": "reviewed"
+  },
+  "mapSub": {
+    "value": "प्रभाग सीमा आणि ५० मीटरच्या आत एकत्रित केलेल्या तक्रारी दर्शवणारा नकाशा",
+    "_status": "reviewed"
+  },
+  "searchPlaceholder": {
+    "value": "🔍 शोधा (ID, प्रभाग, विषय)...",
+    "_status": "reviewed"
+  },
+  "csvExport": {
+    "value": "📥 CSV एक्सपोर्ट",
+    "_status": "reviewed"
+  },
+  "thTicketId": {
+    "value": "तिकीट आयडी (ID)",
+    "_status": "reviewed"
+  },
+  "thWard": {
+    "value": "प्रभाग (Ward)",
+    "_status": "reviewed"
+  },
+  "thCategory": {
+    "value": "प्रकार (Category)",
+    "_status": "reviewed"
+  },
+  "thUrgency": {
+    "value": "गंभीरता (Urgency)",
+    "_status": "reviewed"
+  },
+  "thStatus": {
+    "value": "स्थिती (Status)",
+    "_status": "reviewed"
+  },
+  "thVoice": {
+    "value": "ऑडिओ (Voice)",
+    "_status": "reviewed"
+  },
+  "thAction": {
+    "value": "कृती (Action)",
+    "_status": "reviewed"
+  },
+  "footerText": {
+    "value": "जन-वाणी (Jan-Vani) | सेंट व्हिन्सेंट पलोटी कॉलेज ऑफ इंजिनिअरिंग अँड टेक्नॉलॉजी, नागपूर | AI for Social Impact",
+    "_status": "reviewed"
+  }
+}

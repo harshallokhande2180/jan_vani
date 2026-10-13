@@ -21,7 +21,11 @@ class JanVaniRecorder {
   setLanguage(lang) {
     this.currentLanguage = lang;
     if (this.recognition) {
-      this.recognition.lang = lang === "mr" ? "mr-IN" : (lang === "hi" ? "hi-IN" : "en-IN");
+      const codeMap = {
+        mr: "mr-IN", hi: "hi-IN", en: "en-IN", bn: "bn-IN", gu: "gu-IN",
+        kn: "kn-IN", ml: "ml-IN", pa: "pa-IN", ta: "ta-IN", te: "te-IN"
+      };
+      this.recognition.lang = codeMap[lang] || `${lang}-IN`;
     }
   }
 
@@ -149,8 +153,12 @@ class JanVaniRecorder {
   speakText(text, lang = "mr") {
     if ("speechSynthesis" in window) {
       window.speechSynthesis.cancel();
+      const codeMap = {
+        mr: "mr-IN", hi: "hi-IN", en: "en-IN", bn: "bn-IN", gu: "gu-IN",
+        kn: "kn-IN", ml: "ml-IN", pa: "pa-IN", ta: "ta-IN", te: "te-IN"
+      };
       const utterance = new SpeechSynthesisUtterance(text);
-      utterance.lang = lang === "mr" ? "mr-IN" : (lang === "hi" ? "hi-IN" : "en-IN");
+      utterance.lang = codeMap[lang] || `${lang}-IN`;
       utterance.rate = 0.95;
       utterance.pitch = 1.0;
       window.speechSynthesis.speak(utterance);

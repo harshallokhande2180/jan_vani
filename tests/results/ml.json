@@ -1,0 +1,29 @@
+{
+  "language_code": "ml",
+  "run_timestamp": "2026-10-13 16:21:40 UTC",
+  "overall_status": "PASS",
+  "tests": {
+    "wer": {
+      "metric_percentage": 0.0,
+      "threshold_percentage": 15.0,
+      "status": "PASS",
+      "sample_count": 20
+    },
+    "category_accuracy": {
+      "metric_percentage": 100.0,
+      "threshold_percentage": 85.0,
+      "status": "PASS",
+      "sample_count": 20
+    },
+    "schema_validity": {
+      "metric_percentage": 100.0,
+      "threshold_percentage": 95.0,
+      "status": "PASS",
+      "sample_count": 20
+    },
+    "spoken_reply_match": {
+      "matched_lang_code": "ml-IN",
+      "status": "PASS"
+    }
+  }
+}

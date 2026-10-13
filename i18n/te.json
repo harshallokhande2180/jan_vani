@@ -1,0 +1,250 @@
+{
+  "heroTitle": {
+    "value": "జన్-వాణి",
+    "_status": "reviewed"
+  },
+  "heroSub": {
+    "value": "మీ భాషలో మాట్లాడండి, పౌర సమస్యలకు పరిష్కారం పొందండి",
+    "_status": "reviewed"
+  },
+  "micPrompt": {
+    "value": "ఇక్కడ నొక్కి మీ సమస్యను మాట్లాడండి",
+    "_status": "reviewed"
+  },
+  "micRecording": {
+    "value": "మేము వింటున్నాము... మాట్లాడటం పూర్తయిన తర్వాత మళ్లీ నొక్కండి",
+    "_status": "reviewed"
+  },
+  "audioPromptText": {
+    "value": "నమస్కారం! మైక్ బటన్ నొక్కి మీ స్వంత భాషలో ఫిర్యాదును చెప్పండి.",
+    "_status": "reviewed"
+  },
+  "instantAck": {
+    "value": "ఫిర్యాదు స్వీకరించబడింది! పరిశీలన జరుగుతోంది...",
+    "_status": "reviewed"
+  },
+  "consentText": {
+    "value": "మున్సిపల్ కార్పొరేషన్‌కు నా స్వరం మరియు స్థానాన్ని పంపడానికి అంగీకరిస్తున్నాను (DPDP చట్టం 2023).",
+    "_status": "reviewed"
+  },
+  "waterLeak": {
+    "value": "నీటి సరఫరా లీకేజీ (తెలుగు)",
+    "_status": "reviewed"
+  },
+  "pothole": {
+    "value": "రోడ్డుపై గుంత (తెలుగు)",
+    "_status": "reviewed"
+  },
+  "drainage": {
+    "value": "మురుగు కాలువ బ్లాక్ (తెలుగు)",
+    "_status": "reviewed"
+  },
+  "powerCut": {
+    "value": "విద్యుత్ సరఫరా నిలిచిపోయింది (తెలుగు)",
+    "_status": "reviewed"
+  },
+  "garbage": {
+    "value": "చెత్త కుప్ప (తెలుగు)",
+    "_status": "reviewed"
+  },
+  "listenStatus": {
+    "value": "వాయిస్ వినండి",
+    "_status": "reviewed"
+  },
+  "confRegistered": {
+    "value": "ఫిర్యాదు నమోదు చేయబడింది!",
+    "_status": "reviewed"
+  },
+  "confAssignedWard": {
+    "value": "కేటాయించిన వార్డు",
+    "_status": "reviewed"
+  },
+  "confCategory": {
+    "value": "వర్గం",
+    "_status": "reviewed"
+  },
+  "confUrgency": {
+    "value": "తీవ్రత",
+    "_status": "reviewed"
+  },
+  "confSummary": {
+    "value": "AI ఆంగ్ల సారాంశం",
+    "_status": "reviewed"
+  },
+  "confSpokenNotice": {
+    "value": "ఆడియో సందేశం",
+    "_status": "reviewed"
+  },
+  "confReplay": {
+    "value": "మళ్లీ వినండి",
+    "_status": "reviewed"
+  },
+  "confMergeNotice": {
+    "value": "ఆటోమేటిక్ విలీనం: సమీపంలోని బహుళ పౌరులు ఇదే సమస్యను నివేదించారు. ప్రాధాన్యత పెంచబడింది!",
+    "_status": "reviewed"
+  },
+  "brandTitle": {
+    "value": "జన్-వాణి",
+    "_status": "reviewed"
+  },
+  "brandSubtitle": {
+    "value": "నాగ్‌పూర్ మున్సిపల్ కార్పొరేషన్ | స్థానిక పౌర సమస్యల పరిష్కారం",
+    "_status": "reviewed"
+  },
+  "navTabVoice": {
+    "value": "🎤 పౌరుల స్వరం (Citizen Voice)",
+    "_status": "reviewed"
+  },
+  "navTabTrack": {
+    "value": "📋 ఫిర్యాదు స్థితి (Track)",
+    "_status": "reviewed"
+  },
+  "navTabOfficer": {
+    "value": "🏛️ అధికారి కన్సోల్ (Officer Console)",
+    "_status": "reviewed"
+  },
+  "navTabImpact": {
+    "value": "📊 పరీక్ష నివేదిక (Benchmarks)",
+    "_status": "reviewed"
+  },
+  "voiceBadgeBanner": {
+    "value": "🔊 కేవలం ఒక బటన్‌తో ఫిర్యాదు చేయండి | టైపింగ్ అవసరం లేదు",
+    "_status": "reviewed"
+  },
+  "listenInstructions": {
+    "value": "🔊 వాయిస్ సూచనలు వినండి (Listen Instructions)",
+    "_status": "reviewed"
+  },
+  "gpsNotice": {
+    "value": "📍 నాగ్‌పూర్ జీపీఎస్ స్థానం స్వయంచాలకంగా జోడించబడుతుంది",
+    "_status": "reviewed"
+  },
+  "presetsTitle": {
+    "value": "⚡ ప్రత్యక్ష పరీక్ష నమూనాలు (One-Click Vernacular Voice Demos)",
+    "_status": "reviewed"
+  },
+  "presetsSubtitle": {
+    "value": "మూల్యాంకనం కోసం శీఘ్ర పరీక్ష",
+    "_status": "reviewed"
+  },
+  "trackHeading": {
+    "value": "📋 నమోదు చేసిన ఫిర్యాదుల స్థితి (My Grievances)",
+    "_status": "reviewed"
+  },
+  "trackSub": {
+    "value": "పౌరులు ఏ చదువూ లేకుండా 'వాయిస్ వినండి' బటన్ నొక్కి సమాచారం వినవచ్చు.",
+    "_status": "reviewed"
+  },
+  "officerHonestBanner": {
+    "value": "ℹ️ ప్రామాణిక సమాచారం (Honesty Rule): ప్రదర్శిత వివరాలు ప్రత్యక్ష పైప్‌లైన్ ద్వారా వచ్చినవి. ఖచ్చితత్వం నివేదికలో ఉంది.",
+    "_status": "reviewed"
+  },
+  "officerHeading": {
+    "value": "🏛️ వార్డు నియంత్రణ మరియు సమస్యల పరిష్కార విభాగం",
+    "_status": "reviewed"
+  },
+  "officerRoleLabel": {
+    "value": "హోదా / Role:",
+    "_status": "reviewed"
+  },
+  "roleCommissioner": {
+    "value": "మున్సిపల్ కమిషనర్ (All Wards)",
+    "_status": "reviewed"
+  },
+  "roleWard2": {
+    "value": "వార్డు అధికారి: ధరమ్‌పేట్ (Ward 2 Officer)",
+    "_status": "reviewed"
+  },
+  "roleWard4": {
+    "value": "వార్డు అధికారి: ధంతోలి (Ward 4 Officer)",
+    "_status": "reviewed"
+  },
+  "kpiTotalTitle": {
+    "value": "మొత్తం ఫిర్యాదులు (Total)",
+    "_status": "reviewed"
+  },
+  "kpiTotalSub": {
+    "value": "నమోదైన కేసులు",
+    "_status": "reviewed"
+  },
+  "kpiOpenTitle": {
+    "value": "పెండింగ్‌లో ఉన్నాయి (Open)",
+    "_status": "reviewed"
+  },
+  "kpiOpenSub": {
+    "value": "తక్షణ చర్య అవసరం",
+    "_status": "reviewed"
+  },
+  "kpiInProgressTitle": {
+    "value": "పురోగతిలో ఉంది (In Progress)",
+    "_status": "reviewed"
+  },
+  "kpiInProgressSub": {
+    "value": "మరమ్మతు బృందం స్థలంలో ఉంది",
+    "_status": "reviewed"
+  },
+  "kpiResolvedTitle": {
+    "value": "పరిష్కరించబడింది (Resolved)",
+    "_status": "reviewed"
+  },
+  "kpiResolvedSub": {
+    "value": "పని పూర్తయింది",
+    "_status": "reviewed"
+  },
+  "kpiMergedTitle": {
+    "value": "విలీనమైన నకిలీలు (Merged)",
+    "_status": "reviewed"
+  },
+  "kpiMergedSub": {
+    "value": "50 మీ / 48 గంటల్లో అనుసంధానించబడింది",
+    "_status": "reviewed"
+  },
+  "mapTitle": {
+    "value": "🗺️ నాగ్‌పూర్ వార్డు మ్యాప్ (Ward Heatmap & Complaint Clusters)",
+    "_status": "reviewed"
+  },
+  "mapSub": {
+    "value": "వార్డు సరిహద్దులు మరియు 50 మీటర్లలోపు సమూహపరిచిన ఫిర్యాదుల మ్యాప్",
+    "_status": "reviewed"
+  },
+  "searchPlaceholder": {
+    "value": "🔍 శోధించండి (ID, వార్డు, అంశం)...",
+    "_status": "reviewed"
+  },
+  "csvExport": {
+    "value": "📥 CSV ఎగుమతి",
+    "_status": "reviewed"
+  },
+  "thTicketId": {
+    "value": "టికెట్ ఐడీ (ID)",
+    "_status": "reviewed"
+  },
+  "thWard": {
+    "value": "వార్డు (Ward)",
+    "_status": "reviewed"
+  },
+  "thCategory": {
+    "value": "వర్గం (Category)",
+    "_status": "reviewed"
+  },
+  "thUrgency": {
+    "value": "తీవ్రత (Urgency)",
+    "_status": "reviewed"
+  },
+  "thStatus": {
+    "value": "స్థితి (Status)",
+    "_status": "reviewed"
+  },
+  "thVoice": {
+    "value": "వాయిస్ (Voice)",
+    "_status": "reviewed"
+  },
+  "thAction": {
+    "value": "చర్య (Action)",
+    "_status": "reviewed"
+  },
+  "footerText": {
+    "value": "జన్-వాణి (Jan-Vani) | సెయింట్ విన్సెంట్ పలోట్టి కాలేజ్ ఆఫ్ ఇంజనీరింగ్, నాగ్‌పూర్ | AI for Social Impact",
+    "_status": "reviewed"
+  }
+}

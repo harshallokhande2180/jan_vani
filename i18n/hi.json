@@ -1,0 +1,250 @@
+{
+  "heroTitle": {
+    "value": "जन-वाणी",
+    "_status": "reviewed"
+  },
+  "heroSub": {
+    "value": "अपनी भाषा में बोलें, नागरिक समस्याओं का समाधान पाएं",
+    "_status": "reviewed"
+  },
+  "micPrompt": {
+    "value": "यहाँ दबाएं और अपनी समस्या बोलें",
+    "_status": "reviewed"
+  },
+  "micRecording": {
+    "value": "हम सुन रहे हैं... बोलना समाप्त होने पर दोबारा दबाएं",
+    "_status": "reviewed"
+  },
+  "audioPromptText": {
+    "value": "नमस्ते! बस माइक बटन दबाएं और अपनी भाषा में शिकायत बताएं।",
+    "_status": "reviewed"
+  },
+  "instantAck": {
+    "value": "शिकायत प्राप्त हुई! विश्लेषण जारी है...",
+    "_status": "reviewed"
+  },
+  "consentText": {
+    "value": "मैं अपनी आवाज और स्थान नगर निगम को भेजने की सहमति देता/देती हूँ (DPDP एक्ट 2023)।",
+    "_status": "reviewed"
+  },
+  "waterLeak": {
+    "value": "पानी की आपूर्ति (हिंदी)",
+    "_status": "reviewed"
+  },
+  "pothole": {
+    "value": "सड़क पर गड्ढा (हिंदी)",
+    "_status": "reviewed"
+  },
+  "drainage": {
+    "value": "नाली जाम (हिंदी)",
+    "_status": "reviewed"
+  },
+  "powerCut": {
+    "value": "बिजली गुल (हिंदी)",
+    "_status": "reviewed"
+  },
+  "garbage": {
+    "value": "कचरे का ढेर (हिंदी)",
+    "_status": "reviewed"
+  },
+  "listenStatus": {
+    "value": "स्थिति सुनें",
+    "_status": "reviewed"
+  },
+  "confRegistered": {
+    "value": "शिकायत दर्ज हो गई!",
+    "_status": "reviewed"
+  },
+  "confAssignedWard": {
+    "value": "आवंटित वार्ड",
+    "_status": "reviewed"
+  },
+  "confCategory": {
+    "value": "समस्या श्रेणी",
+    "_status": "reviewed"
+  },
+  "confUrgency": {
+    "value": "प्राथमिकता",
+    "_status": "reviewed"
+  },
+  "confSummary": {
+    "value": "एआई सारांश",
+    "_status": "reviewed"
+  },
+  "confSpokenNotice": {
+    "value": "ऑडियो संदेश",
+    "_status": "reviewed"
+  },
+  "confReplay": {
+    "value": "दोबारा सुनें",
+    "_status": "reviewed"
+  },
+  "confMergeNotice": {
+    "value": "स्वचालित विलय: आसपास के कई नागरिकों ने इस समस्या की सूचना दी है। प्राथमिकता बढ़ाई गई!",
+    "_status": "reviewed"
+  },
+  "brandTitle": {
+    "value": "जन-वाणी",
+    "_status": "reviewed"
+  },
+  "brandSubtitle": {
+    "value": "नागपुर नगर निगम | स्थानीय नागरिक शिकायत निवारण",
+    "_status": "reviewed"
+  },
+  "navTabVoice": {
+    "value": "🎤 नागरिक आवाज (Citizen Voice)",
+    "_status": "reviewed"
+  },
+  "navTabTrack": {
+    "value": "📋 शिकायत स्थिति (Track)",
+    "_status": "reviewed"
+  },
+  "navTabOfficer": {
+    "value": "🏛️ अधिकारी कक्ष (Officer Console)",
+    "_status": "reviewed"
+  },
+  "navTabImpact": {
+    "value": "📊 परीक्षण रिपोर्ट (Benchmarks)",
+    "_status": "reviewed"
+  },
+  "voiceBadgeBanner": {
+    "value": "🔊 बस एक बटन से शिकायत करें | टाइपिंग की जरूरत नहीं",
+    "_status": "reviewed"
+  },
+  "listenInstructions": {
+    "value": "🔊 आवाज निर्देश सुनें (Listen Instructions)",
+    "_status": "reviewed"
+  },
+  "gpsNotice": {
+    "value": "📍 नागपुर जीपीएस स्थान स्वचालित रूप से जोड़ा जाएगा",
+    "_status": "reviewed"
+  },
+  "presetsTitle": {
+    "value": "⚡ त्वरित परीक्षण उदाहरण (One-Click Vernacular Voice Demos)",
+    "_status": "reviewed"
+  },
+  "presetsSubtitle": {
+    "value": "परीक्षकों के लिए त्वरित परीक्षण",
+    "_status": "reviewed"
+  },
+  "trackHeading": {
+    "value": "📋 दर्ज शिकायतों की स्थिति (My Grievances)",
+    "_status": "reviewed"
+  },
+  "trackSub": {
+    "value": "नागरिक कोई भी पाठ पढ़े बिना 'स्थिति सुनें' बटन दबाकर सीधे जानकारी सुन सकते हैं।",
+    "_status": "reviewed"
+  },
+  "officerHonestBanner": {
+    "value": "ℹ️ प्रामाणिक डेटा नोट (Honesty Rule): प्रदर्शित आंकड़े वास्तविक लाइव पाइपलाइन से संकलित हैं। वास्तविक सटीकता 'परीक्षण रिपोर्ट' में दी गई है।",
+    "_status": "reviewed"
+  },
+  "officerHeading": {
+    "value": "🏛️ प्रभाग नियंत्रण एवं शिकायत निवारण कक्ष",
+    "_status": "reviewed"
+  },
+  "officerRoleLabel": {
+    "value": "अधिकारी पद / Role:",
+    "_status": "reviewed"
+  },
+  "roleCommissioner": {
+    "value": "नगर निगम आयुक्त (All Wards)",
+    "_status": "reviewed"
+  },
+  "roleWard2": {
+    "value": "प्रभाग अधिकारी: धरमपेठ (Ward 2 Officer)",
+    "_status": "reviewed"
+  },
+  "roleWard4": {
+    "value": "प्रभाग अधिकारी: धंतोली (Ward 4 Officer)",
+    "_status": "reviewed"
+  },
+  "kpiTotalTitle": {
+    "value": "कुल शिकायतें (Total)",
+    "_status": "reviewed"
+  },
+  "kpiTotalSub": {
+    "value": "दर्ज मामले",
+    "_status": "reviewed"
+  },
+  "kpiOpenTitle": {
+    "value": "लंबित (Open)",
+    "_status": "reviewed"
+  },
+  "kpiOpenSub": {
+    "value": "तत्काल कार्रवाई आवश्यक",
+    "_status": "reviewed"
+  },
+  "kpiInProgressTitle": {
+    "value": "प्रगति पर (In Progress)",
+    "_status": "reviewed"
+  },
+  "kpiInProgressSub": {
+    "value": "मरम्मत दल घटनास्थल पर",
+    "_status": "reviewed"
+  },
+  "kpiResolvedTitle": {
+    "value": "समाधान हुआ (Resolved)",
+    "_status": "reviewed"
+  },
+  "kpiResolvedSub": {
+    "value": "कार्य पूर्ण",
+    "_status": "reviewed"
+  },
+  "kpiMergedTitle": {
+    "value": "विलय किए गए (Merged)",
+    "_status": "reviewed"
+  },
+  "kpiMergedSub": {
+    "value": "50मी / 48 घंटे में जोड़े गए",
+    "_status": "reviewed"
+  },
+  "mapTitle": {
+    "value": "🗺️ नागपुर प्रभाग मानचित्र (Ward Heatmap & Complaint Clusters)",
+    "_status": "reviewed"
+  },
+  "mapSub": {
+    "value": "प्रभाग सीमाएं और 50 मीटर के दायरे में एकत्रित शिकायतों को दर्शाने वाला नक्शा",
+    "_status": "reviewed"
+  },
+  "searchPlaceholder": {
+    "value": "🔍 खोजें (ID, प्रभाग, विषय)...",
+    "_status": "reviewed"
+  },
+  "csvExport": {
+    "value": "📥 CSV एक्सपोर्ट",
+    "_status": "reviewed"
+  },
+  "thTicketId": {
+    "value": "टिकट आईडी (ID)",
+    "_status": "reviewed"
+  },
+  "thWard": {
+    "value": "वार्ड (Ward)",
+    "_status": "reviewed"
+  },
+  "thCategory": {
+    "value": "श्रेणी (Category)",
+    "_status": "reviewed"
+  },
+  "thUrgency": {
+    "value": "प्राथमिकता (Urgency)",
+    "_status": "reviewed"
+  },
+  "thStatus": {
+    "value": "स्थिति (Status)",
+    "_status": "reviewed"
+  },
+  "thVoice": {
+    "value": "ऑडियो (Voice)",
+    "_status": "reviewed"
+  },
+  "thAction": {
+    "value": "कार्रवाई (Action)",
+    "_status": "reviewed"
+  },
+  "footerText": {
+    "value": "जन-वाणी (Jan-Vani) | सेंट विंसेंट पलोटी कॉलेज ऑफ इंजीनियरिंग एंड टेक्नोलॉजी, नागपुर | AI for Social Impact",
+    "_status": "reviewed"
+  }
+}

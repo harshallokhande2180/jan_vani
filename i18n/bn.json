@@ -1,0 +1,250 @@
+{
+  "heroTitle": {
+    "value": "জন-বাণী",
+    "_status": "reviewed"
+  },
+  "heroSub": {
+    "value": "নিজের ভাষায় বলুন, নাগরিক সমস্যার সমাধান পান",
+    "_status": "reviewed"
+  },
+  "micPrompt": {
+    "value": "এখানে স্পর্শ করুন এবং আপনার সমস্যা বলুন",
+    "_status": "reviewed"
+  },
+  "micRecording": {
+    "value": "আমরা শুনছি... কথা শেষ হলে আবার স্পর্শ করুন",
+    "_status": "reviewed"
+  },
+  "audioPromptText": {
+    "value": "নমস্কার! শুধু মাইক বোতাম টিপুন এবং নিজের ভাষায় অভিযোগ বলুন।",
+    "_status": "reviewed"
+  },
+  "instantAck": {
+    "value": "অভিযোগ গৃহীত হয়েছে! বিশ্লেষণ চলছে...",
+    "_status": "reviewed"
+  },
+  "consentText": {
+    "value": "আমি পৌরসভায় আমার কণ্ঠ ও অবস্থান পাঠাতে সম্মতি দিচ্ছি (DPDP আইন ২০২৩)।",
+    "_status": "reviewed"
+  },
+  "waterLeak": {
+    "value": "জল সরবরাহ সমস্যা (বাংলা)",
+    "_status": "reviewed"
+  },
+  "pothole": {
+    "value": "রাস্তার গর্ত (বাংলা)",
+    "_status": "reviewed"
+  },
+  "drainage": {
+    "value": "নর্দমা বন্ধ (বাংলা)",
+    "_status": "reviewed"
+  },
+  "powerCut": {
+    "value": "বিদ্যুৎ বিভ্রাট (বাংলা)",
+    "_status": "reviewed"
+  },
+  "garbage": {
+    "value": "আবর্জনা পরিষ্কার (বাংলা)",
+    "_status": "reviewed"
+  },
+  "listenStatus": {
+    "value": "কণ্ঠ শুনুন",
+    "_status": "reviewed"
+  },
+  "confRegistered": {
+    "value": "অভিযোগ নথিভুক্ত হয়েছে!",
+    "_status": "reviewed"
+  },
+  "confAssignedWard": {
+    "value": "নির্ধারিত ওয়ার্ড",
+    "_status": "reviewed"
+  },
+  "confCategory": {
+    "value": "বিভাগ",
+    "_status": "reviewed"
+  },
+  "confUrgency": {
+    "value": "জরুরি অবস্থা",
+    "_status": "reviewed"
+  },
+  "confSummary": {
+    "value": "এআই ইংরেজি সারসংক্ষেপ",
+    "_status": "reviewed"
+  },
+  "confSpokenNotice": {
+    "value": "অডিও বার্তা",
+    "_status": "reviewed"
+  },
+  "confReplay": {
+    "value": "আবার শুনুন",
+    "_status": "reviewed"
+  },
+  "confMergeNotice": {
+    "value": "স্বয়ংক্রিয় একত্রীকরণ: কাছাকাছি একাধিক নাগরিক এই সমস্যা জানিয়েছেন। অগ্রাধিকার বৃদ্ধি করা হয়েছে!",
+    "_status": "reviewed"
+  },
+  "brandTitle": {
+    "value": "জন-বাণী",
+    "_status": "reviewed"
+  },
+  "brandSubtitle": {
+    "value": "নাগপুর পৌরনিগম | স্থানীয় নাগরিক অভিযোগ প্রতিকার",
+    "_status": "reviewed"
+  },
+  "navTabVoice": {
+    "value": "🎤 নাগরিক কণ্ঠ (Citizen Voice)",
+    "_status": "reviewed"
+  },
+  "navTabTrack": {
+    "value": "📋 অভিযোগের স্থিতি (Track)",
+    "_status": "reviewed"
+  },
+  "navTabOfficer": {
+    "value": "🏛️ আধিকারিক কক্ষ (Officer Console)",
+    "_status": "reviewed"
+  },
+  "navTabImpact": {
+    "value": "📊 মূল্যায়ন প্রতিবেদন (Benchmarks)",
+    "_status": "reviewed"
+  },
+  "voiceBadgeBanner": {
+    "value": "🔊 শুধুমাত্র একটি বোতামে অভিযোগ করুন | টাইপ করার প্রয়োজন নেই",
+    "_status": "reviewed"
+  },
+  "listenInstructions": {
+    "value": "🔊 ভয়েস নির্দেশ শুনুন (Listen Instructions)",
+    "_status": "reviewed"
+  },
+  "gpsNotice": {
+    "value": "📍 নাগপুর জিপিএস অবস্থান স্বয়ংক্রিয়ভাবে যুক্ত হবে",
+    "_status": "reviewed"
+  },
+  "presetsTitle": {
+    "value": "⚡ তাৎক্ষণিক পরীক্ষার উদাহরণ (One-Click Vernacular Voice Demos)",
+    "_status": "reviewed"
+  },
+  "presetsSubtitle": {
+    "value": "পরীক্ষকদের জন্য দ্রুত পরীক্ষা",
+    "_status": "reviewed"
+  },
+  "trackHeading": {
+    "value": "📋 দায়ের করা অভিযোগের স্থিতি (My Grievances)",
+    "_status": "reviewed"
+  },
+  "trackSub": {
+    "value": "নাগরিকরা কোনো লেখা না পড়ে 'কণ্ঠ শুনুন' বোতাম টিপে সরাসরি তথ্য শুনতে পারেন।",
+    "_status": "reviewed"
+  },
+  "officerHonestBanner": {
+    "value": "ℹ️ সততা নিয়ম (Honesty Rule): প্রদর্শিত তথ্য প্রমাণাদি থেকে সংগৃহীত। পরিমাপ করা নির্ভুলতা 'মূল্যায়ন প্রতিবেদন' বিভাগে রয়েছে।",
+    "_status": "reviewed"
+  },
+  "officerHeading": {
+    "value": "🏛️ ওয়ার্ড নিয়ন্ত্রণ ও অভিযোগ নিষ্পত্তি কেন্দ্র",
+    "_status": "reviewed"
+  },
+  "officerRoleLabel": {
+    "value": "পদমর্যাদা / Role:",
+    "_status": "reviewed"
+  },
+  "roleCommissioner": {
+    "value": "পৌর কমিশনার (All Wards)",
+    "_status": "reviewed"
+  },
+  "roleWard2": {
+    "value": "ওয়ার্ড অফিসার: ধরমপেঠ (Ward 2 Officer)",
+    "_status": "reviewed"
+  },
+  "roleWard4": {
+    "value": "ওয়ার্ড অফিসার: ধন্তোলি (Ward 4 Officer)",
+    "_status": "reviewed"
+  },
+  "kpiTotalTitle": {
+    "value": "মোট অভিযোগ (Total)",
+    "_status": "reviewed"
+  },
+  "kpiTotalSub": {
+    "value": "নথিভুক্ত মামলা",
+    "_status": "reviewed"
+  },
+  "kpiOpenTitle": {
+    "value": "অমীমাংসিত (Open)",
+    "_status": "reviewed"
+  },
+  "kpiOpenSub": {
+    "value": "জরুরি পদক্ষেপ প্রয়োজন",
+    "_status": "reviewed"
+  },
+  "kpiInProgressTitle": {
+    "value": "চলমান (In Progress)",
+    "_status": "reviewed"
+  },
+  "kpiInProgressSub": {
+    "value": "ঘটনাস্থলে মেরামত দল",
+    "_status": "reviewed"
+  },
+  "kpiResolvedTitle": {
+    "value": "নিষ্পত্তি হয়েছে (Resolved)",
+    "_status": "reviewed"
+  },
+  "kpiResolvedSub": {
+    "value": "কাজ সম্পন্ন",
+    "_status": "reviewed"
+  },
+  "kpiMergedTitle": {
+    "value": "একত্রিত অনুলিপি (Merged)",
+    "_status": "reviewed"
+  },
+  "kpiMergedSub": {
+    "value": "৫০মি / ৪৮ ঘণ্টায় সংযুক্ত",
+    "_status": "reviewed"
+  },
+  "mapTitle": {
+    "value": "🗺️ নাগপুর ওয়ার্ড মানচিত্র (Ward Heatmap & Complaint Clusters)",
+    "_status": "reviewed"
+  },
+  "mapSub": {
+    "value": "ওয়ার্ডের সীমানা এবং ৫০ মিটারের মধ্যে ক্লাস্টার করা অভিযোগের মানচিত্র",
+    "_status": "reviewed"
+  },
+  "searchPlaceholder": {
+    "value": "🔍 খুঁজুন (ID, ওয়ার্ড, বিষয়)...",
+    "_status": "reviewed"
+  },
+  "csvExport": {
+    "value": "📥 CSV এক্সপোর্ট",
+    "_status": "reviewed"
+  },
+  "thTicketId": {
+    "value": "টিকিট আইডি (ID)",
+    "_status": "reviewed"
+  },
+  "thWard": {
+    "value": "ওয়ার্ড (Ward)",
+    "_status": "reviewed"
+  },
+  "thCategory": {
+    "value": "বিভাগ (Category)",
+    "_status": "reviewed"
+  },
+  "thUrgency": {
+    "value": "জরুরি অবস্থা (Urgency)",
+    "_status": "reviewed"
+  },
+  "thStatus": {
+    "value": "অবস্থা (Status)",
+    "_status": "reviewed"
+  },
+  "thVoice": {
+    "value": "অডিও (Voice)",
+    "_status": "reviewed"
+  },
+  "thAction": {
+    "value": "পদক্ষেপ (Action)",
+    "_status": "reviewed"
+  },
+  "footerText": {
+    "value": "জন-বাণী (Jan-Vani) | সেন্ট ভিনসেন্ট পালোত্তি ইঞ্জিনিয়ারিং ও প্রযুক্তি কলেজ, নাগপুর | AI for Social Impact",
+    "_status": "reviewed"
+  }
+}
