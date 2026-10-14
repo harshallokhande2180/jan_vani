@@ -1,0 +1,19 @@
+{
+  "_status": "needs_native_review",
+  "language": "en",
+  "language_name": "English",
+  "greeting": "Hello! Welcome to Jan-Vani civic assistant. What civic issue would you like to report?",
+  "thanks": "Thank you! Thank you for using Jan-Vani. Nagpur Municipal Corporation is at your service.",
+  "help": "Help: You can report issues related to roads, water supply, garbage, drainage, or electricity. Please clearly state the problem, place, and duration.",
+  "off_topic": "I am sorry, I can only assist with Nagpur Municipal Corporation civic grievances. Please describe your civic grievance.",
+  "unclear": "I am sorry, I did not catch that. Please state your civic problem clearly.",
+  "ask_problem": "Please describe what civic problem you are facing.",
+  "ask_place": "Which location or area is this problem in?",
+  "ask_duration": "How long has this issue been going on?",
+  "confirm_full": "You are reporting {problem} at {place} for {duration}, is that correct? Please say 'yes' or 'no'.",
+  "confirm_no_duration": "You are reporting {problem} at {place}, is that correct? Please say 'yes' or 'no'.",
+  "confirm_no_place": "You are reporting {problem} for {duration}, is that correct? Please say 'yes' or 'no'.",
+  "confirm_problem_only": "You are reporting {problem}, is that correct? Please say 'yes' or 'no'.",
+  "ticket_created": "Thank you! Your complaint regarding {problem} has been registered in ward {ward} under ticket ID {ticket_id}.",
+  "cancelled": "Okay, the complaint has been cancelled. You may report a new problem anytime."
+}

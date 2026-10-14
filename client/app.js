@@ -1113,18 +1113,99 @@ function toggleTheme() {
 
 function setupNavigation() {
   const tabs = document.querySelectorAll(".nav-tab-btn");
+  const sideNavItems = document.querySelectorAll(".sidebar-nav-item");
+  const sidebar = document.getElementById("appSidebar");
+  const backdrop = document.getElementById("sidebarBackdrop");
+  const toggleBtn = document.getElementById("sidebarToggleBtn");
+  const closeBtn = document.getElementById("sidebarCloseBtn");
+
+  function openSidebar() {
+    if (sidebar) {
+      sidebar.classList.add("open");
+      sidebar.setAttribute("aria-hidden", "false");
+    }
+    if (backdrop) backdrop.classList.add("active");
+    if (toggleBtn) {
+      toggleBtn.classList.add("is-active");
+      toggleBtn.setAttribute("aria-expanded", "true");
+    }
+  }
+
+  function closeSidebar() {
+    if (sidebar) {
+      sidebar.classList.remove("open");
+      sidebar.setAttribute("aria-hidden", "true");
+    }
+    if (backdrop) backdrop.classList.remove("active");
+    if (toggleBtn) {
+      toggleBtn.classList.remove("is-active");
+      toggleBtn.setAttribute("aria-expanded", "false");
+    }
+  }
+
+  if (toggleBtn) {
+    toggleBtn.addEventListener("click", () => {
+      const isOpen = sidebar && sidebar.classList.contains("open");
+      if (isOpen) {
+        closeSidebar();
+      } else {
+        openSidebar();
+      }
+    });
+  }
+
+  if (closeBtn) {
+    closeBtn.addEventListener("click", closeSidebar);
+  }
+
+  if (backdrop) {
+    backdrop.addEventListener("click", closeSidebar);
+  }
+
+  // Close sidebar on Escape key
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "Escape" && sidebar && sidebar.classList.contains("open")) {
+      closeSidebar();
+    }
+  });
+
+  function selectTab(targetId) {
+    // Sync header tabs
+    tabs.forEach(t => {
+      const isTarget = t.getAttribute("data-target") === targetId;
+      t.classList.toggle("active", isTarget);
+      t.setAttribute("aria-selected", isTarget ? "true" : "false");
+    });
+
+    // Sync sidebar tabs
+    sideNavItems.forEach(item => {
+      const isTarget = item.getAttribute("data-target") === targetId;
+      item.classList.toggle("active", isTarget);
+      item.setAttribute("aria-selected", isTarget ? "true" : "false");
+    });
+
+    // Toggle tab panes
+    document.querySelectorAll(".tab-pane").forEach(pane => pane.classList.remove("active"));
+    const activePane = document.getElementById(targetId);
+    if (activePane) activePane.classList.add("active");
+
+    if (targetId === "pane-officer" && !mapInstance) {
+      setTimeout(initNagpurMap, 200);
+    }
+  }
+
   tabs.forEach(tab => {
     tab.addEventListener("click", () => {
-      tabs.forEach(t => t.classList.remove("active"));
-      tab.classList.add("active");
       const targetId = tab.getAttribute("data-target");
-      document.querySelectorAll(".tab-pane").forEach(pane => pane.classList.remove("active"));
-      const activePane = document.getElementById(targetId);
-      if (activePane) activePane.classList.add("active");
+      selectTab(targetId);
+    });
+  });
 
-      if (targetId === "pane-officer" && !mapInstance) {
-        setTimeout(initNagpurMap, 200);
-      }
+  sideNavItems.forEach(item => {
+    item.addEventListener("click", () => {
+      const targetId = item.getAttribute("data-target");
+      selectTab(targetId);
+      closeSidebar();
     });
   });
 }
@@ -1165,7 +1246,7 @@ function updateUILanguage() {
   const brandSub = document.getElementById("brandSubtitle");
   if (brandSub && dict.brandSubtitle) brandSub.textContent = dict.brandSubtitle;
 
-  // Navigation tabs
+  // Navigation tabs (Sidebar & Header)
   const tabVoice = document.getElementById("navTabVoice");
   if (tabVoice && dict.navTabVoice) tabVoice.textContent = dict.navTabVoice;
   const tabTrack = document.getElementById("navTabTrack");
@@ -1174,6 +1255,24 @@ function updateUILanguage() {
   if (tabOfficer && dict.navTabOfficer) tabOfficer.textContent = dict.navTabOfficer;
   const tabImpact = document.getElementById("navTabImpact");
   if (tabImpact && dict.navTabImpact) tabImpact.textContent = dict.navTabImpact;
+
+  // Sidebar item translations
+  const sideVoice = document.querySelector("#sideNavTabVoice .sidebar-nav-primary");
+  if (sideVoice && dict.navTabVoice) {
+    sideVoice.textContent = dict.navTabVoice.replace(/^[^\w\u0900-\u0DFF]+/, "").replace(/\s*\(.*\)$/, "").trim();
+  }
+  const sideTrack = document.querySelector("#sideNavTabTrack .sidebar-nav-primary");
+  if (sideTrack && dict.navTabTrack) {
+    sideTrack.textContent = dict.navTabTrack.replace(/^[^\w\u0900-\u0DFF]+/, "").replace(/\s*\(.*\)$/, "").trim();
+  }
+  const sideOfficer = document.querySelector("#sideNavTabOfficer .sidebar-nav-primary");
+  if (sideOfficer && dict.navTabOfficer) {
+    sideOfficer.textContent = dict.navTabOfficer.replace(/^[^\w\u0900-\u0DFF]+/, "").replace(/\s*\(.*\)$/, "").trim();
+  }
+  const sideImpact = document.querySelector("#sideNavTabImpact .sidebar-nav-primary");
+  if (sideImpact && dict.navTabImpact) {
+    sideImpact.textContent = dict.navTabImpact.replace(/^[^\w\u0900-\u0DFF]+/, "").replace(/\s*\(.*\)$/, "").trim();
+  }
 
   // Tab 1 Hero & Microphone
   const badgeBanner = document.getElementById("voiceBadgeBannerText");

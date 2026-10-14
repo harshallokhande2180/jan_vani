@@ -1,5 +1,5 @@
 {
-  "run_date": "2026-10-13 16:31:25 UTC",
+  "run_date": "2026-10-14 05:55:50 UTC",
   "results": {
     "deduplication": {
       "test_name": "Deduplication Engine",
@@ -41,12 +41,12 @@
       "success_count": 10,
       "success_rate_pct": 100.0,
       "latency_profile_ms": {
-        "median_ms": 0.45,
-        "p90_ms": 1.2,
+        "median_ms": 0.5,
+        "p90_ms": 1.45,
         "asr_avg_ms": 0.0,
-        "llm_avg_ms": 0.11,
+        "llm_avg_ms": 0.12,
         "ward_routing_avg_ms": 0.01,
-        "deduplication_avg_ms": 0.87,
+        "deduplication_avg_ms": 0.99,
         "tts_avg_ms": 0.0
       },
       "passed": true

@@ -24,6 +24,12 @@
   <header class="header">
     <div class="header-container">
       <div class="brand">
+        <!-- Hamburger Menu Button (Three Lines) -->
+        <button id="sidebarToggleBtn" class="hamburger-btn" aria-label="मेनू उघडा / Open Menu" aria-expanded="false" aria-controls="appSidebar">
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+        </button>
         <div class="brand-logo" aria-hidden="true">
           <svg class="brand-logo-svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
             <path d="M12 14a3 3 0 0 0 3-3V6a3 3 0 1 0-6 0v5a3 3 0 0 0 3 3z" fill="currentColor"/>
@@ -35,22 +41,6 @@
           <div class="brand-subtitle" id="brandSubtitle">नागपूर महानगरपालिका | Vernacular Civic Voice Redressal</div>
         </div>
       </div>
-
-      <!-- Navigation Tabs -->
-      <nav class="nav-tabs" role="tablist">
-        <button class="nav-tab-btn active" id="navTabVoice" data-target="pane-voice" role="tab" aria-selected="true">
-          🎤 नागरिक आवाज (Citizen Voice)
-        </button>
-        <button class="nav-tab-btn" id="navTabTrack" data-target="pane-track" role="tab" aria-selected="false">
-          📋 तक्रारी स्थिती (Track)
-        </button>
-        <button class="nav-tab-btn" id="navTabOfficer" data-target="pane-officer" role="tab" aria-selected="false">
-          🏛️ अधिकारी कक्ष (Officer Console)
-        </button>
-        <button class="nav-tab-btn" id="navTabImpact" data-target="pane-impact" role="tab" aria-selected="false">
-          📊 चाचणी अहवाल (Benchmarks)
-        </button>
-      </nav>
 
       <div class="header-controls">
         <div id="connectionStatus" class="connection-pill connection-pill--checking" role="status" aria-live="polite">
@@ -78,6 +68,77 @@
       </div>
     </div>
   </header>
+
+  <!-- Sidebar Overlay Backdrop -->
+  <div id="sidebarBackdrop" class="sidebar-backdrop" aria-hidden="true"></div>
+
+  <!-- Off-Canvas Sidebar Menu -->
+  <aside id="appSidebar" class="app-sidebar" aria-label="मुख्य मेनू (Main Menu)" aria-hidden="true">
+    <div class="sidebar-header">
+      <div class="sidebar-brand">
+        <div class="sidebar-logo-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 14a3 3 0 0 0 3-3V6a3 3 0 1 0-6 0v5a3 3 0 0 0 3 3z" fill="currentColor"/>
+            <path d="M19 11a1 1 0 1 0-2 0 5 5 0 0 1-10 0 1 1 0 1 0-2 0 7 7 0 0 0 6 6.92V21H9a1 1 0 1 0 0 2h6a1 1 0 1 0 0-2h-2v-3.08A7 7 0 0 0 19 11z" fill="currentColor"/>
+          </svg>
+        </div>
+        <div>
+          <div class="sidebar-title">जन-वाणी</div>
+          <div class="sidebar-subtitle">नेव्हिगेशन मेनू (Menu)</div>
+        </div>
+      </div>
+      <button id="sidebarCloseBtn" class="sidebar-close-btn" aria-label="मेनू बंद करा / Close Menu">
+        ✕
+      </button>
+    </div>
+
+    <div class="sidebar-nav-section">
+      <div class="sidebar-section-title">विभाग / SECTIONS</div>
+      <nav class="sidebar-nav-list" role="tablist">
+        <button class="sidebar-nav-item active" id="sideNavTabVoice" data-target="pane-voice" role="tab" aria-selected="true">
+          <span class="sidebar-nav-icon">🎤</span>
+          <div class="sidebar-nav-text">
+            <span class="sidebar-nav-primary">नागरिक आवाज</span>
+            <span class="sidebar-nav-secondary">Citizen Voice</span>
+          </div>
+        </button>
+
+        <button class="sidebar-nav-item" id="sideNavTabTrack" data-target="pane-track" role="tab" aria-selected="false">
+          <span class="sidebar-nav-icon">📋</span>
+          <div class="sidebar-nav-text">
+            <span class="sidebar-nav-primary">तक्रारी स्थिती</span>
+            <span class="sidebar-nav-secondary">Track Status</span>
+          </div>
+        </button>
+
+        <button class="sidebar-nav-item" id="sideNavTabOfficer" data-target="pane-officer" role="tab" aria-selected="false">
+          <span class="sidebar-nav-icon">🏛️</span>
+          <div class="sidebar-nav-text">
+            <span class="sidebar-nav-primary">अधिकारी कक्ष</span>
+            <span class="sidebar-nav-secondary">Officer Console</span>
+          </div>
+        </button>
+
+        <button class="sidebar-nav-item" id="sideNavTabImpact" data-target="pane-impact" role="tab" aria-selected="false">
+          <span class="sidebar-nav-icon">📊</span>
+          <div class="sidebar-nav-text">
+            <span class="sidebar-nav-primary">चाचणी अहवाल</span>
+            <span class="sidebar-nav-secondary">Benchmarks & Impact</span>
+          </div>
+        </button>
+      </nav>
+    </div>
+
+    <div class="sidebar-footer">
+      <div class="sidebar-civic-badge">
+        <span>🏛️</span>
+        <div>
+          <strong>नागपूर महानगरपालिका</strong>
+          <small>Nagpur Municipal Corporation</small>
+        </div>
+      </div>
+    </div>
+  </aside>
 
   <!-- Main Container -->
   <main class="main-container">

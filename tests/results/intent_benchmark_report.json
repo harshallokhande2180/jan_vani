@@ -1,0 +1,957 @@
+{
+  "dataset_name": "Jan-Vani Labelled Multilingual Intent Test Set",
+  "total_samples": 108,
+  "overall_accuracy_pct": 90.74,
+  "non_complaint_utterances_tested": 96,
+  "tickets_created_from_non_complaints": 0,
+  "ticket_creation_rate_non_complaint_pct": 0.0,
+  "per_intent_metrics": {
+    "COMPLAINT": {
+      "support": 12,
+      "true_positives": 12,
+      "false_positives": 2,
+      "false_negatives": 0,
+      "precision_pct": 85.71,
+      "recall_pct": 100.0,
+      "f1_score": 92.31
+    },
+    "GREETING": {
+      "support": 12,
+      "true_positives": 12,
+      "false_positives": 1,
+      "false_negatives": 0,
+      "precision_pct": 92.31,
+      "recall_pct": 100.0,
+      "f1_score": 96.0
+    },
+    "YES": {
+      "support": 12,
+      "true_positives": 10,
+      "false_positives": 0,
+      "false_negatives": 2,
+      "precision_pct": 100.0,
+      "recall_pct": 83.33,
+      "f1_score": 90.91
+    },
+    "NO": {
+      "support": 12,
+      "true_positives": 11,
+      "false_positives": 0,
+      "false_negatives": 1,
+      "precision_pct": 100.0,
+      "recall_pct": 91.67,
+      "f1_score": 95.65
+    },
+    "CORRECTION": {
+      "support": 12,
+      "true_positives": 10,
+      "false_positives": 0,
+      "false_negatives": 2,
+      "precision_pct": 100.0,
+      "recall_pct": 83.33,
+      "f1_score": 90.91
+    },
+    "THANKS": {
+      "support": 12,
+      "true_positives": 12,
+      "false_positives": 0,
+      "false_negatives": 0,
+      "precision_pct": 100.0,
+      "recall_pct": 100.0,
+      "f1_score": 100.0
+    },
+    "HELP": {
+      "support": 12,
+      "true_positives": 8,
+      "false_positives": 0,
+      "false_negatives": 4,
+      "precision_pct": 100.0,
+      "recall_pct": 66.67,
+      "f1_score": 80.0
+    },
+    "OFF_TOPIC": {
+      "support": 12,
+      "true_positives": 11,
+      "false_positives": 0,
+      "false_negatives": 1,
+      "precision_pct": 100.0,
+      "recall_pct": 91.67,
+      "f1_score": 95.65
+    },
+    "UNCLEAR": {
+      "support": 12,
+      "true_positives": 12,
+      "false_positives": 7,
+      "false_negatives": 0,
+      "precision_pct": 63.16,
+      "recall_pct": 100.0,
+      "f1_score": 77.42
+    }
+  },
+  "sample_evaluations": [
+    {
+      "text": "हॅलो",
+      "language": "mr",
+      "expected_intent": "GREETING",
+      "predicted_intent": "GREETING",
+      "confidence": 0.99,
+      "is_correct": true
+    },
+    {
+      "text": "नमस्कार",
+      "language": "mr",
+      "expected_intent": "GREETING",
+      "predicted_intent": "GREETING",
+      "confidence": 0.99,
+      "is_correct": true
+    },
+    {
+      "text": "शुभ सकाळ",
+      "language": "mr",
+      "expected_intent": "GREETING",
+      "predicted_intent": "GREETING",
+      "confidence": 0.99,
+      "is_correct": true
+    },
+    {
+      "text": "हॅलो जी",
+      "language": "mr",
+      "expected_intent": "GREETING",
+      "predicted_intent": "GREETING",
+      "confidence": 0.99,
+      "is_correct": true
+    },
+    {
+      "text": "राम राम",
+      "language": "mr",
+      "expected_intent": "GREETING",
+      "predicted_intent": "GREETING",
+      "confidence": 0.99,
+      "is_correct": true
+    },
+    {
+      "text": "जय हरी",
+      "language": "mr",
+      "expected_intent": "GREETING",
+      "predicted_intent": "GREETING",
+      "confidence": 0.99,
+      "is_correct": true
+    },
+    {
+      "text": "नमस्ते",
+      "language": "hi",
+      "expected_intent": "GREETING",
+      "predicted_intent": "GREETING",
+      "confidence": 0.99,
+      "is_correct": true
+    },
+    {
+      "text": "प्रणाम",
+      "language": "hi",
+      "expected_intent": "GREETING",
+      "predicted_intent": "GREETING",
+      "confidence": 0.99,
+      "is_correct": true
+    },
+    {
+      "text": "शुभ प्रभात",
+      "language": "hi",
+      "expected_intent": "GREETING",
+      "predicted_intent": "GREETING",
+      "confidence": 0.99,
+      "is_correct": true
+    },
+    {
+      "text": "नमस्ते जी",
+      "language": "hi",
+      "expected_intent": "GREETING",
+      "predicted_intent": "GREETING",
+      "confidence": 0.99,
+      "is_correct": true
+    },
+    {
+      "text": "हेलो भाई",
+      "language": "hi",
+      "expected_intent": "GREETING",
+      "predicted_intent": "GREETING",
+      "confidence": 0.99,
+      "is_correct": true
+    },
+    {
+      "text": "hello",
+      "language": "en",
+      "expected_intent": "GREETING",
+      "predicted_intent": "GREETING",
+      "confidence": 0.99,
+      "is_correct": true
+    },
+    {
+      "text": "धन्यवाद",
+      "language": "mr",
+      "expected_intent": "THANKS",
+      "predicted_intent": "THANKS",
+      "confidence": 0.99,
+      "is_correct": true
+    },
+    {
+      "text": "खूप खूप धन्यवाद",
+      "language": "mr",
+      "expected_intent": "THANKS",
+      "predicted_intent": "THANKS",
+      "confidence": 0.99,
+      "is_correct": true
+    },
+    {
+      "text": "आपले आभार",
+      "language": "mr",
+      "expected_intent": "THANKS",
+      "predicted_intent": "THANKS",
+      "confidence": 0.99,
+      "is_correct": true
+    },
+    {
+      "text": "मनःपूर्वक आभार",
+      "language": "mr",
+      "expected_intent": "THANKS",
+      "predicted_intent": "THANKS",
+      "confidence": 0.99,
+      "is_correct": true
+    },
+    {
+      "text": "धन्यवाद साहेब",
+      "language": "mr",
+      "expected_intent": "THANKS",
+      "predicted_intent": "THANKS",
+      "confidence": 0.99,
+      "is_correct": true
+    },
+    {
+      "text": "आभार साहेब",
+      "language": "mr",
+      "expected_intent": "THANKS",
+      "predicted_intent": "THANKS",
+      "confidence": 0.99,
+      "is_correct": true
+    },
+    {
+      "text": "शुक्रिया",
+      "language": "hi",
+      "expected_intent": "THANKS",
+      "predicted_intent": "THANKS",
+      "confidence": 0.99,
+      "is_correct": true
+    },
+    {
+      "text": "बहुत बहुत धन्यवाद",
+      "language": "hi",
+      "expected_intent": "THANKS",
+      "predicted_intent": "THANKS",
+      "confidence": 0.99,
+      "is_correct": true
+    },
+    {
+      "text": "धन्यवाद जी",
+      "language": "hi",
+      "expected_intent": "THANKS",
+      "predicted_intent": "THANKS",
+      "confidence": 0.99,
+      "is_correct": true
+    },
+    {
+      "text": "आपकी बड़ी मेहरबानी",
+      "language": "hi",
+      "expected_intent": "THANKS",
+      "predicted_intent": "THANKS",
+      "confidence": 0.99,
+      "is_correct": true
+    },
+    {
+      "text": "शुक्रिया धन्यवाद",
+      "language": "hi",
+      "expected_intent": "THANKS",
+      "predicted_intent": "THANKS",
+      "confidence": 0.99,
+      "is_correct": true
+    },
+    {
+      "text": "thank you so much",
+      "language": "en",
+      "expected_intent": "THANKS",
+      "predicted_intent": "THANKS",
+      "confidence": 0.99,
+      "is_correct": true
+    },
+    {
+      "text": "मदत करा",
+      "language": "mr",
+      "expected_intent": "HELP",
+      "predicted_intent": "HELP",
+      "confidence": 0.95,
+      "is_correct": true
+    },
+    {
+      "text": "मला मदत हवी आहे",
+      "language": "mr",
+      "expected_intent": "HELP",
+      "predicted_intent": "HELP",
+      "confidence": 0.95,
+      "is_correct": true
+    },
+    {
+      "text": "हे कसे वापरावे",
+      "language": "mr",
+      "expected_intent": "HELP",
+      "predicted_intent": "HELP",
+      "confidence": 0.95,
+      "is_correct": true
+    },
+    {
+      "text": "मी काय करू",
+      "language": "mr",
+      "expected_intent": "HELP",
+      "predicted_intent": "HELP",
+      "confidence": 0.95,
+      "is_correct": true
+    },
+    {
+      "text": "तक्रार कशी करायची सांगा",
+      "language": "mr",
+      "expected_intent": "HELP",
+      "predicted_intent": "UNCLEAR",
+      "confidence": 0.4,
+      "is_correct": false
+    },
+    {
+      "text": "मदत पाहिजे",
+      "language": "mr",
+      "expected_intent": "HELP",
+      "predicted_intent": "HELP",
+      "confidence": 0.95,
+      "is_correct": true
+    },
+    {
+      "text": "सहायता चाहिए",
+      "language": "hi",
+      "expected_intent": "HELP",
+      "predicted_intent": "HELP",
+      "confidence": 0.95,
+      "is_correct": true
+    },
+    {
+      "text": "मदद कीजिए",
+      "language": "hi",
+      "expected_intent": "HELP",
+      "predicted_intent": "HELP",
+      "confidence": 0.95,
+      "is_correct": true
+    },
+    {
+      "text": "यह कैसे काम करता है",
+      "language": "hi",
+      "expected_intent": "HELP",
+      "predicted_intent": "UNCLEAR",
+      "confidence": 0.4,
+      "is_correct": false
+    },
+    {
+      "text": "मुझे क्या करना होगा",
+      "language": "hi",
+      "expected_intent": "HELP",
+      "predicted_intent": "UNCLEAR",
+      "confidence": 0.4,
+      "is_correct": false
+    },
+    {
+      "text": "शिकायत कैसे दर्ज करें",
+      "language": "hi",
+      "expected_intent": "HELP",
+      "predicted_intent": "HELP",
+      "confidence": 0.95,
+      "is_correct": true
+    },
+    {
+      "text": "help me with this",
+      "language": "en",
+      "expected_intent": "HELP",
+      "predicted_intent": "GREETING",
+      "confidence": 0.99,
+      "is_correct": false
+    },
+    {
+      "text": "आज पाऊस पडेल का?",
+      "language": "mr",
+      "expected_intent": "OFF_TOPIC",
+      "predicted_intent": "OFF_TOPIC",
+      "confidence": 0.98,
+      "is_correct": true
+    },
+    {
+      "text": "उद्या पाऊस पडणार आहे का",
+      "language": "mr",
+      "expected_intent": "OFF_TOPIC",
+      "predicted_intent": "OFF_TOPIC",
+      "confidence": 0.98,
+      "is_correct": true
+    },
+    {
+      "text": "आजचे हवामान कसे आहे",
+      "language": "mr",
+      "expected_intent": "OFF_TOPIC",
+      "predicted_intent": "OFF_TOPIC",
+      "confidence": 0.98,
+      "is_correct": true
+    },
+    {
+      "text": "क्रिकेट सामना कोणी जिंकला",
+      "language": "mr",
+      "expected_intent": "OFF_TOPIC",
+      "predicted_intent": "OFF_TOPIC",
+      "confidence": 0.98,
+      "is_correct": true
+    },
+    {
+      "text": "सोन्याचा आजचा भाव काय आहे",
+      "language": "mr",
+      "expected_intent": "OFF_TOPIC",
+      "predicted_intent": "OFF_TOPIC",
+      "confidence": 0.98,
+      "is_correct": true
+    },
+    {
+      "text": "भाजीपाल्याचे भाव सांगा",
+      "language": "mr",
+      "expected_intent": "OFF_TOPIC",
+      "predicted_intent": "OFF_TOPIC",
+      "confidence": 0.98,
+      "is_correct": true
+    },
+    {
+      "text": "आज बारिश होगी क्या?",
+      "language": "hi",
+      "expected_intent": "OFF_TOPIC",
+      "predicted_intent": "OFF_TOPIC",
+      "confidence": 0.98,
+      "is_correct": true
+    },
+    {
+      "text": "कल का मौसम कैसा रहेगा",
+      "language": "hi",
+      "expected_intent": "OFF_TOPIC",
+      "predicted_intent": "OFF_TOPIC",
+      "confidence": 0.98,
+      "is_correct": true
+    },
+    {
+      "text": "क्रिकेट मैच का क्या स्कोर है",
+      "language": "hi",
+      "expected_intent": "OFF_TOPIC",
+      "predicted_intent": "OFF_TOPIC",
+      "confidence": 0.98,
+      "is_correct": true
+    },
+    {
+      "text": "सोने का भाव क्या चल रहा है",
+      "language": "hi",
+      "expected_intent": "OFF_TOPIC",
+      "predicted_intent": "UNCLEAR",
+      "confidence": 0.4,
+      "is_correct": false
+    },
+    {
+      "text": "आज चुनाव कौन जीतेगा",
+      "language": "hi",
+      "expected_intent": "OFF_TOPIC",
+      "predicted_intent": "OFF_TOPIC",
+      "confidence": 0.98,
+      "is_correct": true
+    },
+    {
+      "text": "who won the cricket match yesterday",
+      "language": "en",
+      "expected_intent": "OFF_TOPIC",
+      "predicted_intent": "OFF_TOPIC",
+      "confidence": 0.98,
+      "is_correct": true
+    },
+    {
+      "text": "हो",
+      "language": "mr",
+      "expected_intent": "YES",
+      "predicted_intent": "UNCLEAR",
+      "confidence": 0.4,
+      "is_correct": false
+    },
+    {
+      "text": "होय",
+      "language": "mr",
+      "expected_intent": "YES",
+      "predicted_intent": "YES",
+      "confidence": 0.99,
+      "is_correct": true
+    },
+    {
+      "text": "हो बरोबर",
+      "language": "mr",
+      "expected_intent": "YES",
+      "predicted_intent": "YES",
+      "confidence": 0.99,
+      "is_correct": true
+    },
+    {
+      "text": "हो बरोबर आहे",
+      "language": "mr",
+      "expected_intent": "YES",
+      "predicted_intent": "YES",
+      "confidence": 0.99,
+      "is_correct": true
+    },
+    {
+      "text": "हो करा नोंद",
+      "language": "mr",
+      "expected_intent": "YES",
+      "predicted_intent": "YES",
+      "confidence": 0.99,
+      "is_correct": true
+    },
+    {
+      "text": "नक्कीच",
+      "language": "mr",
+      "expected_intent": "YES",
+      "predicted_intent": "YES",
+      "confidence": 0.99,
+      "is_correct": true
+    },
+    {
+      "text": "हाँ",
+      "language": "hi",
+      "expected_intent": "YES",
+      "predicted_intent": "UNCLEAR",
+      "confidence": 0.4,
+      "is_correct": false
+    },
+    {
+      "text": "हाँ बिल्कुल",
+      "language": "hi",
+      "expected_intent": "YES",
+      "predicted_intent": "YES",
+      "confidence": 0.99,
+      "is_correct": true
+    },
+    {
+      "text": "हाँ सही है",
+      "language": "hi",
+      "expected_intent": "YES",
+      "predicted_intent": "YES",
+      "confidence": 0.99,
+      "is_correct": true
+    },
+    {
+      "text": "हाँ दर्ज कीजिए",
+      "language": "hi",
+      "expected_intent": "YES",
+      "predicted_intent": "YES",
+      "confidence": 0.99,
+      "is_correct": true
+    },
+    {
+      "text": "सही है",
+      "language": "hi",
+      "expected_intent": "YES",
+      "predicted_intent": "YES",
+      "confidence": 0.99,
+      "is_correct": true
+    },
+    {
+      "text": "yes confirm",
+      "language": "en",
+      "expected_intent": "YES",
+      "predicted_intent": "YES",
+      "confidence": 0.99,
+      "is_correct": true
+    },
+    {
+      "text": "नाही",
+      "language": "mr",
+      "expected_intent": "NO",
+      "predicted_intent": "NO",
+      "confidence": 0.99,
+      "is_correct": true
+    },
+    {
+      "text": "नाही नको",
+      "language": "mr",
+      "expected_intent": "NO",
+      "predicted_intent": "NO",
+      "confidence": 0.99,
+      "is_correct": true
+    },
+    {
+      "text": "नाही चूक आहे",
+      "language": "mr",
+      "expected_intent": "NO",
+      "predicted_intent": "NO",
+      "confidence": 0.99,
+      "is_correct": true
+    },
+    {
+      "text": "नाही थांबवा",
+      "language": "mr",
+      "expected_intent": "NO",
+      "predicted_intent": "NO",
+      "confidence": 0.99,
+      "is_correct": true
+    },
+    {
+      "text": "नाही नोंदवू नका",
+      "language": "mr",
+      "expected_intent": "NO",
+      "predicted_intent": "NO",
+      "confidence": 0.99,
+      "is_correct": true
+    },
+    {
+      "text": "चूक",
+      "language": "mr",
+      "expected_intent": "NO",
+      "predicted_intent": "NO",
+      "confidence": 0.99,
+      "is_correct": true
+    },
+    {
+      "text": "नहीं",
+      "language": "hi",
+      "expected_intent": "NO",
+      "predicted_intent": "UNCLEAR",
+      "confidence": 0.4,
+      "is_correct": false
+    },
+    {
+      "text": "नहीं गलत है",
+      "language": "hi",
+      "expected_intent": "NO",
+      "predicted_intent": "NO",
+      "confidence": 0.99,
+      "is_correct": true
+    },
+    {
+      "text": "नहीं मत करो",
+      "language": "hi",
+      "expected_intent": "NO",
+      "predicted_intent": "NO",
+      "confidence": 0.99,
+      "is_correct": true
+    },
+    {
+      "text": "रद्द करो",
+      "language": "hi",
+      "expected_intent": "NO",
+      "predicted_intent": "NO",
+      "confidence": 0.99,
+      "is_correct": true
+    },
+    {
+      "text": "गलत है",
+      "language": "hi",
+      "expected_intent": "NO",
+      "predicted_intent": "NO",
+      "confidence": 0.99,
+      "is_correct": true
+    },
+    {
+      "text": "no cancel it",
+      "language": "en",
+      "expected_intent": "NO",
+      "predicted_intent": "NO",
+      "confidence": 0.99,
+      "is_correct": true
+    },
+    {
+      "text": "नाही, हे धरमपेठ मध्ये आहे",
+      "language": "mr",
+      "expected_intent": "CORRECTION",
+      "predicted_intent": "CORRECTION",
+      "confidence": 0.95,
+      "is_correct": true
+    },
+    {
+      "text": "नाही ठिकाण बदला, सीताबर्डी आहे",
+      "language": "mr",
+      "expected_intent": "CORRECTION",
+      "predicted_intent": "CORRECTION",
+      "confidence": 0.95,
+      "is_correct": true
+    },
+    {
+      "text": "नाही हे चार दिवसांपासून आहे",
+      "language": "mr",
+      "expected_intent": "CORRECTION",
+      "predicted_intent": "CORRECTION",
+      "confidence": 0.95,
+      "is_correct": true
+    },
+    {
+      "text": "नाही तीन दिवस झाले आहेत",
+      "language": "mr",
+      "expected_intent": "CORRECTION",
+      "predicted_intent": "CORRECTION",
+      "confidence": 0.95,
+      "is_correct": true
+    },
+    {
+      "text": "नाही, धंतोली येथे रस्ता तुटला आहे",
+      "language": "mr",
+      "expected_intent": "CORRECTION",
+      "predicted_intent": "COMPLAINT",
+      "confidence": 0.92,
+      "is_correct": false
+    },
+    {
+      "text": "दुरुस्ती करा, पाणीपुरवठा समस्या आहे",
+      "language": "mr",
+      "expected_intent": "CORRECTION",
+      "predicted_intent": "CORRECTION",
+      "confidence": 0.95,
+      "is_correct": true
+    },
+    {
+      "text": "नहीं, यह धरमपेठ में है",
+      "language": "hi",
+      "expected_intent": "CORRECTION",
+      "predicted_intent": "CORRECTION",
+      "confidence": 0.95,
+      "is_correct": true
+    },
+    {
+      "text": "नहीं स्थान बदलो, सीताबर्डी है",
+      "language": "hi",
+      "expected_intent": "CORRECTION",
+      "predicted_intent": "CORRECTION",
+      "confidence": 0.95,
+      "is_correct": true
+    },
+    {
+      "text": "नहीं यह चार दिनों से है",
+      "language": "hi",
+      "expected_intent": "CORRECTION",
+      "predicted_intent": "CORRECTION",
+      "confidence": 0.95,
+      "is_correct": true
+    },
+    {
+      "text": "नहीं तीन दिन हो गए",
+      "language": "hi",
+      "expected_intent": "CORRECTION",
+      "predicted_intent": "CORRECTION",
+      "confidence": 0.95,
+      "is_correct": true
+    },
+    {
+      "text": "नहीं, धंतोली में सड़क टूटी है",
+      "language": "hi",
+      "expected_intent": "CORRECTION",
+      "predicted_intent": "COMPLAINT",
+      "confidence": 0.92,
+      "is_correct": false
+    },
+    {
+      "text": "no, correct it to Dharampeth",
+      "language": "en",
+      "expected_intent": "CORRECTION",
+      "predicted_intent": "CORRECTION",
+      "confidence": 0.95,
+      "is_correct": true
+    },
+    {
+      "text": "...",
+      "language": "mr",
+      "expected_intent": "UNCLEAR",
+      "predicted_intent": "UNCLEAR",
+      "confidence": 0.4,
+      "is_correct": true
+    },
+    {
+      "text": "अं... उं...",
+      "language": "mr",
+      "expected_intent": "UNCLEAR",
+      "predicted_intent": "UNCLEAR",
+      "confidence": 0.4,
+      "is_correct": true
+    },
+    {
+      "text": "अरे",
+      "language": "mr",
+      "expected_intent": "UNCLEAR",
+      "predicted_intent": "UNCLEAR",
+      "confidence": 0.4,
+      "is_correct": true
+    },
+    {
+      "text": "काहीतरी",
+      "language": "mr",
+      "expected_intent": "UNCLEAR",
+      "predicted_intent": "UNCLEAR",
+      "confidence": 0.4,
+      "is_correct": true
+    },
+    {
+      "text": "काय सांगू आता",
+      "language": "mr",
+      "expected_intent": "UNCLEAR",
+      "predicted_intent": "UNCLEAR",
+      "confidence": 0.4,
+      "is_correct": true
+    },
+    {
+      "text": "कदाचित",
+      "language": "mr",
+      "expected_intent": "UNCLEAR",
+      "predicted_intent": "UNCLEAR",
+      "confidence": 0.4,
+      "is_correct": true
+    },
+    {
+      "text": "बस ऐसे ही",
+      "language": "hi",
+      "expected_intent": "UNCLEAR",
+      "predicted_intent": "UNCLEAR",
+      "confidence": 0.4,
+      "is_correct": true
+    },
+    {
+      "text": "हम्म",
+      "language": "hi",
+      "expected_intent": "UNCLEAR",
+      "predicted_intent": "UNCLEAR",
+      "confidence": 0.4,
+      "is_correct": true
+    },
+    {
+      "text": "कुछ भी नहीं",
+      "language": "hi",
+      "expected_intent": "UNCLEAR",
+      "predicted_intent": "UNCLEAR",
+      "confidence": 0.4,
+      "is_correct": true
+    },
+    {
+      "text": "पता नहीं क्या हुआ",
+      "language": "hi",
+      "expected_intent": "UNCLEAR",
+      "predicted_intent": "UNCLEAR",
+      "confidence": 0.4,
+      "is_correct": true
+    },
+    {
+      "text": "अजीब बात है",
+      "language": "hi",
+      "expected_intent": "UNCLEAR",
+      "predicted_intent": "UNCLEAR",
+      "confidence": 0.4,
+      "is_correct": true
+    },
+    {
+      "text": "xyz abc blabla",
+      "language": "en",
+      "expected_intent": "UNCLEAR",
+      "predicted_intent": "UNCLEAR",
+      "confidence": 0.4,
+      "is_correct": true
+    },
+    {
+      "text": "धरमपेठ मुख्य रस्त्यावर मोठा खड्डा पडला आहे तीन दिवसांपासून.",
+      "language": "mr",
+      "expected_intent": "COMPLAINT",
+      "predicted_intent": "COMPLAINT",
+      "confidence": 0.92,
+      "is_correct": true
+    },
+    {
+      "text": "पिण्याच्या पाण्याची पाइपलाइन फुटली असून पाणी गळत आहे.",
+      "language": "mr",
+      "expected_intent": "COMPLAINT",
+      "predicted_intent": "COMPLAINT",
+      "confidence": 0.92,
+      "is_correct": true
+    },
+    {
+      "text": "गटार तुंबले असून घाण पाणी रस्त्यावर येत आहे.",
+      "language": "mr",
+      "expected_intent": "COMPLAINT",
+      "predicted_intent": "COMPLAINT",
+      "confidence": 0.92,
+      "is_correct": true
+    },
+    {
+      "text": "रात्रीपासून संपूर्ण गल्लीतील वीज पुरवठा खंडित झाला आहे.",
+      "language": "mr",
+      "expected_intent": "COMPLAINT",
+      "predicted_intent": "COMPLAINT",
+      "confidence": 0.92,
+      "is_correct": true
+    },
+    {
+      "text": "कचरा साचला असून भटक्या कुत्र्यांचा त्रास वाढला आहे.",
+      "language": "mr",
+      "expected_intent": "COMPLAINT",
+      "predicted_intent": "COMPLAINT",
+      "confidence": 0.92,
+      "is_correct": true
+    },
+    {
+      "text": "धंतोली मध्ये ड्रेनेज चोक झाली आहे.",
+      "language": "mr",
+      "expected_intent": "COMPLAINT",
+      "predicted_intent": "COMPLAINT",
+      "confidence": 0.92,
+      "is_correct": true
+    },
+    {
+      "text": "धरमपेठ में सड़क पर गहरा गड्ढा है तीन दिनों से।",
+      "language": "hi",
+      "expected_intent": "COMPLAINT",
+      "predicted_intent": "COMPLAINT",
+      "confidence": 0.92,
+      "is_correct": true
+    },
+    {
+      "text": "पीने के पानी का पाइप टूट गया है और गंदा पानी आ रहा है।",
+      "language": "hi",
+      "expected_intent": "COMPLAINT",
+      "predicted_intent": "COMPLAINT",
+      "confidence": 0.92,
+      "is_correct": true
+    },
+    {
+      "text": "सीवर लाइन ब्लॉक है और बदबू आ रही है।",
+      "language": "hi",
+      "expected_intent": "COMPLAINT",
+      "predicted_intent": "COMPLAINT",
+      "confidence": 0.92,
+      "is_correct": true
+    },
+    {
+      "text": "कल से बिजली का पोल झुका हुआ है, करंट आ सकता है।",
+      "language": "hi",
+      "expected_intent": "COMPLAINT",
+      "predicted_intent": "COMPLAINT",
+      "confidence": 0.92,
+      "is_correct": true
+    },
+    {
+      "text": "कचरा उठाने वाली गाड़ी एक हफ्ते से नहीं आई है।",
+      "language": "hi",
+      "expected_intent": "COMPLAINT",
+      "predicted_intent": "COMPLAINT",
+      "confidence": 0.92,
+      "is_correct": true
+    },
+    {
+      "text": "water supply disrupted in Dharampeth for two days",
+      "language": "en",
+      "expected_intent": "COMPLAINT",
+      "predicted_intent": "COMPLAINT",
+      "confidence": 0.92,
+      "is_correct": true
+    }
+  ]
+}
